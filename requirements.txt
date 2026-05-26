@@ -1,0 +1,9 @@
+osmium
+folium
+pandas
+numpy
+ultralytics
+opencv-python
+torch
+matplotlib
+timm

@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "gyeongbokgung_main_path",
+        "name": "Main East Route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [126.9769, 37.5796],
+          [126.9772, 37.5797],
+          [126.9775, 37.5799],
+          [126.9778, 37.5801]
+        ]
+      }
+    }
+  ]
+}

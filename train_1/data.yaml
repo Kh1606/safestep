@@ -1,0 +1,11 @@
+path: ./train_1   # <-- path to your local train_1 dataset directory
+
+train: images/train
+val: images/val
+
+nc: 4
+names:
+  0: step
+  1: stair
+  2: grab_bar
+  3: ramp

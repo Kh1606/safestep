@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hazard_type": "stairs",
+        "severity": "high",
+        "route_id": "gyeongbokgung_main_path",
+        "position_along_route": 0.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.9772, 37.5797]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hazard_type": "ramp",
+        "severity": "low",
+        "route_id": "gyeongbokgung_main_path",
+        "position_along_route": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.9778, 37.5801]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# OSM extracts & large geo data
+*.pbf
+*.osm
+*.osm.xz
+*.xz
+*.zip
+
+# Generated maps (large HTML)
+*_map.html
+seoul_map.html
+map.html
+
+# Datasets, training images/labels, model runs
+datasets/
+train_*/images/
+train_*/labels/
+train_*/test_images*/
+wm_yolo11/
+runs/
+*.pt
+*.pth
+
+# Depth model sample images / outputs
+masil_depth/*.png
+masil_depth/*.jpg
+masil_depth/*.jpeg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
