@@ -1,89 +1,69 @@
-# SafeStep — Seoul pedestrian-hazard mapping
+# SafeStep — accessible pedestrian routing for Seoul
 
-**SafeStep** explores walkability and pedestrian hazards in Seoul (originally
-prototyped as *masil*, 마실 — Korean for a neighborhood stroll). It combines three
-sources of signal:
+**SafeStep** plans wheelchair- and mobility-friendly walking routes across Seoul
+(prototyped in Seongdong-gu, 성동구). It combines OpenStreetMap walkways, public
+accessibility facilities (elevators, wheelchair lifts, accessible toilets, escalators),
+AI-detected street hazards, and a custom Valhalla routing profile — served through a
+FastAPI web app with an interactive map.
 
-1. **OpenStreetMap feature extraction** — pull pedestrian-relevant features (stairs,
-   elevators, crossings) out of a Seoul `.osm.pbf` extract into tidy CSVs.
-2. **YOLO hazard detection** — a YOLOv11 model trained to detect accessibility
-   features in street-level images: `step`, `stair`, `grab_bar`, `ramp`.
-3. **Monocular depth estimation** — run MiDaS / ZoeDepth on stair images to estimate
-   relative depth (a proxy for step height / steepness).
+> Originally prototyped as *masil* (마실 — Korean for a neighbourhood stroll).
 
-A small **demo** ties hazards and a route together on a Leaflet map.
+**🌐 Live demo (hazard map):** https://kh1606.github.io/safestep/
 
-> ⚠️ Data, OSM extracts, trained weights and generated maps are **not** included
-> (they're large). This repo holds the code + a tiny demo. See "Getting the data".
+**Stack:** Python · FastAPI · Valhalla · Leaflet · YOLO (Ultralytics) · OpenStreetMap · Kakao / Seoul open-data APIs · Docker
 
-**Stack:** Python · osmium · folium / Leaflet · Ultralytics (YOLOv11) · PyTorch (MiDaS, ZoeDepth) · OpenCV
-
----
-
-## Layout
+## How it fits together
 
 ```
-extract.py              # OSM .pbf -> features_seoul.csv (stairs / elevators / crossings)
-tags.py                 # tally OSM tag key/value frequencies (exploration)
-make_map.py             # render extracted features onto a folium map
-peek.py                 # quick peek at a .pbf
-features*.csv           # small sample of extracted features (output of extract.py)
-
-train_1/                # YOLOv11 accessibility-feature detector
-  ├── train.py          #   training entrypoint (4 classes)
-  ├── inference.py      #   run predictions with trained weights
-  └── data.yaml         #   dataset config / class names
-
-masil_depth/            # monocular depth estimation on stairs
-  ├── test_midas.py     #   MiDaS_small via torch.hub
-  └── zoe.py            #   ZoeDepth
-
-masil_demo/             # Leaflet demo: route + hazards
-  ├── index.html
-  ├── hazards.geojson
-  ├── route.geojson
-  └── kr/               #   scripts to turn Korean open-data CSVs into map geojson
+api/        Fetch + clean public accessibility POIs (elevators, wheelchair lifts,
+            accessible toilets, escalators) from Seoul open data -> CSV/JSON.
+demo/       Seongdong-gu pipeline: extract walkways from OSM, generate routes and
+            hazard layers, render the Leaflet map (this powers the live demo).
+ai/         YOLO model that detects pedestrian hazards in street imagery and emits
+            geo-located hazard JSON (run_yolo_to_json.py, make_hazards_from_ai.py).
+valhalla/   Custom Valhalla routing setup (config, backend, tools) for pedestrian /
+            accessibility-aware routing.
+webapp/     FastAPI app (app/main.py + static UI) tying routing, POIs and hazards
+            together with Kakao geocoding. Dockerised (docker-compose).
+recon3d/    Experimental 3D reconstruction (video -> COLMAP / NeRF -> glb) + viewer.
+version2/   OSM extraction helpers (Seoul / Seongdong boundary + polygons).
+web/        Small GPS-tagged photo upload server used to collect hazard imagery.
 ```
 
 ## Setup
 
 ```bash
-pip install -r requirements.txt
+cp .env.example .env     # SEOUL_API_KEY, KAKAO_REST_API_KEY, VALHALLA_URL
 ```
 
-## Usage
-
-**1. Extract pedestrian features from OSM**
+**Web app**
 
 ```bash
-# put a Seoul extract named Seoul.osm.pbf next to extract.py, then:
-python extract.py          # -> features_seoul.csv
-python make_map.py         # -> a folium map of the features
+cd webapp
+docker compose up --build      # http://localhost:8088
 ```
 
-**2. Train / run the hazard detector** (needs a YOLO dataset under `train_1/`)
+**Accessibility POIs** (needs `SEOUL_API_KEY`)
 
 ```bash
-python train_1/train.py        # trains YOLOv11n on step/stair/grab_bar/ramp
-python train_1/inference.py    # runs the trained weights on test images
+python api/elevators/facilities.py     # + the other api/<type>/ scripts
 ```
 
-**3. Depth estimation on stairs**
+**Hazard detection** (needs YOLO weights — see below)
 
 ```bash
-python masil_depth/test_midas.py    # MiDaS_small
-python masil_depth/zoe.py           # ZoeDepth
+python ai/run_yolo_to_json.py
 ```
 
-**4. Demo** — open `masil_demo/index.html` in a browser to see the route + hazards.
+## Data & models (not committed)
 
-## Getting the data
+Large / generated assets are gitignored — bring your own:
 
-- **OSM extract:** download a Seoul/South-Korea `.osm.pbf` (e.g. from Geofabrik) and
-  place it as `Seoul.osm.pbf`.
-- **YOLO dataset:** a labelled image set with the 4 classes above (exported in YOLO
-  format), placed under `train_1/images` + `train_1/labels` per `data.yaml`.
-- **Depth models** download automatically via `torch.hub` on first run.
+- OSM extracts (`*.osm.pbf`) and Valhalla tiles (`valhalla/tiles/`)
+- YOLO weights (`ai/*.pt`) and webapp map layers (`webapp/data/`)
+- 3D-reconstruction inputs/outputs (videos, frames, NeRF / COLMAP data)
+
+Secrets go in `.env` (see `.env.example`) — never commit real keys.
 
 ## License
 

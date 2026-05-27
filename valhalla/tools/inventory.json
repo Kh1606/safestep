@@ -1,0 +1,12819 @@
+{
+  "pbf": "seoul_4km2.osm.pbf",
+  "top_node_keys": [
+    [
+      "name",
+      576
+    ],
+    [
+      "amenity",
+      362
+    ],
+    [
+      "name:ko",
+      179
+    ],
+    [
+      "addr:city",
+      178
+    ],
+    [
+      "addr:district",
+      177
+    ],
+    [
+      "addr:street",
+      177
+    ],
+    [
+      "addr:housenumber",
+      176
+    ],
+    [
+      "name:en",
+      148
+    ],
+    [
+      "highway",
+      143
+    ],
+    [
+      "addr:postcode",
+      89
+    ],
+    [
+      "shop",
+      88
+    ],
+    [
+      "public_transport",
+      87
+    ],
+    [
+      "bus",
+      61
+    ],
+    [
+      "cuisine",
+      61
+    ],
+    [
+      "addr:subdistrict",
+      61
+    ],
+    [
+      "addr:floor",
+      59
+    ],
+    [
+      "name:ko-Latn",
+      57
+    ],
+    [
+      "railway",
+      56
+    ],
+    [
+      "ref",
+      54
+    ],
+    [
+      "name:ja",
+      51
+    ],
+    [
+      "crossing",
+      47
+    ],
+    [
+      "brand",
+      45
+    ],
+    [
+      "brand:wikidata",
+      40
+    ],
+    [
+      "phone",
+      39
+    ],
+    [
+      "operator",
+      38
+    ],
+    [
+      "tourism",
+      37
+    ],
+    [
+      "brand:en",
+      35
+    ],
+    [
+      "brand:ko",
+      35
+    ],
+    [
+      "website",
+      32
+    ],
+    [
+      "route_ref",
+      30
+    ],
+    [
+      "opening_hours",
+      29
+    ],
+    [
+      "addr:full",
+      29
+    ],
+    [
+      "operator:en",
+      27
+    ],
+    [
+      "check_date",
+      27
+    ],
+    [
+      "level",
+      27
+    ],
+    [
+      "access",
+      27
+    ],
+    [
+      "network",
+      26
+    ],
+    [
+      "addr:unit",
+      24
+    ],
+    [
+      "fee",
+      24
+    ],
+    [
+      "network:en",
+      24
+    ],
+    [
+      "network:ko",
+      24
+    ],
+    [
+      "operator:type",
+      22
+    ],
+    [
+      "authentication:app",
+      21
+    ],
+    [
+      "bicycle_rental",
+      21
+    ],
+    [
+      "brand:website",
+      21
+    ],
+    [
+      "operator:ko",
+      21
+    ],
+    [
+      "payment:app",
+      21
+    ],
+    [
+      "capacity",
+      20
+    ],
+    [
+      "subway",
+      19
+    ],
+    [
+      "contact:instagram",
+      19
+    ],
+    [
+      "office",
+      16
+    ],
+    [
+      "name:zh",
+      14
+    ],
+    [
+      "internet_access",
+      13
+    ],
+    [
+      "self_service",
+      12
+    ],
+    [
+      "traffic_signals",
+      10
+    ],
+    [
+      "addr:door",
+      10
+    ],
+    [
+      "wheelchair",
+      9
+    ],
+    [
+      "branch",
+      9
+    ],
+    [
+      "tactile_paving",
+      9
+    ],
+    [
+      "internet_access:fee",
+      9
+    ],
+    [
+      "wikidata",
+      7
+    ],
+    [
+      "junction",
+      7
+    ],
+    [
+      "outdoor_seating",
+      7
+    ],
+    [
+      "ferry",
+      7
+    ],
+    [
+      "healthcare",
+      6
+    ],
+    [
+      "leisure",
+      6
+    ],
+    [
+      "payment:visa",
+      6
+    ],
+    [
+      "brand:wikipedia",
+      6
+    ],
+    [
+      "payment:credit_cards",
+      6
+    ],
+    [
+      "payment:debit_cards",
+      6
+    ],
+    [
+      "crossing:markings",
+      6
+    ],
+    [
+      "payment:cash",
+      6
+    ],
+    [
+      "payment:coins",
+      5
+    ],
+    [
+      "payment:mastercard",
+      5
+    ],
+    [
+      "payment:american_express",
+      4
+    ],
+    [
+      "payment:diners_club",
+      4
+    ],
+    [
+      "payment:discover_card",
+      4
+    ],
+    [
+      "payment:jcb",
+      4
+    ],
+    [
+      "payment:notes",
+      4
+    ],
+    [
+      "payment:unionpay",
+      4
+    ]
+  ],
+  "top_way_keys": [
+    [
+      "building",
+      955
+    ],
+    [
+      "highway",
+      760
+    ],
+    [
+      "name",
+      607
+    ],
+    [
+      "name:ko",
+      427
+    ],
+    [
+      "name:en",
+      408
+    ],
+    [
+      "height",
+      298
+    ],
+    [
+      "oneway",
+      197
+    ],
+    [
+      "surface",
+      126
+    ],
+    [
+      "addr:housenumber",
+      119
+    ],
+    [
+      "addr:street",
+      117
+    ],
+    [
+      "building:levels",
+      113
+    ],
+    [
+      "addr:city",
+      113
+    ],
+    [
+      "layer",
+      104
+    ],
+    [
+      "footway",
+      91
+    ],
+    [
+      "name:ko-Latn",
+      88
+    ],
+    [
+      "start_date",
+      88
+    ],
+    [
+      "landuse",
+      75
+    ],
+    [
+      "name:ja",
+      66
+    ],
+    [
+      "bicycle",
+      58
+    ],
+    [
+      "bridge",
+      56
+    ],
+    [
+      "ref",
+      54
+    ],
+    [
+      "amenity",
+      53
+    ],
+    [
+      "lanes",
+      44
+    ],
+    [
+      "leisure",
+      41
+    ],
+    [
+      "width",
+      41
+    ],
+    [
+      "crossing",
+      34
+    ],
+    [
+      "name:zh",
+      33
+    ],
+    [
+      "foot",
+      33
+    ],
+    [
+      "operator",
+      28
+    ],
+    [
+      "lit",
+      27
+    ],
+    [
+      "railway",
+      26
+    ],
+    [
+      "tunnel",
+      25
+    ],
+    [
+      "natural",
+      22
+    ],
+    [
+      "building:flats",
+      22
+    ],
+    [
+      "gauge",
+      20
+    ],
+    [
+      "maxspeed",
+      19
+    ],
+    [
+      "voltage",
+      19
+    ],
+    [
+      "area",
+      19
+    ],
+    [
+      "name:zh-Hant",
+      18
+    ],
+    [
+      "expressway",
+      18
+    ],
+    [
+      "electrified",
+      18
+    ],
+    [
+      "frequency",
+      18
+    ],
+    [
+      "name:ko-Hani",
+      17
+    ],
+    [
+      "usage",
+      17
+    ],
+    [
+      "addr:postcode",
+      16
+    ],
+    [
+      "sport",
+      16
+    ],
+    [
+      "service",
+      16
+    ],
+    [
+      "lane_markings",
+      14
+    ],
+    [
+      "name:zh-Hans",
+      14
+    ],
+    [
+      "motorroad",
+      13
+    ],
+    [
+      "addr:district",
+      13
+    ],
+    [
+      "residential",
+      13
+    ],
+    [
+      "segregated",
+      12
+    ],
+    [
+      "noname",
+      12
+    ],
+    [
+      "admin_level",
+      12
+    ],
+    [
+      "boundary",
+      12
+    ],
+    [
+      "tracks",
+      12
+    ],
+    [
+      "place",
+      10
+    ],
+    [
+      "addr:subdistrict",
+      10
+    ],
+    [
+      "parking",
+      10
+    ],
+    [
+      "leaf_type",
+      10
+    ],
+    [
+      "subway",
+      9
+    ],
+    [
+      "man_made",
+      9
+    ],
+    [
+      "maxheight",
+      8
+    ],
+    [
+      "cycleway:right",
+      8
+    ],
+    [
+      "railway:atc",
+      8
+    ],
+    [
+      "wikidata",
+      7
+    ],
+    [
+      "access",
+      7
+    ],
+    [
+      "level",
+      7
+    ],
+    [
+      "flats",
+      7
+    ],
+    [
+      "traffic_calming",
+      7
+    ],
+    [
+      "note",
+      6
+    ],
+    [
+      "maxspeed:type",
+      6
+    ],
+    [
+      "destination",
+      6
+    ],
+    [
+      "bridge:name",
+      6
+    ],
+    [
+      "public_transport",
+      6
+    ],
+    [
+      "network",
+      6
+    ],
+    [
+      "colour",
+      6
+    ],
+    [
+      "crossing:markings",
+      6
+    ],
+    [
+      "wikipedia",
+      5
+    ]
+  ],
+  "top_relation_keys": [
+    [
+      "type",
+      111
+    ],
+    [
+      "name",
+      92
+    ],
+    [
+      "name:ko",
+      79
+    ],
+    [
+      "name:en",
+      68
+    ],
+    [
+      "route",
+      51
+    ],
+    [
+      "operator",
+      50
+    ],
+    [
+      "ref",
+      49
+    ],
+    [
+      "wikidata",
+      44
+    ],
+    [
+      "network",
+      43
+    ],
+    [
+      "wikipedia",
+      42
+    ],
+    [
+      "network:wikidata",
+      30
+    ],
+    [
+      "from",
+      29
+    ],
+    [
+      "colour",
+      29
+    ],
+    [
+      "public_transport:version",
+      28
+    ],
+    [
+      "to",
+      28
+    ],
+    [
+      "operator:en",
+      27
+    ],
+    [
+      "network:en",
+      25
+    ],
+    [
+      "network:ko",
+      25
+    ],
+    [
+      "network:wikipedia",
+      25
+    ],
+    [
+      "name:zh",
+      24
+    ],
+    [
+      "name:ko-Hani",
+      21
+    ],
+    [
+      "name:ja",
+      19
+    ],
+    [
+      "name:zh-Hant",
+      19
+    ],
+    [
+      "name:zh-Hans",
+      17
+    ],
+    [
+      "boundary",
+      16
+    ],
+    [
+      "route_master",
+      14
+    ],
+    [
+      "admin_level",
+      12
+    ],
+    [
+      "restriction",
+      12
+    ],
+    [
+      "name:es",
+      10
+    ],
+    [
+      "network:zh",
+      10
+    ],
+    [
+      "official_ref",
+      9
+    ],
+    [
+      "alt_name",
+      8
+    ],
+    [
+      "ref:en",
+      7
+    ],
+    [
+      "note",
+      7
+    ],
+    [
+      "operator:ko",
+      7
+    ],
+    [
+      "start_date",
+      7
+    ],
+    [
+      "network:metro",
+      6
+    ],
+    [
+      "description",
+      6
+    ],
+    [
+      "alt_name:en",
+      5
+    ],
+    [
+      "name:ko-Latn",
+      5
+    ],
+    [
+      "distance",
+      5
+    ],
+    [
+      "from:en",
+      4
+    ],
+    [
+      "to:en",
+      4
+    ],
+    [
+      "public_transport",
+      4
+    ],
+    [
+      "not:operator:wikidata",
+      4
+    ],
+    [
+      "operator:wikidata",
+      4
+    ],
+    [
+      "int_name",
+      3
+    ],
+    [
+      "name:ca",
+      3
+    ],
+    [
+      "name:cy",
+      3
+    ],
+    [
+      "name:de",
+      3
+    ],
+    [
+      "name:eo",
+      3
+    ],
+    [
+      "name:vi",
+      3
+    ],
+    [
+      "ref:ko",
+      3
+    ],
+    [
+      "owner",
+      3
+    ],
+    [
+      "building",
+      3
+    ],
+    [
+      "building:levels",
+      3
+    ],
+    [
+      "natural",
+      2
+    ],
+    [
+      "water",
+      2
+    ],
+    [
+      "alt_name:vi",
+      2
+    ],
+    [
+      "default_language",
+      2
+    ],
+    [
+      "name:af",
+      2
+    ],
+    [
+      "name:am",
+      2
+    ],
+    [
+      "name:an",
+      2
+    ],
+    [
+      "name:ar",
+      2
+    ],
+    [
+      "name:arz",
+      2
+    ],
+    [
+      "name:ast",
+      2
+    ],
+    [
+      "name:az",
+      2
+    ],
+    [
+      "name:ba",
+      2
+    ],
+    [
+      "name:be",
+      2
+    ],
+    [
+      "name:be-tarask",
+      2
+    ],
+    [
+      "name:bg",
+      2
+    ],
+    [
+      "name:bn",
+      2
+    ],
+    [
+      "name:bo",
+      2
+    ],
+    [
+      "name:bs",
+      2
+    ],
+    [
+      "name:cdo",
+      2
+    ],
+    [
+      "name:ckb",
+      2
+    ],
+    [
+      "name:crh",
+      2
+    ],
+    [
+      "name:cs",
+      2
+    ],
+    [
+      "name:csb",
+      2
+    ],
+    [
+      "name:diq",
+      2
+    ]
+  ],
+  "top_node_kv": {
+    "highway": [
+      [
+        "bus_stop",
+        61
+      ],
+      [
+        "crossing",
+        60
+      ],
+      [
+        "traffic_signals",
+        10
+      ],
+      [
+        "motorway_junction",
+        9
+      ],
+      [
+        "elevator",
+        3
+      ]
+    ],
+    "traffic_signals": [
+      [
+        "signal",
+        10
+      ]
+    ],
+    "bus": [
+      [
+        "yes",
+        61
+      ]
+    ],
+    "name": [
+      [
+        "GS25",
+        7
+      ],
+      [
+        "CU",
+        6
+      ],
+      [
+        "성수",
+        5
+      ],
+      [
+        "성수대교북단 교차로",
+        4
+      ],
+      [
+        "뚝도시장",
+        3
+      ],
+      [
+        "응봉",
+        3
+      ],
+      [
+        "서울숲",
+        3
+      ],
+      [
+        "세븐일레븐",
+        3
+      ],
+      [
+        "뚝섬",
+        3
+      ],
+      [
+        "이마트24",
+        3
+      ],
+      [
+        "리버하우스",
+        2
+      ],
+      [
+        "뚝섬서울숲",
+        2
+      ],
+      [
+        "성수2가3동주민센터",
+        2
+      ],
+      [
+        "상원",
+        2
+      ],
+      [
+        "성동교남단",
+        2
+      ],
+      [
+        "성수역",
+        2
+      ],
+      [
+        "성동구민종합체육센터",
+        2
+      ],
+      [
+        "경일초등학교앞",
+        2
+      ],
+      [
+        "경동초등학교입구",
+        2
+      ],
+      [
+        "뚝섬역 8번출구",
+        2
+      ],
+      [
+        "뚝섬역 4번출구",
+        2
+      ],
+      [
+        "성원중학교후문",
+        2
+      ],
+      [
+        "성원중성수동이마트앞",
+        2
+      ],
+      [
+        "성동경찰서",
+        2
+      ],
+      [
+        "영동대교 북단",
+        2
+      ],
+      [
+        "뚝섬역 6번출구",
+        2
+      ],
+      [
+        "응봉역 1번 출구",
+        2
+      ],
+      [
+        "언더스탠드에비뉴",
+        2
+      ],
+      [
+        "IBK기업은행",
+        2
+      ],
+      [
+        "한양대",
+        2
+      ],
+      [
+        "다이소",
+        2
+      ],
+      [
+        "KB국민은행",
+        2
+      ],
+      [
+        "스타벅스",
+        2
+      ],
+      [
+        "명칼국수",
+        2
+      ],
+      [
+        "서울숲지구대앞",
+        2
+      ],
+      [
+        "천주교성수동성당앞",
+        2
+      ],
+      [
+        "뚝도아리수정수센터수도박물관",
+        2
+      ],
+      [
+        "서울숲1번출입구",
+        2
+      ],
+      [
+        "서울숲역3번출구",
+        2
+      ],
+      [
+        "성동구민체육센터",
+        2
+      ]
+    ],
+    "name:en": [
+      [
+        "Seongsu",
+        5
+      ],
+      [
+        "Ddukdo Market",
+        3
+      ],
+      [
+        "GS25",
+        3
+      ],
+      [
+        "Seoul-forest",
+        3
+      ],
+      [
+        "7-Eleven",
+        3
+      ],
+      [
+        "Ttukseom",
+        3
+      ],
+      [
+        "emart24",
+        3
+      ],
+      [
+        "CU",
+        3
+      ],
+      [
+        "Ribeo House",
+        2
+      ],
+      [
+        "Ddukseom Seoul Sup",
+        2
+      ],
+      [
+        "Sangwon",
+        2
+      ],
+      [
+        "Seongdonggyonamdan",
+        2
+      ],
+      [
+        "Seongsu Station",
+        2
+      ],
+      [
+        "Gyeongil Elementary School Front",
+        2
+      ],
+      [
+        "Gyeongdong Elementary School Entrance",
+        2
+      ],
+      [
+        "Ttukseom Station gate 8",
+        2
+      ],
+      [
+        "Ttukseom Station gate 4",
+        2
+      ],
+      [
+        "Ttukseom Station gate 5",
+        2
+      ],
+      [
+        "Seongwonjungseongsudong E-Mart Front",
+        2
+      ],
+      [
+        "Seongdong Police Station",
+        2
+      ],
+      [
+        "Eungbong Station gate 1",
+        2
+      ],
+      [
+        "Industrial Bank of Korea",
+        2
+      ],
+      [
+        "Hanyang University",
+        2
+      ],
+      [
+        "Seongsu 2 Ga 3 Office Entrance",
+        1
+      ],
+      [
+        "Seongsu 2 Ga 3 Office",
+        1
+      ],
+      [
+        "Seongsu 1 Ga Community Credit Cooperative",
+        1
+      ],
+      [
+        "Seongdongguminjonghapcheyuk Center",
+        1
+      ],
+      [
+        "Seongsu 1 Ga 1 Dong Community Credit Cooperative",
+        1
+      ],
+      [
+        "Gyeongil Elementary School Entrance",
+        1
+      ],
+      [
+        "Seongsu 1 Community Policing Center",
+        1
+      ],
+      [
+        "Seongsu 2 Community Policing Center",
+        1
+      ],
+      [
+        "Korea Open University",
+        1
+      ],
+      [
+        "Muldaendongsan Childrens Library",
+        1
+      ],
+      [
+        "Seongsujumin Library",
+        1
+      ],
+      [
+        "Shinsegae EMart",
+        1
+      ],
+      [
+        "Korea Mart",
+        1
+      ],
+      [
+        "Hangang Motel",
+        1
+      ],
+      [
+        "Bbobbai Stationery",
+        1
+      ],
+      [
+        "Gyeonghuionjeong Oriental Medicine Clinic",
+        1
+      ],
+      [
+        "Hwaseongnokju Sauna",
+        1
+      ]
+    ],
+    "name:ko": [
+      [
+        "성수",
+        5
+      ],
+      [
+        "성수대교북단 교차로",
+        4
+      ],
+      [
+        "뚝도시장",
+        3
+      ],
+      [
+        "응봉",
+        3
+      ],
+      [
+        "GS25",
+        3
+      ],
+      [
+        "서울숲",
+        3
+      ],
+      [
+        "세븐일레븐",
+        3
+      ],
+      [
+        "뚝섬",
+        3
+      ],
+      [
+        "이마트24",
+        3
+      ],
+      [
+        "CU",
+        3
+      ],
+      [
+        "리버하우스",
+        2
+      ],
+      [
+        "뚝섬서울숲",
+        2
+      ],
+      [
+        "상원",
+        2
+      ],
+      [
+        "성동교남단",
+        2
+      ],
+      [
+        "성수역",
+        2
+      ],
+      [
+        "경일초등학교앞",
+        2
+      ],
+      [
+        "경동초등학교입구",
+        2
+      ],
+      [
+        "성원중성수동이마트앞",
+        2
+      ],
+      [
+        "성동경찰서",
+        2
+      ],
+      [
+        "영동대교 북단",
+        2
+      ],
+      [
+        "뚝섬역 6번출구",
+        2
+      ],
+      [
+        "응봉역 1번 출구",
+        2
+      ],
+      [
+        "IBK기업은행",
+        2
+      ],
+      [
+        "한양대",
+        2
+      ],
+      [
+        "뚝섬역 8번 출구",
+        1
+      ],
+      [
+        "뚝섬역4번출구",
+        1
+      ],
+      [
+        "성수1가새마을금고",
+        1
+      ],
+      [
+        "성수1가1동새마을금고",
+        1
+      ],
+      [
+        "경일초등학교입구",
+        1
+      ],
+      [
+        "성수1치안센터",
+        1
+      ],
+      [
+        "성수2치안센터",
+        1
+      ],
+      [
+        "한국방송통신대학교 서울지역대학",
+        1
+      ],
+      [
+        "물댄동산어린이도서관",
+        1
+      ],
+      [
+        "성수주민문고",
+        1
+      ],
+      [
+        "신세계이마트",
+        1
+      ],
+      [
+        "코리아마트",
+        1
+      ],
+      [
+        "한강모텔",
+        1
+      ],
+      [
+        "뽀빠이문방구",
+        1
+      ],
+      [
+        "경희온정한의원",
+        1
+      ],
+      [
+        "화성녹주사우나",
+        1
+      ]
+    ],
+    "name:ko-Latn": [
+      [
+        "Ddukdosijang",
+        3
+      ],
+      [
+        "Ribeohauseu",
+        2
+      ],
+      [
+        "Ddukseomseoulsup",
+        2
+      ],
+      [
+        "Sangwon",
+        2
+      ],
+      [
+        "Seongdonggyonamdan",
+        2
+      ],
+      [
+        "Seongsuyeok",
+        2
+      ],
+      [
+        "Gyeongilchodeunghakgyoap",
+        2
+      ],
+      [
+        "Gyeongdongchodeunghakgyoipgu",
+        2
+      ],
+      [
+        "Seongwonjungseongsudongimateuap",
+        2
+      ],
+      [
+        "Seongdonggyeongchalseo",
+        2
+      ],
+      [
+        "Seongsu 2 Ga 3 Dongsamusoipgu",
+        1
+      ],
+      [
+        "Seongsu 2 Ga 3 Dongsamuso",
+        1
+      ],
+      [
+        "Ddukseomyeok 8 Beonchulgu",
+        1
+      ],
+      [
+        "Ddukseomyeok 4 Beonchulgu",
+        1
+      ],
+      [
+        "Seongsu 1 Gasaemaeulgeumgo",
+        1
+      ],
+      [
+        "Ddukseomyeok 3 Beon 5 Beonchulgu",
+        1
+      ],
+      [
+        "Seongsu 1 Ga 1 Dongsaemaeulgeumgo",
+        1
+      ],
+      [
+        "Gyeongilchodeunghakgyoipgu",
+        1
+      ],
+      [
+        "Seongsu 1 Chiansenteo",
+        1
+      ],
+      [
+        "Seongsu 2 Chiansenteo",
+        1
+      ],
+      [
+        "Hangukbangsongtongsindaehakgyo",
+        1
+      ],
+      [
+        "Muldaendongsaneorinidoseogwan",
+        1
+      ],
+      [
+        "Seongsujuminmungo",
+        1
+      ],
+      [
+        "Sinsegyeimateu",
+        1
+      ],
+      [
+        "Koriamateu",
+        1
+      ],
+      [
+        "Hangangmotel",
+        1
+      ],
+      [
+        "Bbobbaimunbanggu",
+        1
+      ],
+      [
+        "Gyeonghuionjeonghanuiwon",
+        1
+      ],
+      [
+        "Hwaseongnokjusauna",
+        1
+      ],
+      [
+        "Yusinseolbiyeonguso",
+        1
+      ],
+      [
+        "Seongsuapateuupyeonchwigeupguk",
+        1
+      ],
+      [
+        "Seongsu 2 Ga 1 Dong Juminsenteo",
+        1
+      ],
+      [
+        "Seongsu 1 Ga 1 Dongjuminsenteo",
+        1
+      ],
+      [
+        "Seongsu 2 Ga 3 Dong Juminsenteo",
+        1
+      ],
+      [
+        "Seongsu 1 Ga 2 Dong Juminsenteo",
+        1
+      ],
+      [
+        "Deongmajuyuso",
+        1
+      ],
+      [
+        "Daeseongeopdongbujuyuso",
+        1
+      ],
+      [
+        "Seongwonjunghakgyo",
+        1
+      ],
+      [
+        "Seoulgyeongilchodeunghakgyo",
+        1
+      ],
+      [
+        "Eoranghoetjip",
+        1
+      ]
+    ],
+    "public_transport": [
+      [
+        "platform",
+        61
+      ],
+      [
+        "stop_position",
+        22
+      ],
+      [
+        "station",
+        4
+      ]
+    ],
+    "route_ref": [
+      [
+        "2412;2224",
+        6
+      ],
+      [
+        "2224",
+        5
+      ],
+      [
+        "2014;410",
+        2
+      ],
+      [
+        "2224;2413",
+        2
+      ],
+      [
+        "2413;2224",
+        2
+      ],
+      [
+        "302;2012;2013;2222",
+        1
+      ],
+      [
+        "410;148;141;145",
+        1
+      ],
+      [
+        "141;145;148;463",
+        1
+      ],
+      [
+        "2012;2222;2013;302",
+        1
+      ],
+      [
+        "2012;2013;302;2222",
+        1
+      ],
+      [
+        "2013;302;2012;2222",
+        1
+      ],
+      [
+        "2013;2222;302;2012",
+        1
+      ],
+      [
+        "2224;2413;410;2014",
+        1
+      ],
+      [
+        "2222;302;2013;2012",
+        1
+      ],
+      [
+        "2413;2412;2014;2224",
+        1
+      ],
+      [
+        "2413;410;2014;2224",
+        1
+      ],
+      [
+        "2413;2224;2412;2014",
+        1
+      ],
+      [
+        "2412",
+        1
+      ]
+    ],
+    "bench": [
+      [
+        "yes",
+        3
+      ]
+    ],
+    "bin": [
+      [
+        "no",
+        2
+      ]
+    ],
+    "ref": [
+      [
+        "211",
+        5
+      ],
+      [
+        "1",
+        3
+      ],
+      [
+        "K211",
+        3
+      ],
+      [
+        "210",
+        3
+      ],
+      [
+        "4",
+        2
+      ],
+      [
+        "2",
+        2
+      ],
+      [
+        "209",
+        2
+      ],
+      [
+        "04223",
+        1
+      ],
+      [
+        "04222",
+        1
+      ],
+      [
+        "20A",
+        1
+      ],
+      [
+        "19B",
+        1
+      ],
+      [
+        "19A",
+        1
+      ],
+      [
+        "18",
+        1
+      ],
+      [
+        "뚝도우체국",
+        1
+      ],
+      [
+        "3",
+        1
+      ],
+      [
+        "럭스빌우채통",
+        1
+      ],
+      [
+        "214",
+        1
+      ],
+      [
+        "213",
+        1
+      ],
+      [
+        "212",
+        1
+      ],
+      [
+        "3511",
+        1
+      ],
+      [
+        "04-236",
+        1
+      ],
+      [
+        "4381",
+        1
+      ],
+      [
+        "4387",
+        1
+      ],
+      [
+        "3548",
+        1
+      ],
+      [
+        "582",
+        1
+      ],
+      [
+        "4370",
+        1
+      ],
+      [
+        "585",
+        1
+      ],
+      [
+        "3559",
+        1
+      ],
+      [
+        "512",
+        1
+      ],
+      [
+        "3515",
+        1
+      ],
+      [
+        "4393",
+        1
+      ],
+      [
+        "4353",
+        1
+      ],
+      [
+        "510",
+        1
+      ],
+      [
+        "4389",
+        1
+      ],
+      [
+        "561",
+        1
+      ],
+      [
+        "511",
+        1
+      ],
+      [
+        "513",
+        1
+      ],
+      [
+        "4373",
+        1
+      ],
+      [
+        "587",
+        1
+      ],
+      [
+        "4398",
+        1
+      ]
+    ],
+    "shelter": [
+      [
+        "yes",
+        3
+      ]
+    ],
+    "wheelchair": [
+      [
+        "yes",
+        5
+      ],
+      [
+        "no",
+        4
+      ]
+    ],
+    "name:ja": [
+      [
+        "ソンス",
+        4
+      ],
+      [
+        "ソウルスプ(ソウルの森)",
+        3
+      ],
+      [
+        "トゥクソム駅 4番出口",
+        2
+      ],
+      [
+        "トゥクソム駅 5番出口",
+        2
+      ],
+      [
+        "鷹峰駅 1番出口",
+        2
+      ],
+      [
+        "ハニャンデ",
+        2
+      ],
+      [
+        "トゥクソム駅8番出口",
+        1
+      ],
+      [
+        "韓国放送通信大学校 ソウル地域大学",
+        1
+      ],
+      [
+        "聖水住民文庫",
+        1
+      ],
+      [
+        "漢江モーテル",
+        1
+      ],
+      [
+        "聖水2街1洞 住民センター",
+        1
+      ],
+      [
+        "聖水1街1洞住民センター",
+        1
+      ],
+      [
+        "聖水2街3洞住民センター",
+        1
+      ],
+      [
+        "聖水1街2洞 住民センター",
+        1
+      ],
+      [
+        "聖水洞1街",
+        1
+      ],
+      [
+        "聖水洞2街",
+        1
+      ],
+      [
+        "ククス家",
+        1
+      ],
+      [
+        "ホームプラス トゥクソム店",
+        1
+      ],
+      [
+        "水道博物館",
+        1
+      ],
+      [
+        "ロッテリア",
+        1
+      ],
+      [
+        "聖水駅 1番出口",
+        1
+      ],
+      [
+        "聖水駅 4番出口",
+        1
+      ],
+      [
+        "トゥクソム駅 3番出口",
+        1
+      ],
+      [
+        "トゥクソム駅 6番出口",
+        1
+      ],
+      [
+        "トゥクソム駅 2番出口",
+        1
+      ],
+      [
+        "トゥクソム駅 7番出口",
+        1
+      ],
+      [
+        "鷹峰駅 2番出口",
+        1
+      ],
+      [
+        "ソウルの森駅 4番出口",
+        1
+      ],
+      [
+        "ソウルの森駅 1番出口",
+        1
+      ],
+      [
+        "ソウルの森駅 2番出口",
+        1
+      ],
+      [
+        "ソウルの森駅 3番出口",
+        1
+      ],
+      [
+        "トゥクソム駅 1番出口",
+        1
+      ],
+      [
+        "トゥクソム駅 8番出口",
+        1
+      ],
+      [
+        "SMエンターテイメント",
+        1
+      ],
+      [
+        "ソムンナン聖水カムジャタン",
+        1
+      ],
+      [
+        "ウンボン(鷹峰)",
+        1
+      ],
+      [
+        "ハーモニーマート",
+        1
+      ],
+      [
+        "セブン-イレブン",
+        1
+      ],
+      [
+        "コンデイック",
+        1
+      ],
+      [
+        "ソンス(聖水)",
+        1
+      ]
+    ],
+    "amenity": [
+      [
+        "restaurant",
+        168
+      ],
+      [
+        "cafe",
+        50
+      ],
+      [
+        "bicycle_rental",
+        21
+      ],
+      [
+        "bench",
+        20
+      ],
+      [
+        "toilets",
+        11
+      ],
+      [
+        "pub",
+        10
+      ],
+      [
+        "bar",
+        10
+      ],
+      [
+        "pharmacy",
+        8
+      ],
+      [
+        "bank",
+        7
+      ],
+      [
+        "police",
+        4
+      ],
+      [
+        "townhall",
+        4
+      ],
+      [
+        "fast_food",
+        4
+      ],
+      [
+        "doctors",
+        3
+      ],
+      [
+        "fuel",
+        3
+      ],
+      [
+        "place_of_worship",
+        3
+      ],
+      [
+        "shelter",
+        3
+      ],
+      [
+        "drinking_water",
+        3
+      ],
+      [
+        "library",
+        2
+      ],
+      [
+        "post_office",
+        2
+      ],
+      [
+        "school",
+        2
+      ],
+      [
+        "post_box",
+        2
+      ],
+      [
+        "telephone",
+        2
+      ],
+      [
+        "veterinary",
+        2
+      ],
+      [
+        "parking_entrance",
+        2
+      ],
+      [
+        "university",
+        1
+      ],
+      [
+        "bicycle_parking",
+        1
+      ],
+      [
+        "dentist",
+        1
+      ],
+      [
+        "car_rental",
+        1
+      ],
+      [
+        "clinic",
+        1
+      ],
+      [
+        "cinema",
+        1
+      ],
+      [
+        "parking",
+        1
+      ],
+      [
+        "social_facility",
+        1
+      ],
+      [
+        "fountain",
+        1
+      ],
+      [
+        "community_centre",
+        1
+      ],
+      [
+        "karaoke_box",
+        1
+      ],
+      [
+        "exhibition_centre",
+        1
+      ],
+      [
+        "ice_cream",
+        1
+      ],
+      [
+        "theatre",
+        1
+      ],
+      [
+        "photo_booth",
+        1
+      ],
+      [
+        "atm",
+        1
+      ]
+    ],
+    "shop": [
+      [
+        "convenience",
+        23
+      ],
+      [
+        "laundry",
+        14
+      ],
+      [
+        "supermarket",
+        7
+      ],
+      [
+        "bakery",
+        6
+      ],
+      [
+        "hairdresser",
+        4
+      ],
+      [
+        "clothes",
+        4
+      ],
+      [
+        "variety_store",
+        3
+      ],
+      [
+        "bicycle",
+        2
+      ],
+      [
+        "coffee",
+        2
+      ],
+      [
+        "yes",
+        2
+      ],
+      [
+        "stationery",
+        2
+      ],
+      [
+        "chemist",
+        2
+      ],
+      [
+        "car_repair",
+        2
+      ],
+      [
+        "jewelry",
+        2
+      ],
+      [
+        "department_store",
+        1
+      ],
+      [
+        "hardware",
+        1
+      ],
+      [
+        "shoe_repair",
+        1
+      ],
+      [
+        "curtain",
+        1
+      ],
+      [
+        "florist",
+        1
+      ],
+      [
+        "outdoor",
+        1
+      ],
+      [
+        "bag",
+        1
+      ],
+      [
+        "fashion_accessories",
+        1
+      ],
+      [
+        "vacant",
+        1
+      ],
+      [
+        "wine",
+        1
+      ],
+      [
+        "beauty",
+        1
+      ],
+      [
+        "optician",
+        1
+      ],
+      [
+        "make-up",
+        1
+      ]
+    ],
+    "tourism": [
+      [
+        "apartment",
+        18
+      ],
+      [
+        "gallery",
+        6
+      ],
+      [
+        "attraction",
+        3
+      ],
+      [
+        "artwork",
+        2
+      ],
+      [
+        "chalet",
+        2
+      ],
+      [
+        "motel",
+        1
+      ],
+      [
+        "information",
+        1
+      ],
+      [
+        "viewpoint",
+        1
+      ],
+      [
+        "museum",
+        1
+      ],
+      [
+        "zoo",
+        1
+      ],
+      [
+        "hotel",
+        1
+      ]
+    ],
+    "healthcare": [
+      [
+        "doctor",
+        2
+      ],
+      [
+        "pharmacy",
+        2
+      ],
+      [
+        "dentist",
+        1
+      ],
+      [
+        "counselling",
+        1
+      ]
+    ],
+    "leisure": [
+      [
+        "playground",
+        2
+      ],
+      [
+        "sauna",
+        1
+      ],
+      [
+        "bowling_alley",
+        1
+      ],
+      [
+        "fitness_centre",
+        1
+      ],
+      [
+        "sports_centre",
+        1
+      ]
+    ],
+    "addr:city": [
+      [
+        "서울특별시",
+        178
+      ]
+    ],
+    "addr:district": [
+      [
+        "성동구",
+        175
+      ],
+      [
+        "광진구",
+        1
+      ],
+      [
+        "동대문구",
+        1
+      ]
+    ],
+    "addr:housenumber": [
+      [
+        "15",
+        8
+      ],
+      [
+        "8",
+        6
+      ],
+      [
+        "11",
+        5
+      ],
+      [
+        "28",
+        4
+      ],
+      [
+        "83-21",
+        4
+      ],
+      [
+        "9",
+        4
+      ],
+      [
+        "2",
+        4
+      ],
+      [
+        "1",
+        4
+      ],
+      [
+        "36",
+        4
+      ],
+      [
+        "6",
+        4
+      ],
+      [
+        "59",
+        4
+      ],
+      [
+        "18",
+        3
+      ],
+      [
+        "51",
+        3
+      ],
+      [
+        "38",
+        3
+      ],
+      [
+        "5-1",
+        3
+      ],
+      [
+        "7",
+        3
+      ],
+      [
+        "19",
+        3
+      ],
+      [
+        "4",
+        3
+      ],
+      [
+        "16",
+        3
+      ],
+      [
+        "10",
+        3
+      ],
+      [
+        "20",
+        2
+      ],
+      [
+        "13",
+        2
+      ],
+      [
+        "43",
+        2
+      ],
+      [
+        "47",
+        2
+      ],
+      [
+        "94-2",
+        2
+      ],
+      [
+        "3",
+        2
+      ],
+      [
+        "27",
+        2
+      ],
+      [
+        "8-1",
+        2
+      ],
+      [
+        "6-1",
+        2
+      ],
+      [
+        "37",
+        2
+      ],
+      [
+        "10-1",
+        2
+      ],
+      [
+        "58",
+        2
+      ],
+      [
+        "54",
+        2
+      ],
+      [
+        "144",
+        2
+      ],
+      [
+        "15-1",
+        2
+      ],
+      [
+        "50",
+        2
+      ],
+      [
+        "30",
+        2
+      ],
+      [
+        "14",
+        1
+      ],
+      [
+        "45",
+        1
+      ],
+      [
+        "243",
+        1
+      ]
+    ],
+    "addr:postcode": [
+      [
+        "04782",
+        14
+      ],
+      [
+        "04768",
+        11
+      ],
+      [
+        "04781",
+        8
+      ],
+      [
+        "04788",
+        7
+      ],
+      [
+        "04791",
+        6
+      ],
+      [
+        "04778",
+        6
+      ],
+      [
+        "04794",
+        5
+      ],
+      [
+        "04779",
+        4
+      ],
+      [
+        "04775",
+        4
+      ],
+      [
+        "04790",
+        4
+      ],
+      [
+        "04780",
+        3
+      ],
+      [
+        "04774",
+        3
+      ],
+      [
+        "04793",
+        3
+      ],
+      [
+        "04795",
+        2
+      ],
+      [
+        "04769",
+        2
+      ],
+      [
+        "04789",
+        2
+      ],
+      [
+        "05017",
+        1
+      ],
+      [
+        "04766",
+        1
+      ],
+      [
+        "04784",
+        1
+      ],
+      [
+        "04792",
+        1
+      ],
+      [
+        "04776",
+        1
+      ]
+    ],
+    "addr:street": [
+      [
+        "왕십리로",
+        10
+      ],
+      [
+        "연무장길",
+        10
+      ],
+      [
+        "아차산로7길",
+        9
+      ],
+      [
+        "아차산로",
+        9
+      ],
+      [
+        "뚝섬로",
+        9
+      ],
+      [
+        "서울숲2길",
+        8
+      ],
+      [
+        "상원길",
+        8
+      ],
+      [
+        "성수이로",
+        7
+      ],
+      [
+        "연무장7가길",
+        5
+      ],
+      [
+        "성수일로",
+        5
+      ],
+      [
+        "왕십리로4길",
+        5
+      ],
+      [
+        "성덕정길",
+        5
+      ],
+      [
+        "성수일로12길",
+        5
+      ],
+      [
+        "상원1길",
+        4
+      ],
+      [
+        "상원6길",
+        4
+      ],
+      [
+        "왕십리로8길",
+        4
+      ],
+      [
+        "뚝섬로3길",
+        3
+      ],
+      [
+        "서울숲4길",
+        3
+      ],
+      [
+        "상원12길",
+        3
+      ],
+      [
+        "왕십리로14길",
+        3
+      ],
+      [
+        "광나루로",
+        3
+      ],
+      [
+        "둘레9가길",
+        3
+      ],
+      [
+        "서울숲6길",
+        2
+      ],
+      [
+        "성수일로1길",
+        2
+      ],
+      [
+        "연무장9길",
+        2
+      ],
+      [
+        "둘레15길",
+        2
+      ],
+      [
+        "왕십리로6길",
+        2
+      ],
+      [
+        "성덕정3길",
+        2
+      ],
+      [
+        "성수일로8길",
+        2
+      ],
+      [
+        "왕십리로14가길",
+        2
+      ],
+      [
+        "왕십리로10길",
+        2
+      ],
+      [
+        "상원2길",
+        2
+      ],
+      [
+        "성덕정17길",
+        2
+      ],
+      [
+        "뚝섬로4길",
+        2
+      ],
+      [
+        "왕십리로2길",
+        1
+      ],
+      [
+        "서울숲길",
+        1
+      ],
+      [
+        "광나루로2길",
+        1
+      ],
+      [
+        "성수일로11길",
+        1
+      ],
+      [
+        "휘경로",
+        1
+      ],
+      [
+        "성수이로7길",
+        1
+      ]
+    ],
+    "government": [
+      [
+        "administrative",
+        1
+      ]
+    ],
+    "office": [
+      [
+        "company",
+        10
+      ],
+      [
+        "yes",
+        2
+      ],
+      [
+        "estate_agent",
+        2
+      ],
+      [
+        "government",
+        1
+      ],
+      [
+        "it",
+        1
+      ]
+    ],
+    "isced:level": [
+      [
+        "2",
+        1
+      ],
+      [
+        "1",
+        1
+      ]
+    ],
+    "wikidata": [
+      [
+        "Q17564568",
+        1
+      ],
+      [
+        "Q19359900",
+        1
+      ],
+      [
+        "Q483938",
+        1
+      ],
+      [
+        "Q58953",
+        1
+      ],
+      [
+        "Q488271",
+        1
+      ],
+      [
+        "Q24058",
+        1
+      ],
+      [
+        "Q488263",
+        1
+      ]
+    ],
+    "name:el": [
+      [
+        "Σόνγκσου-ντονγκ 1(ιλ)-γκα",
+        1
+      ],
+      [
+        "Σόνγκσου-ντονγκ 2(ι)-γκα",
+        1
+      ]
+    ],
+    "name:ko-Hani": [
+      [
+        "聖水洞1街",
+        1
+      ],
+      [
+        "聖水洞2街",
+        1
+      ]
+    ],
+    "name:zh": [
+      [
+        "圣水",
+        5
+      ],
+      [
+        "首尔林",
+        3
+      ],
+      [
+        "聖水洞1街",
+        1
+      ],
+      [
+        "聖水洞2街",
+        1
+      ],
+      [
+        "乐天利",
+        1
+      ],
+      [
+        "傳聞中的馬鈴薯排骨湯",
+        1
+      ],
+      [
+        "韓劇鬼怪場景 Maxim 壁畫",
+        1
+      ],
+      [
+        "建国大学",
+        1
+      ]
+    ],
+    "name:zh-Hans": [
+      [
+        "圣水洞1街",
+        1
+      ],
+      [
+        "圣水洞2街",
+        1
+      ]
+    ],
+    "name:zh-Hant": [
+      [
+        "聖水洞1街",
+        1
+      ],
+      [
+        "聖水洞2街",
+        1
+      ]
+    ],
+    "place": [
+      [
+        "quarter",
+        2
+      ]
+    ],
+    "junction": [
+      [
+        "yes",
+        7
+      ]
+    ],
+    "source": [
+      [
+        "https://ko.wikipedia.org/wiki/대한민국의_우체국_목록",
+        1
+      ]
+    ],
+    "branch": [
+      [
+        "성수",
+        3
+      ],
+      [
+        "성수점",
+        2
+      ],
+      [
+        "뚝섬점",
+        1
+      ],
+      [
+        "성수동지점",
+        1
+      ],
+      [
+        "서울숲역점",
+        1
+      ],
+      [
+        "성동서울숲점",
+        1
+      ]
+    ],
+    "brand": [
+      [
+        "서울자전거 따릉이",
+        21
+      ],
+      [
+        "GS25",
+        6
+      ],
+      [
+        "세븐일레븐",
+        3
+      ],
+      [
+        "CU",
+        3
+      ],
+      [
+        "이마트24",
+        3
+      ],
+      [
+        "IBK기업은행",
+        2
+      ],
+      [
+        "Homeplus",
+        1
+      ],
+      [
+        "롯데리아",
+        1
+      ],
+      [
+        "Hyundai",
+        1
+      ],
+      [
+        "스타벅스",
+        1
+      ],
+      [
+        "하나은행",
+        1
+      ],
+      [
+        "Tom N Toms",
+        1
+      ],
+      [
+        "KB국민은행",
+        1
+      ]
+    ],
+    "brand:en": [
+      [
+        "Seoul Bike",
+        21
+      ],
+      [
+        "7-Eleven",
+        3
+      ],
+      [
+        "emart24",
+        3
+      ],
+      [
+        "Industrial Bank of Korea",
+        2
+      ],
+      [
+        "Homeplus",
+        1
+      ],
+      [
+        "Lotteria",
+        1
+      ],
+      [
+        "Starbucks",
+        1
+      ],
+      [
+        "KEB Hana Bank",
+        1
+      ],
+      [
+        "Tom N Toms",
+        1
+      ],
+      [
+        "KB Kookmin Bank",
+        1
+      ]
+    ],
+    "brand:ko": [
+      [
+        "서울자전거 따릉이",
+        21
+      ],
+      [
+        "세븐일레븐",
+        3
+      ],
+      [
+        "이마트24",
+        3
+      ],
+      [
+        "IBK기업은행",
+        2
+      ],
+      [
+        "홈플러스",
+        1
+      ],
+      [
+        "롯데리아",
+        1
+      ],
+      [
+        "스타벅스",
+        1
+      ],
+      [
+        "하나은행",
+        1
+      ],
+      [
+        "탐앤탐스",
+        1
+      ],
+      [
+        "KB국민은행",
+        1
+      ]
+    ],
+    "brand:wikidata": [
+      [
+        "Q28127084",
+        21
+      ],
+      [
+        "Q624041",
+        6
+      ],
+      [
+        "Q259340",
+        3
+      ],
+      [
+        "Q12580836",
+        3
+      ],
+      [
+        "Q483855",
+        2
+      ],
+      [
+        "Q5889167",
+        1
+      ],
+      [
+        "Q249525",
+        1
+      ],
+      [
+        "Q55931",
+        1
+      ],
+      [
+        "Q37158",
+        1
+      ],
+      [
+        "Q484047",
+        1
+      ]
+    ],
+    "cuisine": [
+      [
+        "korean",
+        11
+      ],
+      [
+        "japanese",
+        10
+      ],
+      [
+        "burger",
+        5
+      ],
+      [
+        "coffee_shop",
+        5
+      ],
+      [
+        "chinese",
+        4
+      ],
+      [
+        "italian",
+        3
+      ],
+      [
+        "asian",
+        2
+      ],
+      [
+        "vietnamese",
+        2
+      ],
+      [
+        "pasta",
+        2
+      ],
+      [
+        "cake",
+        2
+      ],
+      [
+        "chicken",
+        1
+      ],
+      [
+        "seafood",
+        1
+      ],
+      [
+        "tea",
+        1
+      ],
+      [
+        "coffee_shop;coffee_roastery",
+        1
+      ],
+      [
+        "coffee_shop;sandwich;cake;bakery;ice_cream",
+        1
+      ],
+      [
+        "coffee_shop;pretzel;smoothie;tea;bread",
+        1
+      ],
+      [
+        "cake;coffee_shop",
+        1
+      ],
+      [
+        "coffee_shop;dessert;brunch",
+        1
+      ],
+      [
+        "coffee_shop;dessert",
+        1
+      ],
+      [
+        "sushi",
+        1
+      ],
+      [
+        "korean;noodles",
+        1
+      ],
+      [
+        "pizza",
+        1
+      ],
+      [
+        "sandwich",
+        1
+      ],
+      [
+        "japanese;curry",
+        1
+      ],
+      [
+        "스테이크",
+        1
+      ]
+    ],
+    "name:ru": [
+      [
+        "ЛОТЕРИА",
+        1
+      ]
+    ],
+    "operator": [
+      [
+        "서울시설공단",
+        21
+      ],
+      [
+        "GS리테일",
+        2
+      ],
+      [
+        "한국철도공사",
+        2
+      ],
+      [
+        "서울교통공사",
+        2
+      ],
+      [
+        "롯데GRS",
+        1
+      ],
+      [
+        "이동화",
+        1
+      ],
+      [
+        "한국철도공사 수도권동부본부",
+        1
+      ],
+      [
+        "성인컴퓨터방전화방",
+        1
+      ],
+      [
+        "코리아세븐",
+        1
+      ],
+      [
+        "한국철도공사 수도권광역본부",
+        1
+      ],
+      [
+        "7eleven",
+        1
+      ],
+      [
+        "성동구",
+        1
+      ],
+      [
+        "KB국민은행",
+        1
+      ],
+      [
+        "Bettyboop.kr",
+        1
+      ],
+      [
+        "메이크업",
+        1
+      ]
+    ],
+    "operator:en": [
+      [
+        "Seoul Facilities Corporation",
+        21
+      ],
+      [
+        "GS Retail",
+        2
+      ],
+      [
+        "Korail",
+        2
+      ],
+      [
+        "Lotte GRS",
+        1
+      ],
+      [
+        "KOREA SEVEN",
+        1
+      ]
+    ],
+    "payment:american_express": [
+      [
+        "yes",
+        4
+      ]
+    ],
+    "payment:coins": [
+      [
+        "yes",
+        5
+      ]
+    ],
+    "payment:diners_club": [
+      [
+        "yes",
+        4
+      ]
+    ],
+    "payment:discover_card": [
+      [
+        "yes",
+        4
+      ]
+    ],
+    "payment:jcb": [
+      [
+        "yes",
+        4
+      ]
+    ],
+    "payment:mastercard": [
+      [
+        "yes",
+        5
+      ]
+    ],
+    "payment:notes": [
+      [
+        "yes",
+        4
+      ]
+    ],
+    "payment:unionpay": [
+      [
+        "yes",
+        4
+      ]
+    ],
+    "payment:visa": [
+      [
+        "yes",
+        6
+      ]
+    ],
+    "smoking": [
+      [
+        "no",
+        4
+      ]
+    ],
+    "takeaway": [
+      [
+        "yes",
+        3
+      ]
+    ],
+    "website": [
+      [
+        "http://gs25.gsretail.com/gscvs/ko/main",
+        2
+      ],
+      [
+        "https://www.instagram.com/seenkeeroo_seongsu",
+        2
+      ],
+      [
+        "http://www.lotteria.com",
+        1
+      ],
+      [
+        "https://www.smentertainment.com/",
+        1
+      ],
+      [
+        "https://www.gcen.co.kr/",
+        1
+      ],
+      [
+        "https://www.matchachaseoul.com/",
+        1
+      ],
+      [
+        "https://seoulforest.or.kr",
+        1
+      ],
+      [
+        "https://geekble.imweb.me/",
+        1
+      ],
+      [
+        "https://www.smcultureandcontents.com/",
+        1
+      ],
+      [
+        "https://blog.naver.com/fleursdebobe",
+        1
+      ],
+      [
+        "http://schedulecorp.co.kr/",
+        1
+      ],
+      [
+        "https://www.instagram.com/mor.mro_/",
+        1
+      ],
+      [
+        "https://app.catchtable.co.kr/ct/shop/nestofgoose_seongsu?from=share",
+        1
+      ],
+      [
+        "https://www.instagram.com/oneofthesky2021",
+        1
+      ],
+      [
+        "https://www.instagram.com/clementine.crko/",
+        1
+      ],
+      [
+        "https://www.chickpeace.co.kr/",
+        1
+      ],
+      [
+        "https://www.instagram.com/glynroom",
+        1
+      ],
+      [
+        "https://smartstore.naver.com/milestonecoffee",
+        1
+      ],
+      [
+        "https://pf.kakao.com/_Uxcxkxaxj",
+        1
+      ],
+      [
+        "http://www.todaysweekend.com/",
+        1
+      ],
+      [
+        "http://midoin.co.kr/",
+        1
+      ],
+      [
+        "https://naver.me/FOMUc7Jv",
+        1
+      ],
+      [
+        "https://kfubis.co.kr/",
+        1
+      ],
+      [
+        "https://www.giant-bicycles.com/kr",
+        1
+      ],
+      [
+        "http://obliquepilates.com/",
+        1
+      ],
+      [
+        "https://app.catchtable.co.kr/ct/shop/shabuinseoul_seongsu",
+        1
+      ],
+      [
+        "www.instagram.com/milsishappy",
+        1
+      ],
+      [
+        "https://app.catchtable.co.kr/ct/shop/sandos_seongsu",
+        1
+      ],
+      [
+        "https://www.instagram.com/foreplan_official",
+        1
+      ],
+      [
+        "https://muut.co.kr/",
+        1
+      ]
+    ],
+    "railway": [
+      [
+        "subway_entrance",
+        18
+      ],
+      [
+        "stop",
+        15
+      ],
+      [
+        "switch",
+        10
+      ],
+      [
+        "railway_crossing",
+        8
+      ],
+      [
+        "station",
+        4
+      ],
+      [
+        "buffer_stop",
+        1
+      ]
+    ],
+    "building": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "building:levels": [
+      [
+        "14",
+        1
+      ]
+    ],
+    "crossing": [
+      [
+        "marked",
+        41
+      ],
+      [
+        "uncontrolled",
+        5
+      ],
+      [
+        "marked;traffic_signals",
+        1
+      ]
+    ],
+    "tactile_paving": [
+      [
+        "yes",
+        9
+      ]
+    ],
+    "addr:subdistrict": [
+      [
+        "성수동1가",
+        36
+      ],
+      [
+        "성수동2가",
+        24
+      ],
+      [
+        "화양동",
+        1
+      ]
+    ],
+    "internet_access": [
+      [
+        "wlan",
+        13
+      ]
+    ],
+    "subway": [
+      [
+        "yes",
+        19
+      ]
+    ],
+    "name:de": [
+      [
+        "Understand Venue container",
+        1
+      ]
+    ],
+    "wikipedia": [
+      [
+        "en:SM Entertainment",
+        1
+      ],
+      [
+        "ko:응봉역",
+        1
+      ],
+      [
+        "ko:성수역",
+        1
+      ],
+      [
+        "ko:뚝섬역",
+        1
+      ]
+    ],
+    "craft": [
+      [
+        "winery",
+        2
+      ],
+      [
+        "painter",
+        1
+      ],
+      [
+        "handicraft",
+        1
+      ]
+    ],
+    "check_date": [
+      [
+        "2024-05-24",
+        6
+      ],
+      [
+        "2025-01-30",
+        5
+      ],
+      [
+        "2024-02-01",
+        5
+      ],
+      [
+        "2023-12-13",
+        4
+      ],
+      [
+        "2022-09-06",
+        2
+      ],
+      [
+        "2024-01-25",
+        2
+      ],
+      [
+        "2024-01-17",
+        2
+      ],
+      [
+        "2022-11-07",
+        1
+      ]
+    ],
+    "level": [
+      [
+        "-1",
+        8
+      ],
+      [
+        "0",
+        6
+      ],
+      [
+        "2",
+        5
+      ],
+      [
+        "3",
+        4
+      ],
+      [
+        "1",
+        2
+      ],
+      [
+        "8",
+        1
+      ],
+      [
+        "-1;0",
+        1
+      ]
+    ],
+    "network": [
+      [
+        "서울자전거 따릉이",
+        21
+      ],
+      [
+        "수도권 전철",
+        3
+      ],
+      [
+        "Seoul Metropolitan Subway",
+        2
+      ]
+    ],
+    "access": [
+      [
+        "customers",
+        21
+      ],
+      [
+        "yes",
+        6
+      ]
+    ],
+    "phone": [
+      [
+        "+82507-1367-3511",
+        2
+      ],
+      [
+        "+82 02-465-6580",
+        1
+      ],
+      [
+        "02-6486-5551",
+        1
+      ],
+      [
+        "+82 2 6240 9400",
+        1
+      ],
+      [
+        "+82507-1362-3186",
+        1
+      ],
+      [
+        "+82 02 6497 0056",
+        1
+      ],
+      [
+        "+82 507 1349 7458",
+        1
+      ],
+      [
+        "+82507-1337-5695",
+        1
+      ],
+      [
+        "+82507-1479-1270",
+        1
+      ],
+      [
+        "+822-2205-0077",
+        1
+      ],
+      [
+        "+822-499-1994",
+        1
+      ],
+      [
+        "0507-1349-7643",
+        1
+      ],
+      [
+        "0507-1352-0248",
+        1
+      ],
+      [
+        "+82507-1451-2014",
+        1
+      ],
+      [
+        "+82507-1487-1103",
+        1
+      ],
+      [
+        "+82507-1487-7833",
+        1
+      ],
+      [
+        "+82507-1393-6306",
+        1
+      ],
+      [
+        "+82507-1357-3843",
+        1
+      ],
+      [
+        "+821047032408",
+        1
+      ],
+      [
+        "0507-1488-8183",
+        1
+      ],
+      [
+        "+82507-1469-1453",
+        1
+      ],
+      [
+        "+82 2 2023 5000",
+        1
+      ],
+      [
+        "+82 2 463 7171",
+        1
+      ],
+      [
+        "+82 2 6396 9019",
+        1
+      ],
+      [
+        "+82507-1432-0632",
+        1
+      ],
+      [
+        "+82507-1319-1267",
+        1
+      ],
+      [
+        "+82507-1398-0433",
+        1
+      ],
+      [
+        "+82 2 438 447",
+        1
+      ],
+      [
+        "+82507-1342-8319",
+        1
+      ],
+      [
+        "+82507-1327-4677",
+        1
+      ],
+      [
+        "+82507-1311-8010",
+        1
+      ],
+      [
+        "+82507-1305-7686",
+        1
+      ],
+      [
+        "024993737",
+        1
+      ],
+      [
+        "+8270-8657-3843",
+        1
+      ],
+      [
+        "+82507-1417-0470",
+        1
+      ],
+      [
+        "+82502-5552-0504",
+        1
+      ],
+      [
+        "+82 2 3409 7910",
+        1
+      ],
+      [
+        "+82 2 6956 9109",
+        1
+      ]
+    ],
+    "addr:unit": [
+      [
+        "1",
+        4
+      ],
+      [
+        "802호",
+        1
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "B116호",
+        1
+      ],
+      [
+        "109",
+        1
+      ],
+      [
+        "3",
+        1
+      ],
+      [
+        "지1층 B104",
+        1
+      ],
+      [
+        "105호, 106호",
+        1
+      ],
+      [
+        "지1층 101호",
+        1
+      ],
+      [
+        "1층 110호",
+        1
+      ],
+      [
+        "성일산업 3층",
+        1
+      ],
+      [
+        "서울숲 M타워 1층 101호",
+        1
+      ],
+      [
+        "Biz Well 오피스텔 103호",
+        1
+      ],
+      [
+        "상가동",
+        1
+      ],
+      [
+        "상가A동",
+        1
+      ],
+      [
+        "121",
+        1
+      ],
+      [
+        "301-8호",
+        1
+      ],
+      [
+        "106호",
+        1
+      ],
+      [
+        "104호",
+        1
+      ],
+      [
+        "2118호",
+        1
+      ],
+      [
+        "1층 102호",
+        1
+      ]
+    ],
+    "air_conditioning": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "description": [
+      [
+        "GIS, LBS",
+        1
+      ]
+    ],
+    "fax": [
+      [
+        "+82 02-6486-5552",
+        1
+      ],
+      [
+        "+82 2 2023 5007",
+        1
+      ]
+    ],
+    "opening_hours": [
+      [
+        "24/7",
+        6
+      ],
+      [
+        "Mo-Fr 09:00-18:00",
+        1
+      ],
+      [
+        "Mo-Su 07:00-20:00",
+        1
+      ],
+      [
+        "Mo-Su 11:00-22:00",
+        1
+      ],
+      [
+        "Tu-Sa 11:00-15:30,17:00-21:00",
+        1
+      ],
+      [
+        "Mo-Sa 11:00-20:00; Su 11:00-18:00",
+        1
+      ],
+      [
+        "Mo-Su 10:00-22:00",
+        1
+      ],
+      [
+        "Mo-Fr 08:30-17:00; Sa 10:00-18:00; Su 11:00-17:00",
+        1
+      ],
+      [
+        "Mo-Su 09:00-22:00",
+        1
+      ],
+      [
+        "Mo-Su 08:30-23:30",
+        1
+      ],
+      [
+        "We-Mo 08:00-18:00",
+        1
+      ],
+      [
+        "Mo-Fr 11:00-15:00, 16:00-20:30; Sa-Su 11:00-20:30",
+        1
+      ],
+      [
+        "Mo-Fr 11:30-15:00, Sa-Su 17:00-22:00",
+        1
+      ],
+      [
+        "Mo-Fr 11:30-15:00,17:00-21:30; Sa-Su 11:30-21:30",
+        1
+      ],
+      [
+        "10:00-20:00",
+        1
+      ],
+      [
+        "11:00-23:00",
+        1
+      ],
+      [
+        "Su-Sa 10:00-03:00",
+        1
+      ],
+      [
+        "Mo-Su 11:00-23:00",
+        1
+      ],
+      [
+        "Tu-Fr 13:00-20:00; Sa,Su 13:00-21:00",
+        1
+      ],
+      [
+        "Mo-Fr 09:00-22:00; Sa 09:00-14:00",
+        1
+      ],
+      [
+        "Tu-Su 11:00-20:00; Mo off",
+        1
+      ],
+      [
+        "Mo-Su 12:00-24:00",
+        1
+      ],
+      [
+        "Mo-Su 11:30-22:00",
+        1
+      ],
+      [
+        "Tu-Sa 10:00-18:00",
+        1
+      ]
+    ],
+    "fee": [
+      [
+        "yes",
+        21
+      ],
+      [
+        "no",
+        3
+      ]
+    ],
+    "toilets:disposal": [
+      [
+        "flush",
+        1
+      ]
+    ],
+    "unisex": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "station": [
+      [
+        "subway",
+        4
+      ]
+    ],
+    "atm": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "dispensing": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "brand:ja": [
+      [
+        "セブン-イレブン",
+        1
+      ]
+    ],
+    "brand:wikipedia": [
+      [
+        "ko:GS25",
+        2
+      ],
+      [
+        "en:7-Eleven",
+        1
+      ],
+      [
+        "ko:스타벅스",
+        1
+      ],
+      [
+        "en:Hana Bank",
+        1
+      ],
+      [
+        "en:Industrial Bank of Korea",
+        1
+      ]
+    ],
+    "official_name:en": [
+      [
+        "Seven-Eleven",
+        1
+      ]
+    ],
+    "payment:credit_cards": [
+      [
+        "yes",
+        6
+      ]
+    ],
+    "payment:debit_cards": [
+      [
+        "yes",
+        6
+      ]
+    ],
+    "bicycle": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "network:en": [
+      [
+        "Seoul Bike",
+        21
+      ],
+      [
+        "Seoul Metropolitan Subway",
+        3
+      ]
+    ],
+    "network:ko": [
+      [
+        "서울자전거 따릉이",
+        21
+      ],
+      [
+        "수도권 전철",
+        3
+      ]
+    ],
+    "network:wikidata": [
+      [
+        "Q16950",
+        3
+      ]
+    ],
+    "internet_access:fee": [
+      [
+        "customers",
+        7
+      ],
+      [
+        "no",
+        2
+      ]
+    ],
+    "outdoor_seating": [
+      [
+        "no",
+        5
+      ],
+      [
+        "yes",
+        2
+      ]
+    ],
+    "diet:vegetarian": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "information": [
+      [
+        "map",
+        1
+      ]
+    ],
+    "artwork_type": [
+      [
+        "sculpture",
+        2
+      ]
+    ],
+    "disused:shop": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "fuel:diesel": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "fuel:gasoline": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "self_service": [
+      [
+        "no",
+        8
+      ],
+      [
+        "yes",
+        4
+      ]
+    ],
+    "religion": [
+      [
+        "christian",
+        1
+      ]
+    ],
+    "direction": [
+      [
+        "both",
+        1
+      ]
+    ],
+    "surface": [
+      [
+        "asphalt",
+        1
+      ]
+    ],
+    "traffic_calming": [
+      [
+        "chicane",
+        1
+      ]
+    ],
+    "crossing:island": [
+      [
+        "no",
+        2
+      ]
+    ],
+    "zoo": [
+      [
+        "petting_zoo",
+        1
+      ]
+    ],
+    "operator:type": [
+      [
+        "public",
+        22
+      ]
+    ],
+    "social_facility": [
+      [
+        "group_home",
+        1
+      ]
+    ],
+    "social_facility:for": [
+      [
+        "senior",
+        1
+      ]
+    ],
+    "crossing:signals": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "crossing:markings": [
+      [
+        "yes",
+        6
+      ]
+    ],
+    "authentication:app": [
+      [
+        "true",
+        21
+      ]
+    ],
+    "bicycle_rental": [
+      [
+        "docking_station",
+        21
+      ]
+    ],
+    "brand:website": [
+      [
+        "https://www.bikeseoul.com/",
+        21
+      ]
+    ],
+    "capacity": [
+      [
+        "10",
+        4
+      ],
+      [
+        "20",
+        4
+      ],
+      [
+        "8",
+        3
+      ],
+      [
+        "30",
+        2
+      ],
+      [
+        "9",
+        1
+      ],
+      [
+        "18",
+        1
+      ],
+      [
+        "5",
+        1
+      ],
+      [
+        "32",
+        1
+      ],
+      [
+        "26",
+        1
+      ],
+      [
+        "11",
+        1
+      ],
+      [
+        "19",
+        1
+      ]
+    ],
+    "operator:ko": [
+      [
+        "서울시설공단",
+        21
+      ]
+    ],
+    "payment:app": [
+      [
+        "yes",
+        21
+      ]
+    ],
+    "natural": [
+      [
+        "tree",
+        1
+      ]
+    ],
+    "barrier": [
+      [
+        "gate",
+        2
+      ],
+      [
+        "kerb",
+        1
+      ],
+      [
+        "lift_gate",
+        1
+      ]
+    ],
+    "kerb": [
+      [
+        "flush",
+        1
+      ]
+    ],
+    "addr:floor": [
+      [
+        "1",
+        51
+      ],
+      [
+        "2",
+        6
+      ],
+      [
+        "B1",
+        1
+      ],
+      [
+        "4",
+        1
+      ]
+    ],
+    "operator:wikidata": [
+      [
+        "Q496606",
+        1
+      ]
+    ],
+    "level:ref": [
+      [
+        "2",
+        1
+      ],
+      [
+        "1",
+        1
+      ]
+    ],
+    "name:vi": [
+      [
+        "Quă",
+        1
+      ]
+    ],
+    "addr:housename": [
+      [
+        "스탈릿성수",
+        1
+      ],
+      [
+        "뚝섬현대아파트",
+        1
+      ],
+      [
+        "서울숲IT밸리",
+        1
+      ],
+      [
+        "쌍용아파트",
+        1
+      ]
+    ],
+    "payment:cash": [
+      [
+        "yes",
+        5
+      ],
+      [
+        "no",
+        1
+      ]
+    ],
+    "diet:meat": [
+      [
+        "yes",
+        3
+      ]
+    ],
+    "brewery": [
+      [
+        "yes",
+        2
+      ],
+      [
+        "Sapporo",
+        1
+      ]
+    ],
+    "contact:instagram": [
+      [
+        "hbc__coffee",
+        1
+      ],
+      [
+        "sungsu_darak",
+        1
+      ],
+      [
+        "humbolt.cafe",
+        1
+      ],
+      [
+        "quiver_seoul",
+        1
+      ],
+      [
+        "teddys.oven",
+        1
+      ],
+      [
+        "arttaghaus",
+        1
+      ],
+      [
+        "yoo_gatz",
+        1
+      ],
+      [
+        "todays.weekend",
+        1
+      ],
+      [
+        "neonmoon_official",
+        1
+      ],
+      [
+        "munchiesandgoodies",
+        1
+      ],
+      [
+        "iwazaru_asianpub",
+        1
+      ],
+      [
+        "camel__cafe",
+        1
+      ],
+      [
+        "oafuoafu",
+        1
+      ],
+      [
+        "https://www.instagram.com/one_zeom",
+        1
+      ],
+      [
+        "obliquepilates_studio",
+        1
+      ],
+      [
+        "nemone_cafe",
+        1
+      ],
+      [
+        "thousand_official_",
+        1
+      ],
+      [
+        "muut_official",
+        1
+      ],
+      [
+        "seoulbrewery",
+        1
+      ]
+    ],
+    "toilets:position": [
+      [
+        "B1",
+        2
+      ]
+    ],
+    "sport": [
+      [
+        "pilates",
+        2
+      ]
+    ],
+    "toilets": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "disused:amenity": [
+      [
+        "restaurant",
+        1
+      ]
+    ],
+    "contact:youtube": [
+      [
+        "@arttag",
+        1
+      ]
+    ],
+    "addr:door": [
+      [
+        "302",
+        2
+      ],
+      [
+        "111",
+        2
+      ],
+      [
+        "105",
+        2
+      ],
+      [
+        "B109",
+        1
+      ],
+      [
+        "104",
+        1
+      ],
+      [
+        "103",
+        1
+      ],
+      [
+        "107",
+        1
+      ]
+    ],
+    "parking": [
+      [
+        "underground",
+        2
+      ]
+    ],
+    "description:en": [
+      [
+        "Zero waste and reusable goods store",
+        1
+      ]
+    ],
+    "zero_waste": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "covered": [
+      [
+        "booth",
+        1
+      ]
+    ],
+    "addr:full": [
+      [
+        "둘레9가길 36, 1층 (성수동1가)",
+        1
+      ],
+      [
+        "아차산로7길 28 (성수동2가, 289-4 지상1층)",
+        1
+      ],
+      [
+        "연무장9길 4, 성일산업 3층 (성수동2가)",
+        1
+      ],
+      [
+        "뚝섬로1길 31, 서울숲 M타워 1층 101호 (성수동1가)",
+        1
+      ],
+      [
+        "뚝섬로3길 16, Biz Well 오피스텔 103호 (성수동1가)",
+        1
+      ],
+      [
+        "둘레9가길 9, 1층 (성수동1가)",
+        1
+      ],
+      [
+        "뚝섬로 389 (성수동2가, 성수2가 339-1 지상1층)",
+        1
+      ],
+      [
+        "왕십리로4길 10 (성수동1가, 성수1가 656-318 지상1층)",
+        1
+      ],
+      [
+        "왕십리로14길 38 (성수동1가)",
+        1
+      ],
+      [
+        "왕십리로8길 10 (성수동1가, 성수1가 656-1940,지상1층)",
+        1
+      ],
+      [
+        "아차산로7길 15 (성수동2가,지상2층)",
+        1
+      ],
+      [
+        "상원2길 1, 1층 (성수동1가)",
+        1
+      ],
+      [
+        "왕십리로4길 19, 지상1층 (성수동1가)",
+        1
+      ],
+      [
+        "성수일로4길 50, 1층 (성수동2가)",
+        1
+      ],
+      [
+        "상원6길 6-1 (성수동1가,(지상1층))",
+        1
+      ],
+      [
+        "성수일로12길 15-1 (성수동2가,(지상1층))",
+        1
+      ],
+      [
+        "연무장길 39-21, 1층 (성수동2가)",
+        1
+      ],
+      [
+        "아차산로7길 20, 지상1층 (성수동2가)",
+        1
+      ],
+      [
+        "뚝섬로 341-8, 지상1층 (성수동1가)",
+        1
+      ],
+      [
+        "왕십리로4길 23-1 (성수동1가,지상1층)",
+        1
+      ],
+      [
+        "상원12길 12-1 (성수동1가,(지상1층))",
+        1
+      ],
+      [
+        "상원길 50 (성수동1가)",
+        1
+      ],
+      [
+        "성덕정길 27 (성수동1가,지상1층)",
+        1
+      ],
+      [
+        "왕십리로 94-1, 1층 (성수동1가)",
+        1
+      ],
+      [
+        "아차산로7길 4 (성수동2가,(지상2층))",
+        1
+      ],
+      [
+        "성수일로12길 34 (성수동2가,지상1층)",
+        1
+      ],
+      [
+        "성덕정길 101 (성수동2가,지상1층(",
+        1
+      ],
+      [
+        "성덕정7길 13 (성수동1가,(지상1층))",
+        1
+      ],
+      [
+        "성수이로3길 19 (성수동2가, 492-2 지상1층)",
+        1
+      ]
+    ],
+    "name:fr": [
+      [
+        "Rivoli",
+        1
+      ]
+    ],
+    "changing_table": [
+      [
+        "no",
+        1
+      ]
+    ],
+    "beauty": [
+      [
+        "nails",
+        1
+      ]
+    ],
+    "drive_through": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "diet:chicken": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "alt_name": [
+      [
+        "Bettyboop Seongsu",
+        1
+      ]
+    ],
+    "emergency": [
+      [
+        "fire_hydrant",
+        1
+      ],
+      [
+        "fire_extinguisher",
+        1
+      ]
+    ],
+    "fire_hydrant:position": [
+      [
+        "sidewalk",
+        1
+      ]
+    ],
+    "fire_hydrant:type": [
+      [
+        "pillar",
+        1
+      ]
+    ],
+    "collection_times": [
+      [
+        "Mo-Fr 10:00",
+        1
+      ]
+    ],
+    "indoor": [
+      [
+        "no",
+        1
+      ]
+    ],
+    "branch:en": [
+      [
+        "Seongsu",
+        1
+      ]
+    ],
+    "branch:ko": [
+      [
+        "성수",
+        1
+      ]
+    ],
+    "microbrewery": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "ferry": [
+      [
+        "yes",
+        7
+      ]
+    ]
+  },
+  "top_way_kv": {
+    "leisure": [
+      [
+        "park",
+        14
+      ],
+      [
+        "pitch",
+        14
+      ],
+      [
+        "fitness_station",
+        3
+      ],
+      [
+        "garden",
+        3
+      ],
+      [
+        "fitness_centre",
+        2
+      ],
+      [
+        "bandstand",
+        2
+      ],
+      [
+        "playground",
+        1
+      ],
+      [
+        "track",
+        1
+      ],
+      [
+        "sports_centre",
+        1
+      ]
+    ],
+    "name": [
+      [
+        "광나루로",
+        24
+      ],
+      [
+        "고산자로",
+        22
+      ],
+      [
+        "뚝섬로",
+        22
+      ],
+      [
+        "왕십리로",
+        17
+      ],
+      [
+        "서울숲2길",
+        16
+      ],
+      [
+        "동부간선로",
+        8
+      ],
+      [
+        "서울숲4길",
+        8
+      ],
+      [
+        "분당선",
+        8
+      ],
+      [
+        "성덕정길",
+        7
+      ],
+      [
+        "중랑천 자전거길",
+        7
+      ],
+      [
+        "연무장길",
+        7
+      ],
+      [
+        "아차산로",
+        7
+      ],
+      [
+        "101동",
+        7
+      ],
+      [
+        "성수이로",
+        6
+      ],
+      [
+        "상원12길",
+        6
+      ],
+      [
+        "성수일로",
+        5
+      ],
+      [
+        "강변북로",
+        5
+      ],
+      [
+        "아차산로7길",
+        5
+      ],
+      [
+        "성수이로6길",
+        5
+      ],
+      [
+        "102동",
+        5
+      ],
+      [
+        "103동",
+        5
+      ],
+      [
+        "한강 자전거길 출입로 (성수대교 북단)",
+        4
+      ],
+      [
+        "둘레길",
+        4
+      ],
+      [
+        "가람길",
+        4
+      ],
+      [
+        "상원길",
+        4
+      ],
+      [
+        "성덕정11길",
+        4
+      ],
+      [
+        "성덕정15길",
+        4
+      ],
+      [
+        "상원2길",
+        4
+      ],
+      [
+        "104동",
+        4
+      ],
+      [
+        "성수일로4길",
+        3
+      ],
+      [
+        "성수이로7길",
+        3
+      ],
+      [
+        "서울숲 남산길",
+        3
+      ],
+      [
+        "아차산로5길",
+        3
+      ],
+      [
+        "광나루로2길",
+        3
+      ],
+      [
+        "둘레9길",
+        3
+      ],
+      [
+        "둘레9가길",
+        3
+      ],
+      [
+        "왕십리로5길",
+        3
+      ],
+      [
+        "연무장1길",
+        3
+      ],
+      [
+        "왕십리로14길",
+        3
+      ],
+      [
+        "아차산로1길",
+        3
+      ]
+    ],
+    "name:en": [
+      [
+        "Gwangnaru-ro",
+        24
+      ],
+      [
+        "Gosanja-ro",
+        22
+      ],
+      [
+        "Ttukseom-ro",
+        22
+      ],
+      [
+        "Wangsimni-ro",
+        17
+      ],
+      [
+        "Seoulsup 2-gil",
+        16
+      ],
+      [
+        "Dongbuganseon-ro",
+        8
+      ],
+      [
+        "Seoulsup 4-gil",
+        8
+      ],
+      [
+        "Bundang Line",
+        8
+      ],
+      [
+        "Seongdeokjeong-gil",
+        7
+      ],
+      [
+        "Yeonmujang-gil",
+        7
+      ],
+      [
+        "Achasan-ro",
+        7
+      ],
+      [
+        "Seongsui-ro",
+        6
+      ],
+      [
+        "Seongsuil-ro",
+        5
+      ],
+      [
+        "Gangbyeonbuk-ro",
+        5
+      ],
+      [
+        "Achasan-ro 7-gil",
+        5
+      ],
+      [
+        "Seongsui-ro 6-gil",
+        5
+      ],
+      [
+        "Dulle-gil",
+        4
+      ],
+      [
+        "Sangwon-gil",
+        4
+      ],
+      [
+        "Sangwon 12-gil",
+        4
+      ],
+      [
+        "Seongdeokjeong 11-gil",
+        4
+      ],
+      [
+        "Seongdeokjeong 15-gil",
+        4
+      ],
+      [
+        "Sangwon 2-gil",
+        4
+      ],
+      [
+        "Garam-gil",
+        3
+      ],
+      [
+        "Jungnangcheon Bicycle Path",
+        3
+      ],
+      [
+        "Seongsuil-ro 4-gil",
+        3
+      ],
+      [
+        "Seongsui-ro 7-gil",
+        3
+      ],
+      [
+        "Seoul Forest Nam San-gil",
+        3
+      ],
+      [
+        "Achasan-ro 5-gil",
+        3
+      ],
+      [
+        "Gwangnaru-ro 2-gil",
+        3
+      ],
+      [
+        "Dulle 9-gil",
+        3
+      ],
+      [
+        "Dulle 9ga-gil",
+        3
+      ],
+      [
+        "Wangsimni-ro 5-gil",
+        3
+      ],
+      [
+        "Yeonmujang 1-gil",
+        3
+      ],
+      [
+        "Wangsimni-ro 14-gil",
+        3
+      ],
+      [
+        "Achasan-ro 1-gil",
+        3
+      ],
+      [
+        "Sangwon 10da-gil",
+        3
+      ],
+      [
+        "Wangsimni-ro 10-gil",
+        3
+      ],
+      [
+        "Seoul Subway Line 2-Seongsu Branch Line",
+        3
+      ],
+      [
+        "Dulle 11-gil",
+        3
+      ],
+      [
+        "Seongsui-ro 5-gil",
+        3
+      ]
+    ],
+    "name:ja": [
+      [
+        "往十里路",
+        16
+      ],
+      [
+        "盆唐線",
+        8
+      ],
+      [
+        "中浪川 自転車道路",
+        5
+      ],
+      [
+        "聖水大橋",
+        5
+      ],
+      [
+        "江辺北路",
+        4
+      ],
+      [
+        "ソウル地下鉄2号線 - 聖水支線",
+        3
+      ],
+      [
+        "彦州路",
+        2
+      ],
+      [
+        "京元本線",
+        2
+      ],
+      [
+        "ソウル地下鉄2号線",
+        2
+      ],
+      [
+        "首都圏広域急行鉄道 C路線",
+        2
+      ],
+      [
+        "ソレ島",
+        1
+      ],
+      [
+        "中浪川",
+        1
+      ],
+      [
+        "エスクワイア",
+        1
+      ],
+      [
+        "ソニュド",
+        1
+      ],
+      [
+        "ノドゥル島",
+        1
+      ],
+      [
+        "CUBEエンターテインメント",
+        1
+      ],
+      [
+        "聖水中高等学校",
+        1
+      ],
+      [
+        "聖水近隣公園",
+        1
+      ],
+      [
+        "聖水中学校",
+        1
+      ],
+      [
+        "聖水高等学校",
+        1
+      ],
+      [
+        "JDX マルチスポーツ",
+        1
+      ],
+      [
+        "スターバックス",
+        1
+      ],
+      [
+        "チャンポンタイム",
+        1
+      ],
+      [
+        "漢江自転車道路",
+        1
+      ],
+      [
+        "鷹峰初等学校",
+        1
+      ],
+      [
+        "トゥクソム アリ水浄水センター",
+        1
+      ],
+      [
+        "SKテクノビルディング",
+        1
+      ]
+    ],
+    "name:ko": [
+      [
+        "광나루로",
+        24
+      ],
+      [
+        "고산자로",
+        22
+      ],
+      [
+        "뚝섬로",
+        22
+      ],
+      [
+        "왕십리로",
+        17
+      ],
+      [
+        "서울숲2길",
+        16
+      ],
+      [
+        "동부간선로",
+        8
+      ],
+      [
+        "서울숲4길",
+        8
+      ],
+      [
+        "분당선",
+        8
+      ],
+      [
+        "성덕정길",
+        7
+      ],
+      [
+        "중랑천 자전거길",
+        7
+      ],
+      [
+        "연무장길",
+        7
+      ],
+      [
+        "아차산로",
+        7
+      ],
+      [
+        "성수이로",
+        6
+      ],
+      [
+        "성수일로",
+        5
+      ],
+      [
+        "강변북로",
+        5
+      ],
+      [
+        "아차산로7길",
+        5
+      ],
+      [
+        "성수이로6길",
+        5
+      ],
+      [
+        "둘레길",
+        4
+      ],
+      [
+        "가람길",
+        4
+      ],
+      [
+        "상원길",
+        4
+      ],
+      [
+        "상원12길",
+        4
+      ],
+      [
+        "성덕정11길",
+        4
+      ],
+      [
+        "성덕정15길",
+        4
+      ],
+      [
+        "상원2길",
+        4
+      ],
+      [
+        "성수일로4길",
+        3
+      ],
+      [
+        "성수이로7길",
+        3
+      ],
+      [
+        "서울숲 남산길",
+        3
+      ],
+      [
+        "아차산로5길",
+        3
+      ],
+      [
+        "광나루로2길",
+        3
+      ],
+      [
+        "둘레9길",
+        3
+      ],
+      [
+        "둘레9가길",
+        3
+      ],
+      [
+        "왕십리로5길",
+        3
+      ],
+      [
+        "연무장1길",
+        3
+      ],
+      [
+        "왕십리로14길",
+        3
+      ],
+      [
+        "아차산로1길",
+        3
+      ],
+      [
+        "상원10다길",
+        3
+      ],
+      [
+        "왕십리로10길",
+        3
+      ],
+      [
+        "서울 지하철 2호선 성수지선",
+        3
+      ],
+      [
+        "둘레11길",
+        3
+      ],
+      [
+        "성수이로5길",
+        3
+      ]
+    ],
+    "place": [
+      [
+        "islet",
+        10
+      ]
+    ],
+    "alt_name:ko": [
+      [
+        "중랑천",
+        1
+      ],
+      [
+        "에스오엘623빌딩",
+        1
+      ]
+    ],
+    "intermittent": [
+      [
+        "no",
+        1
+      ]
+    ],
+    "name:ko-Hani": [
+      [
+        "盆唐線",
+        8
+      ],
+      [
+        "서울 地下鐵 2號線 聖水支線",
+        3
+      ],
+      [
+        "京元本線",
+        2
+      ],
+      [
+        "首都圈廣域急行鐵道C線",
+        2
+      ],
+      [
+        "中浪川",
+        1
+      ],
+      [
+        "鷺梁島",
+        1
+      ]
+    ],
+    "name:zh": [
+      [
+        "东部干线路",
+        8
+      ],
+      [
+        "盆唐線",
+        8
+      ],
+      [
+        "首尔地下铁2号线 圣水支线",
+        3
+      ],
+      [
+        "京元本線",
+        2
+      ],
+      [
+        "首尔地铁2号线",
+        2
+      ],
+      [
+        "聖水大橋",
+        2
+      ],
+      [
+        "首都圈廣域急行鐵道C路線",
+        2
+      ],
+      [
+        "中浪川",
+        1
+      ],
+      [
+        "仙游岛",
+        1
+      ],
+      [
+        "鹭梁岛",
+        1
+      ],
+      [
+        "星巴克",
+        1
+      ],
+      [
+        "汉江自行车道",
+        1
+      ],
+      [
+        "圣水大桥",
+        1
+      ]
+    ],
+    "name:zh-Hant": [
+      [
+        "盆唐線",
+        8
+      ],
+      [
+        "首爾地下鐵2號線 聖水支線",
+        3
+      ],
+      [
+        "京元本線",
+        2
+      ],
+      [
+        "首都圈廣域急行鐵道C路線",
+        2
+      ],
+      [
+        "中浪川",
+        1
+      ],
+      [
+        "首爾地鐵2號線",
+        1
+      ],
+      [
+        "首爾地鐵2號綫",
+        1
+      ]
+    ],
+    "waterway": [
+      [
+        "stream",
+        2
+      ],
+      [
+        "river",
+        1
+      ]
+    ],
+    "wikidata": [
+      [
+        "Q6312978",
+        1
+      ],
+      [
+        "Q12601738",
+        1
+      ],
+      [
+        "Q626140",
+        1
+      ],
+      [
+        "Q19359898",
+        1
+      ],
+      [
+        "Q16192086",
+        1
+      ],
+      [
+        "Q17401207",
+        1
+      ],
+      [
+        "Q489281",
+        1
+      ]
+    ],
+    "wikipedia": [
+      [
+        "ko:중랑천",
+        1
+      ],
+      [
+        "en:Seonyudo, Seoul",
+        1
+      ],
+      [
+        "ko:노들섬",
+        1
+      ],
+      [
+        "ko:한강 자전거길",
+        1
+      ],
+      [
+        "ko:성수대교",
+        1
+      ]
+    ],
+    "bridge": [
+      [
+        "yes",
+        50
+      ],
+      [
+        "viaduct",
+        6
+      ]
+    ],
+    "highway": [
+      [
+        "residential",
+        245
+      ],
+      [
+        "footway",
+        217
+      ],
+      [
+        "primary",
+        61
+      ],
+      [
+        "service",
+        57
+      ],
+      [
+        "trunk_link",
+        40
+      ],
+      [
+        "secondary",
+        28
+      ],
+      [
+        "cycleway",
+        25
+      ],
+      [
+        "tertiary",
+        17
+      ],
+      [
+        "trunk",
+        13
+      ],
+      [
+        "secondary_link",
+        12
+      ],
+      [
+        "primary_link",
+        12
+      ],
+      [
+        "living_street",
+        8
+      ],
+      [
+        "unclassified",
+        7
+      ],
+      [
+        "steps",
+        7
+      ],
+      [
+        "path",
+        6
+      ],
+      [
+        "pedestrian",
+        4
+      ],
+      [
+        "corridor",
+        1
+      ]
+    ],
+    "layer": [
+      [
+        "1",
+        50
+      ],
+      [
+        "2",
+        20
+      ],
+      [
+        "-1",
+        17
+      ],
+      [
+        "3",
+        9
+      ],
+      [
+        "-2",
+        4
+      ],
+      [
+        "-4",
+        4
+      ]
+    ],
+    "name:ko-Latn": [
+      [
+        "Gwangnaru-ro",
+        23
+      ],
+      [
+        "Gosanja-ro",
+        18
+      ],
+      [
+        "Ttukseom-ro",
+        11
+      ],
+      [
+        "Jungnangcheon Jajeongeogil",
+        7
+      ],
+      [
+        "Gangbyeonbuk-ro",
+        5
+      ],
+      [
+        "Seongsui-ro",
+        4
+      ],
+      [
+        "Dulle-gil",
+        4
+      ],
+      [
+        "Seongsuilro",
+        3
+      ],
+      [
+        "Garamgil",
+        3
+      ],
+      [
+        "Seongsudaegyo",
+        3
+      ],
+      [
+        "Seoulsup-gil",
+        2
+      ],
+      [
+        "Eonjuro",
+        2
+      ],
+      [
+        "Seongdeokjeong-gil",
+        1
+      ],
+      [
+        "Dulle sibo-gil",
+        1
+      ],
+      [
+        "Hangang Jajeongeogil",
+        1
+      ]
+    ],
+    "oneway": [
+      [
+        "yes",
+        176
+      ],
+      [
+        "no",
+        21
+      ]
+    ],
+    "ref": [
+      [
+        "51",
+        21
+      ],
+      [
+        "61",
+        11
+      ],
+      [
+        "318",
+        8
+      ],
+      [
+        "61;30",
+        2
+      ],
+      [
+        "305",
+        2
+      ],
+      [
+        "23;46;70",
+        2
+      ],
+      [
+        "23;46;61;70",
+        2
+      ],
+      [
+        "23",
+        1
+      ],
+      [
+        "46;61;70",
+        1
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "1",
+        1
+      ],
+      [
+        "3;1",
+        1
+      ],
+      [
+        "2;4",
+        1
+      ]
+    ],
+    "surface": [
+      [
+        "asphalt",
+        102
+      ],
+      [
+        "paving_stones",
+        10
+      ],
+      [
+        "concrete",
+        6
+      ],
+      [
+        "ground",
+        3
+      ],
+      [
+        "wood",
+        3
+      ],
+      [
+        "artificial_turf",
+        2
+      ]
+    ],
+    "note": [
+      [
+        "river-MP",
+        4
+      ],
+      [
+        "위치는 대략적인 위치임 The location is approximate.",
+        2
+      ]
+    ],
+    "bicycle": [
+      [
+        "no",
+        23
+      ],
+      [
+        "designated",
+        20
+      ],
+      [
+        "yes",
+        13
+      ],
+      [
+        "dismount",
+        2
+      ]
+    ],
+    "expressway": [
+      [
+        "yes",
+        18
+      ]
+    ],
+    "foot": [
+      [
+        "designated",
+        21
+      ],
+      [
+        "no",
+        8
+      ],
+      [
+        "yes",
+        3
+      ],
+      [
+        "private",
+        1
+      ]
+    ],
+    "lanes": [
+      [
+        "3",
+        15
+      ],
+      [
+        "4",
+        10
+      ],
+      [
+        "6",
+        9
+      ],
+      [
+        "1",
+        7
+      ],
+      [
+        "2",
+        3
+      ]
+    ],
+    "maxspeed": [
+      [
+        "80",
+        11
+      ],
+      [
+        "100",
+        4
+      ],
+      [
+        "90",
+        2
+      ],
+      [
+        "180",
+        2
+      ]
+    ],
+    "motorroad": [
+      [
+        "yes",
+        13
+      ]
+    ],
+    "width": [
+      [
+        "2",
+        17
+      ],
+      [
+        "3",
+        13
+      ],
+      [
+        "12",
+        7
+      ],
+      [
+        "1",
+        1
+      ],
+      [
+        "3.6",
+        1
+      ],
+      [
+        "2.5",
+        1
+      ],
+      [
+        "3.5",
+        1
+      ]
+    ],
+    "maxspeed:type": [
+      [
+        "sign",
+        6
+      ]
+    ],
+    "destination": [
+      [
+        "잠실대교;영동대교",
+        1
+      ],
+      [
+        "동부간선도로;성수대교",
+        1
+      ],
+      [
+        "마포대교;한강대교",
+        1
+      ],
+      [
+        "언주로;성산대교;구룡터널",
+        1
+      ],
+      [
+        "동부간선도로;내부순환로",
+        1
+      ],
+      [
+        "동부간선도로(의정부);내부순환로 성산",
+        1
+      ]
+    ],
+    "destination:ref": [
+      [
+        "61;30",
+        2
+      ],
+      [
+        "70;47",
+        1
+      ],
+      [
+        "61;51",
+        1
+      ],
+      [
+        "51",
+        1
+      ]
+    ],
+    "maxheight": [
+      [
+        "4.5",
+        4
+      ],
+      [
+        "4.3",
+        1
+      ],
+      [
+        "6",
+        1
+      ],
+      [
+        "default",
+        1
+      ],
+      [
+        "4.7",
+        1
+      ]
+    ],
+    "tunnel": [
+      [
+        "yes",
+        25
+      ]
+    ],
+    "building": [
+      [
+        "yes",
+        708
+      ],
+      [
+        "apartments",
+        88
+      ],
+      [
+        "house",
+        62
+      ],
+      [
+        "commercial",
+        48
+      ],
+      [
+        "school",
+        17
+      ],
+      [
+        "industrial",
+        8
+      ],
+      [
+        "retail",
+        7
+      ],
+      [
+        "residential",
+        6
+      ],
+      [
+        "train_station",
+        4
+      ],
+      [
+        "office",
+        2
+      ],
+      [
+        "bridge",
+        2
+      ],
+      [
+        "kindergarten",
+        1
+      ],
+      [
+        "garage",
+        1
+      ],
+      [
+        "roof",
+        1
+      ]
+    ],
+    "building:levels": [
+      [
+        "2",
+        14
+      ],
+      [
+        "3",
+        12
+      ],
+      [
+        "25",
+        7
+      ],
+      [
+        "20",
+        6
+      ],
+      [
+        "12",
+        6
+      ],
+      [
+        "33",
+        6
+      ],
+      [
+        "23",
+        5
+      ],
+      [
+        "16",
+        5
+      ],
+      [
+        "15",
+        5
+      ],
+      [
+        "18",
+        5
+      ],
+      [
+        "13",
+        5
+      ],
+      [
+        "10",
+        4
+      ],
+      [
+        "17",
+        4
+      ],
+      [
+        "4",
+        4
+      ],
+      [
+        "19",
+        4
+      ],
+      [
+        "45",
+        3
+      ],
+      [
+        "11",
+        3
+      ],
+      [
+        "47",
+        2
+      ],
+      [
+        "22",
+        2
+      ],
+      [
+        "49",
+        2
+      ],
+      [
+        "1",
+        2
+      ],
+      [
+        "14",
+        2
+      ],
+      [
+        "8",
+        1
+      ],
+      [
+        "7",
+        1
+      ],
+      [
+        "46",
+        1
+      ],
+      [
+        "21",
+        1
+      ],
+      [
+        "6",
+        1
+      ]
+    ],
+    "height": [
+      [
+        "10",
+        11
+      ],
+      [
+        "9.4",
+        10
+      ],
+      [
+        "10.3",
+        7
+      ],
+      [
+        "10.2",
+        7
+      ],
+      [
+        "9.8",
+        6
+      ],
+      [
+        "6.7",
+        6
+      ],
+      [
+        "6.9",
+        6
+      ],
+      [
+        "10.5",
+        6
+      ],
+      [
+        "9.6",
+        6
+      ],
+      [
+        "9.5",
+        6
+      ],
+      [
+        "9.9",
+        5
+      ],
+      [
+        "10.6",
+        5
+      ],
+      [
+        "10.4",
+        5
+      ],
+      [
+        "11.8",
+        5
+      ],
+      [
+        "7.1",
+        5
+      ],
+      [
+        "10.1",
+        5
+      ],
+      [
+        "12.9",
+        4
+      ],
+      [
+        "12.8",
+        4
+      ],
+      [
+        "8.3",
+        4
+      ],
+      [
+        "10.0",
+        4
+      ],
+      [
+        "7.8",
+        3
+      ],
+      [
+        "13.5",
+        3
+      ],
+      [
+        "9.3",
+        3
+      ],
+      [
+        "7.3",
+        3
+      ],
+      [
+        "6.8",
+        3
+      ],
+      [
+        "5.9",
+        3
+      ],
+      [
+        "14.4",
+        3
+      ],
+      [
+        "13.1",
+        3
+      ],
+      [
+        "12.3",
+        3
+      ],
+      [
+        "11.2",
+        3
+      ],
+      [
+        "9.0",
+        3
+      ],
+      [
+        "35",
+        3
+      ],
+      [
+        "171.5",
+        2
+      ],
+      [
+        "11.7",
+        2
+      ],
+      [
+        "11.6",
+        2
+      ],
+      [
+        "157",
+        2
+      ],
+      [
+        "36",
+        2
+      ],
+      [
+        "200",
+        2
+      ],
+      [
+        "19.0",
+        2
+      ],
+      [
+        "16.4",
+        2
+      ]
+    ],
+    "start_date": [
+      [
+        "2003",
+        20
+      ],
+      [
+        "1997",
+        11
+      ],
+      [
+        "1999",
+        9
+      ],
+      [
+        "2024",
+        6
+      ],
+      [
+        "2017",
+        5
+      ],
+      [
+        "2020",
+        5
+      ],
+      [
+        "2022",
+        4
+      ],
+      [
+        "2004",
+        3
+      ],
+      [
+        "2011",
+        2
+      ],
+      [
+        "2005",
+        2
+      ],
+      [
+        "2024-01-25",
+        2
+      ],
+      [
+        "1990",
+        2
+      ],
+      [
+        "2019",
+        2
+      ],
+      [
+        "2014",
+        2
+      ],
+      [
+        "2023",
+        2
+      ],
+      [
+        "2021",
+        2
+      ],
+      [
+        "1991",
+        1
+      ],
+      [
+        "1997-07-03",
+        1
+      ],
+      [
+        "1992",
+        1
+      ],
+      [
+        "2013",
+        1
+      ],
+      [
+        "2016",
+        1
+      ],
+      [
+        "2000",
+        1
+      ],
+      [
+        "1996",
+        1
+      ],
+      [
+        "2010",
+        1
+      ],
+      [
+        "2018",
+        1
+      ]
+    ],
+    "natural": [
+      [
+        "wood",
+        9
+      ],
+      [
+        "water",
+        8
+      ],
+      [
+        "bare_rock",
+        3
+      ],
+      [
+        "heath",
+        1
+      ],
+      [
+        "grassland",
+        1
+      ]
+    ],
+    "source": [
+      [
+        "Bing",
+        3
+      ]
+    ],
+    "bridge:name": [
+      [
+        "응봉교",
+        2
+      ],
+      [
+        "성수대교",
+        2
+      ],
+      [
+        "장안교",
+        1
+      ],
+      [
+        "성동교",
+        1
+      ]
+    ],
+    "bridge:name:en": [
+      [
+        "Jangan Bridge",
+        1
+      ]
+    ],
+    "bridge:name:ko": [
+      [
+        "응봉교",
+        2
+      ],
+      [
+        "성수대교",
+        2
+      ],
+      [
+        "장안교",
+        1
+      ]
+    ],
+    "bridge:name:ko-Latn": [
+      [
+        "Jangangyo",
+        1
+      ]
+    ],
+    "bridge:structure": [
+      [
+        "beam",
+        3
+      ],
+      [
+        "truss",
+        1
+      ]
+    ],
+    "lane_markings": [
+      [
+        "no",
+        14
+      ]
+    ],
+    "segregated": [
+      [
+        "no",
+        8
+      ],
+      [
+        "yes",
+        4
+      ]
+    ],
+    "cycleway:right": [
+      [
+        "no",
+        6
+      ],
+      [
+        "track",
+        2
+      ]
+    ],
+    "cycleway:right:segregated": [
+      [
+        "no",
+        2
+      ]
+    ],
+    "sidewalk:right": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "lit": [
+      [
+        "yes",
+        27
+      ]
+    ],
+    "landuse": [
+      [
+        "residential",
+        26
+      ],
+      [
+        "forest",
+        23
+      ],
+      [
+        "grass",
+        12
+      ],
+      [
+        "commercial",
+        5
+      ],
+      [
+        "industrial",
+        3
+      ],
+      [
+        "construction",
+        3
+      ],
+      [
+        "railway",
+        2
+      ],
+      [
+        "plant_nursery",
+        1
+      ]
+    ],
+    "name:el": [
+      [
+        "Μπένγκμαντο",
+        1
+      ],
+      [
+        "Σόνιουντο",
+        1
+      ],
+      [
+        "Νόντουλσομ",
+        1
+      ],
+      [
+        "Γέφυρα Σόνγκσου",
+        1
+      ]
+    ],
+    "lanes:backward": [
+      [
+        "2",
+        1
+      ]
+    ],
+    "lanes:forward": [
+      [
+        "1",
+        1
+      ]
+    ],
+    "noname": [
+      [
+        "yes",
+        12
+      ]
+    ],
+    "amenity": [
+      [
+        "parking",
+        18
+      ],
+      [
+        "restaurant",
+        9
+      ],
+      [
+        "school",
+        8
+      ],
+      [
+        "cafe",
+        4
+      ],
+      [
+        "place_of_worship",
+        3
+      ],
+      [
+        "fountain",
+        2
+      ],
+      [
+        "theatre",
+        1
+      ],
+      [
+        "studio",
+        1
+      ],
+      [
+        "toilets",
+        1
+      ],
+      [
+        "parking_space",
+        1
+      ],
+      [
+        "car_wash",
+        1
+      ],
+      [
+        "fuel",
+        1
+      ],
+      [
+        "ranger_station",
+        1
+      ],
+      [
+        "police",
+        1
+      ],
+      [
+        "shelter",
+        1
+      ]
+    ],
+    "admin_level": [
+      [
+        "8",
+        10
+      ],
+      [
+        "6",
+        2
+      ]
+    ],
+    "boundary": [
+      [
+        "administrative",
+        12
+      ]
+    ],
+    "sidewalk": [
+      [
+        "no",
+        4
+      ]
+    ],
+    "parking:left": [
+      [
+        "lane",
+        1
+      ]
+    ],
+    "parking:left:orientation": [
+      [
+        "parallel",
+        1
+      ]
+    ],
+    "parking:right": [
+      [
+        "no",
+        1
+      ]
+    ],
+    "not:name": [
+      [
+        "왕십리로 (Wangsimni-ro)",
+        1
+      ]
+    ],
+    "addr:city": [
+      [
+        "서울특별시",
+        113
+      ]
+    ],
+    "addr:district": [
+      [
+        "성동구",
+        13
+      ]
+    ],
+    "addr:housenumber": [
+      [
+        "14",
+        3
+      ],
+      [
+        "47",
+        3
+      ],
+      [
+        "7",
+        3
+      ],
+      [
+        "11",
+        3
+      ],
+      [
+        "9",
+        3
+      ],
+      [
+        "20",
+        2
+      ],
+      [
+        "16",
+        2
+      ],
+      [
+        "12",
+        2
+      ],
+      [
+        "32",
+        2
+      ],
+      [
+        "42",
+        2
+      ],
+      [
+        "7-1",
+        2
+      ],
+      [
+        "5",
+        2
+      ],
+      [
+        "39-21",
+        2
+      ],
+      [
+        "63",
+        2
+      ],
+      [
+        "9-16",
+        2
+      ],
+      [
+        "25",
+        2
+      ],
+      [
+        "3",
+        2
+      ],
+      [
+        "83",
+        1
+      ],
+      [
+        "58",
+        1
+      ],
+      [
+        "32-14",
+        1
+      ],
+      [
+        "78",
+        1
+      ],
+      [
+        "84",
+        1
+      ],
+      [
+        "88",
+        1
+      ],
+      [
+        "121",
+        1
+      ],
+      [
+        "51",
+        1
+      ],
+      [
+        "38",
+        1
+      ],
+      [
+        "36",
+        1
+      ],
+      [
+        "13",
+        1
+      ],
+      [
+        "3-1",
+        1
+      ],
+      [
+        "43-1",
+        1
+      ],
+      [
+        "18",
+        1
+      ],
+      [
+        "100",
+        1
+      ],
+      [
+        "41-10",
+        1
+      ],
+      [
+        "41-9",
+        1
+      ],
+      [
+        "41-13",
+        1
+      ],
+      [
+        "41-25",
+        1
+      ],
+      [
+        "39-29",
+        1
+      ],
+      [
+        "65",
+        1
+      ],
+      [
+        "59",
+        1
+      ],
+      [
+        "184",
+        1
+      ]
+    ],
+    "addr:postcode": [
+      [
+        "04768",
+        7
+      ],
+      [
+        "04791",
+        2
+      ],
+      [
+        "04779",
+        1
+      ],
+      [
+        "04793",
+        1
+      ],
+      [
+        "04778",
+        1
+      ],
+      [
+        "04766",
+        1
+      ],
+      [
+        "04781",
+        1
+      ],
+      [
+        "04788",
+        1
+      ],
+      [
+        "04789",
+        1
+      ]
+    ],
+    "addr:street": [
+      [
+        "서울숲2길",
+        21
+      ],
+      [
+        "서울숲4길",
+        18
+      ],
+      [
+        "연무장7가길",
+        12
+      ],
+      [
+        "연무장길",
+        10
+      ],
+      [
+        "아차산로",
+        8
+      ],
+      [
+        "연무장7길",
+        8
+      ],
+      [
+        "성수일로6길",
+        5
+      ],
+      [
+        "왕십리로5길",
+        5
+      ],
+      [
+        "성수일로",
+        5
+      ],
+      [
+        "왕십리로",
+        4
+      ],
+      [
+        "연무장5가길",
+        3
+      ],
+      [
+        "성수일로11길",
+        3
+      ],
+      [
+        "연무장5길",
+        2
+      ],
+      [
+        "상원길",
+        2
+      ],
+      [
+        "왕십리로2길",
+        1
+      ],
+      [
+        "성수이로",
+        1
+      ],
+      [
+        "광나루로",
+        1
+      ],
+      [
+        "연무장9길",
+        1
+      ],
+      [
+        "뚝섬로1길",
+        1
+      ],
+      [
+        "상원1길",
+        1
+      ],
+      [
+        "상원8길",
+        1
+      ],
+      [
+        "상원10길",
+        1
+      ],
+      [
+        "연무장3길",
+        1
+      ],
+      [
+        "상원6길",
+        1
+      ],
+      [
+        "서울숲6길",
+        1
+      ]
+    ],
+    "addr:subdistrict": [
+      [
+        "성수동1가",
+        5
+      ],
+      [
+        "성수동2가",
+        5
+      ]
+    ],
+    "smoking": [
+      [
+        "no",
+        2
+      ],
+      [
+        "outside",
+        1
+      ]
+    ],
+    "electrified": [
+      [
+        "contact_line",
+        18
+      ]
+    ],
+    "frequency": [
+      [
+        "60",
+        10
+      ],
+      [
+        "0",
+        8
+      ]
+    ],
+    "gauge": [
+      [
+        "1435",
+        20
+      ]
+    ],
+    "name:zh-Hans": [
+      [
+        "盆唐线",
+        8
+      ],
+      [
+        "京元本线",
+        2
+      ],
+      [
+        "首尔地铁2号线",
+        2
+      ],
+      [
+        "首都圈广域急行铁道C路线",
+        2
+      ]
+    ],
+    "operator": [
+      [
+        "한국철도공사",
+        13
+      ],
+      [
+        "서울교통공사",
+        9
+      ],
+      [
+        "지티엑스씨주식회사",
+        2
+      ],
+      [
+        "(주)스타벅스커피 코리아",
+        1
+      ],
+      [
+        "성동구",
+        1
+      ],
+      [
+        "한국전력공사",
+        1
+      ],
+      [
+        "옴니시스템",
+        1
+      ]
+    ],
+    "railway": [
+      [
+        "rail",
+        10
+      ],
+      [
+        "subway",
+        8
+      ],
+      [
+        "platform",
+        6
+      ],
+      [
+        "proposed",
+        2
+      ]
+    ],
+    "tracks": [
+      [
+        "1",
+        12
+      ]
+    ],
+    "usage": [
+      [
+        "main",
+        14
+      ],
+      [
+        "branch",
+        3
+      ]
+    ],
+    "voltage": [
+      [
+        "25000",
+        10
+      ],
+      [
+        "1500",
+        8
+      ],
+      [
+        "154000",
+        1
+      ]
+    ],
+    "railway:atc": [
+      [
+        "yes",
+        8
+      ]
+    ],
+    "area": [
+      [
+        "yes",
+        19
+      ]
+    ],
+    "bench": [
+      [
+        "yes",
+        3
+      ]
+    ],
+    "bin": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "covered": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "public_transport": [
+      [
+        "platform",
+        6
+      ]
+    ],
+    "subway": [
+      [
+        "yes",
+        9
+      ]
+    ],
+    "tactile_paving": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "network": [
+      [
+        "서울메트로",
+        4
+      ],
+      [
+        "수도권전철",
+        1
+      ],
+      [
+        "서울교통공사",
+        1
+      ]
+    ],
+    "isced:level": [
+      [
+        "2;3",
+        2
+      ],
+      [
+        "1",
+        2
+      ],
+      [
+        "2",
+        1
+      ]
+    ],
+    "education": [
+      [
+        "school",
+        3
+      ]
+    ],
+    "colour": [
+      [
+        "#33A23D",
+        4
+      ],
+      [
+        "#00A84D",
+        2
+      ]
+    ],
+    "religion": [
+      [
+        "christian",
+        3
+      ]
+    ],
+    "sport": [
+      [
+        "soccer",
+        3
+      ],
+      [
+        "fitness",
+        3
+      ],
+      [
+        "tennis",
+        2
+      ],
+      [
+        "basketball",
+        2
+      ],
+      [
+        "badminton",
+        2
+      ],
+      [
+        "american_football",
+        1
+      ],
+      [
+        "croquet",
+        1
+      ],
+      [
+        "skateboard",
+        1
+      ],
+      [
+        "running",
+        1
+      ]
+    ],
+    "footway": [
+      [
+        "sidewalk",
+        48
+      ],
+      [
+        "crossing",
+        33
+      ],
+      [
+        "traffic_island",
+        10
+      ]
+    ],
+    "website": [
+      [
+        "http://www.sfkdt.com/",
+        1
+      ],
+      [
+        "https://sceneseoul.com/",
+        1
+      ],
+      [
+        "http://www.istarbucks.co.kr/index.do",
+        1
+      ],
+      [
+        "www.33table.com",
+        1
+      ]
+    ],
+    "residential": [
+      [
+        "apartments",
+        13
+      ]
+    ],
+    "parking": [
+      [
+        "surface",
+        7
+      ],
+      [
+        "multi-storey",
+        2
+      ],
+      [
+        "underground",
+        1
+      ]
+    ],
+    "building:flats": [
+      [
+        "115",
+        2
+      ],
+      [
+        "140",
+        2
+      ],
+      [
+        "161",
+        2
+      ],
+      [
+        "178",
+        1
+      ],
+      [
+        "99",
+        1
+      ],
+      [
+        "103",
+        1
+      ],
+      [
+        "104",
+        1
+      ],
+      [
+        "105",
+        1
+      ],
+      [
+        "102",
+        1
+      ],
+      [
+        "101",
+        1
+      ],
+      [
+        "55",
+        1
+      ],
+      [
+        "67",
+        1
+      ],
+      [
+        "54",
+        1
+      ],
+      [
+        "92",
+        1
+      ],
+      [
+        "197",
+        1
+      ],
+      [
+        "134",
+        1
+      ],
+      [
+        "221",
+        1
+      ],
+      [
+        "33",
+        1
+      ],
+      [
+        "44",
+        1
+      ]
+    ],
+    "industrial": [
+      [
+        "factory",
+        1
+      ],
+      [
+        "depot",
+        1
+      ]
+    ],
+    "tourism": [
+      [
+        "motel",
+        1
+      ],
+      [
+        "gallery",
+        1
+      ]
+    ],
+    "opening_hours": [
+      [
+        "Mo-Su 10:00-21:00",
+        2
+      ],
+      [
+        "Mo-Fr 08:00-17:00, Sa-Su 11:00-19:00",
+        1
+      ],
+      [
+        "24/7",
+        1
+      ],
+      [
+        "Mo-Fr 07:00-22:30; Sa,Su,PH 09:30-22:30",
+        1
+      ]
+    ],
+    "outdoor_seating": [
+      [
+        "yes",
+        3
+      ],
+      [
+        "no",
+        1
+      ]
+    ],
+    "phone": [
+      [
+        "+82 2 469 2122",
+        1
+      ],
+      [
+        "+82 10 4703 2408",
+        1
+      ]
+    ],
+    "alt_name": [
+      [
+        "수도권 광역급행철도 C노선",
+        2
+      ],
+      [
+        "구두테마공원",
+        1
+      ],
+      [
+        "SOL623빌딩",
+        1
+      ]
+    ],
+    "alt_name:en": [
+      [
+        "Shoes Theme Park",
+        1
+      ]
+    ],
+    "service": [
+      [
+        "parking_aisle",
+        8
+      ],
+      [
+        "alley",
+        3
+      ],
+      [
+        "crossover",
+        2
+      ],
+      [
+        "driveway",
+        2
+      ],
+      [
+        "yard",
+        1
+      ]
+    ],
+    "access": [
+      [
+        "private",
+        4
+      ],
+      [
+        "customers",
+        2
+      ],
+      [
+        "yes",
+        1
+      ]
+    ],
+    "fee": [
+      [
+        "yes",
+        2
+      ],
+      [
+        "no",
+        1
+      ]
+    ],
+    "shop": [
+      [
+        "car_repair",
+        2
+      ],
+      [
+        "wine",
+        1
+      ],
+      [
+        "perfumery",
+        1
+      ]
+    ],
+    "water": [
+      [
+        "lake",
+        2
+      ],
+      [
+        "pond",
+        1
+      ]
+    ],
+    "leaf_type": [
+      [
+        "broadleaved",
+        9
+      ],
+      [
+        "mixed",
+        1
+      ]
+    ],
+    "level": [
+      [
+        "3",
+        6
+      ],
+      [
+        "15",
+        1
+      ]
+    ],
+    "source:width": [
+      [
+        "ARCore",
+        1
+      ]
+    ],
+    "branch": [
+      [
+        "뚝섬역점",
+        1
+      ]
+    ],
+    "brand": [
+      [
+        "스타벅스",
+        1
+      ],
+      [
+        "SK",
+        1
+      ]
+    ],
+    "brand:en": [
+      [
+        "Starbucks",
+        1
+      ]
+    ],
+    "brand:ko": [
+      [
+        "스타벅스",
+        1
+      ]
+    ],
+    "brand:wikidata": [
+      [
+        "Q37158",
+        1
+      ]
+    ],
+    "cuisine": [
+      [
+        "coffee_shop",
+        2
+      ],
+      [
+        "korean;평양냉면;한우요리;곰탕;소고기",
+        1
+      ],
+      [
+        "japanese",
+        1
+      ],
+      [
+        "japanese;soba",
+        1
+      ]
+    ],
+    "int_name": [
+      [
+        "Starbucks",
+        1
+      ]
+    ],
+    "name:de": [
+      [
+        "Starbucks",
+        1
+      ]
+    ],
+    "name:ru": [
+      [
+        "Старбакс",
+        1
+      ]
+    ],
+    "payment:american_express": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "payment:coins": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "payment:diners_club": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "payment:discover_card": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "payment:jcb": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "payment:mastercard": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "payment:notes": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "payment:unionpay": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "payment:visa": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "takeaway": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "internet_access": [
+      [
+        "wlan",
+        2
+      ]
+    ],
+    "internet_access:fee": [
+      [
+        "no",
+        2
+      ]
+    ],
+    "station": [
+      [
+        "subway",
+        1
+      ]
+    ],
+    "fitness_station": [
+      [
+        "box",
+        1
+      ]
+    ],
+    "flats": [
+      [
+        "777",
+        1
+      ],
+      [
+        "688",
+        1
+      ],
+      [
+        "256",
+        1
+      ],
+      [
+        "825",
+        1
+      ],
+      [
+        "294",
+        1
+      ],
+      [
+        "604",
+        1
+      ],
+      [
+        "652",
+        1
+      ]
+    ],
+    "description": [
+      [
+        "뚝섬중앙하이츠빌",
+        1
+      ],
+      [
+        "야외무대",
+        1
+      ],
+      [
+        "아라뱃길-한강 경계",
+        1
+      ]
+    ],
+    "departures_board": [
+      [
+        "realtime",
+        2
+      ]
+    ],
+    "review": [
+      [
+        "no",
+        2
+      ]
+    ],
+    "cycleway:surface": [
+      [
+        "asphalt",
+        1
+      ]
+    ],
+    "footway:surface": [
+      [
+        "asphalt",
+        1
+      ]
+    ],
+    "self_service": [
+      [
+        "no",
+        1
+      ]
+    ],
+    "ele": [
+      [
+        "4",
+        1
+      ]
+    ],
+    "internet_access:ssid": [
+      [
+        "KT_GiGA_2G_Wave2_66C6",
+        1
+      ]
+    ],
+    "payment:cash": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "payment:credit_cards": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "air_conditioning": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "contact:facebook": [
+      [
+        "https://www.facebook.com/YUKTA.KBEEF/",
+        1
+      ]
+    ],
+    "diet:beef": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "payment:debit_cards": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "crossing": [
+      [
+        "marked",
+        25
+      ],
+      [
+        "uncontrolled",
+        6
+      ],
+      [
+        "zebra",
+        2
+      ],
+      [
+        "traffic_signals",
+        1
+      ]
+    ],
+    "indoor": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "traffic_calming": [
+      [
+        "island",
+        7
+      ]
+    ],
+    "cycleway:both": [
+      [
+        "shared_lane",
+        1
+      ]
+    ],
+    "cycleway:both:lane": [
+      [
+        "pictogram",
+        1
+      ]
+    ],
+    "man_made": [
+      [
+        "bridge",
+        6
+      ],
+      [
+        "pier",
+        1
+      ],
+      [
+        "water_works",
+        1
+      ],
+      [
+        "pumping_station",
+        1
+      ]
+    ],
+    "cycleway": [
+      [
+        "crossing",
+        1
+      ],
+      [
+        "lane",
+        1
+      ]
+    ],
+    "diet:meat": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "diet:local": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "opening_date": [
+      [
+        "2025",
+        2
+      ],
+      [
+        "2030",
+        2
+      ]
+    ],
+    "construction": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "capacity": [
+      [
+        "35",
+        1
+      ]
+    ],
+    "capacity:disabled": [
+      [
+        "2",
+        1
+      ]
+    ],
+    "operator:type": [
+      [
+        "public",
+        1
+      ]
+    ],
+    "handrail": [
+      [
+        "yes",
+        1
+      ]
+    ],
+    "manufacturer": [
+      [
+        "현대건설",
+        1
+      ]
+    ],
+    "barrier": [
+      [
+        "fence",
+        4
+      ]
+    ],
+    "fence_type": [
+      [
+        "railing",
+        4
+      ]
+    ],
+    "maxweight:signed": [
+      [
+        "no",
+        2
+      ]
+    ],
+    "location": [
+      [
+        "indoor",
+        1
+      ]
+    ],
+    "operator:en": [
+      [
+        "Korea Electric Power Corporation",
+        1
+      ]
+    ],
+    "operator:ko": [
+      [
+        "한국전력공사",
+        1
+      ]
+    ],
+    "operator:short": [
+      [
+        "KEPCO",
+        1
+      ]
+    ],
+    "operator:wikidata": [
+      [
+        "Q486737",
+        1
+      ]
+    ],
+    "power": [
+      [
+        "substation",
+        1
+      ],
+      [
+        "plant",
+        1
+      ]
+    ],
+    "substation": [
+      [
+        "distribution",
+        1
+      ]
+    ],
+    "crossing:markings": [
+      [
+        "yes",
+        6
+      ]
+    ],
+    "motor_vehicle": [
+      [
+        "private",
+        2
+      ],
+      [
+        "no",
+        2
+      ]
+    ],
+    "check_date": [
+      [
+        "2024-01-17",
+        1
+      ]
+    ],
+    "wheelchair": [
+      [
+        "yes",
+        2
+      ],
+      [
+        "no",
+        1
+      ]
+    ],
+    "aeroway": [
+      [
+        "helipad",
+        3
+      ]
+    ],
+    "proposed": [
+      [
+        "rail",
+        2
+      ]
+    ],
+    "proposed:electrified": [
+      [
+        "contact_line",
+        2
+      ]
+    ],
+    "proposed:frequency": [
+      [
+        "60",
+        2
+      ]
+    ],
+    "proposed:voltage": [
+      [
+        "25000",
+        2
+      ]
+    ],
+    "short_name:en": [
+      [
+        "GTX Line C",
+        2
+      ]
+    ],
+    "plant:method": [
+      [
+        "photovoltaic",
+        1
+      ]
+    ],
+    "plant:output:electricity": [
+      [
+        "0.143075 MW",
+        1
+      ]
+    ],
+    "plant:source": [
+      [
+        "solar",
+        1
+      ]
+    ],
+    "duration": [
+      [
+        "02:07",
+        1
+      ],
+      [
+        "01:22",
+        1
+      ]
+    ],
+    "from": [
+      [
+        "잠실",
+        2
+      ]
+    ],
+    "interval": [
+      [
+        "01:30",
+        1
+      ]
+    ],
+    "interval:conditional": [
+      [
+        "01:00",
+        1
+      ]
+    ],
+    "reservation": [
+      [
+        "recommended",
+        2
+      ]
+    ],
+    "route": [
+      [
+        "ferry",
+        2
+      ]
+    ],
+    "to": [
+      [
+        "마곡",
+        2
+      ]
+    ],
+    "toll": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "via": [
+      [
+        "뚝섬;옥수;압구정;여의도;망원",
+        1
+      ],
+      [
+        "여의도",
+        1
+      ]
+    ]
+  },
+  "top_relation_kv": {
+    "route": [
+      [
+        "subway",
+        20
+      ],
+      [
+        "bus",
+        13
+      ],
+      [
+        "road",
+        6
+      ],
+      [
+        "bicycle",
+        5
+      ],
+      [
+        "railway",
+        4
+      ],
+      [
+        "train",
+        3
+      ]
+    ],
+    "type": [
+      [
+        "route",
+        52
+      ],
+      [
+        "boundary",
+        15
+      ],
+      [
+        "restriction",
+        12
+      ],
+      [
+        "route_master",
+        10
+      ],
+      [
+        "network",
+        10
+      ],
+      [
+        "multipolygon",
+        7
+      ],
+      [
+        "public_transport",
+        4
+      ],
+      [
+        "linestring",
+        1
+      ]
+    ],
+    "alt_name:en": [
+      [
+        "Hangang River",
+        1
+      ],
+      [
+        "Korea",
+        1
+      ],
+      [
+        "Seoul Metropolitan City Route 61",
+        1
+      ],
+      [
+        "Seoul Special Metropolitan City Route 30",
+        1
+      ],
+      [
+        "Seoul Special Metropolitan City Route 70",
+        1
+      ]
+    ],
+    "name": [
+      [
+        "성동10",
+        3
+      ],
+      [
+        "성동13",
+        3
+      ],
+      [
+        "성동02",
+        2
+      ],
+      [
+        "서울숲",
+        2
+      ],
+      [
+        "분당선",
+        2
+      ],
+      [
+        "수도권 전철 수인·분당선",
+        2
+      ],
+      [
+        "한강",
+        1
+      ],
+      [
+        "대한민국",
+        1
+      ],
+      [
+        "서울특별시",
+        1
+      ],
+      [
+        "서울 지하철 2호선: 외선순환",
+        1
+      ],
+      [
+        "강남구",
+        1
+      ],
+      [
+        "성동구",
+        1
+      ],
+      [
+        "수도권 전철 수인·분당선: 고색 → 왕십리",
+        1
+      ],
+      [
+        "서울 시내버스 141",
+        1
+      ],
+      [
+        "148",
+        1
+      ],
+      [
+        "서울 버스 463",
+        1
+      ],
+      [
+        "121",
+        1
+      ],
+      [
+        "청담동",
+        1
+      ],
+      [
+        "송정동",
+        1
+      ],
+      [
+        "응봉동",
+        1
+      ],
+      [
+        "성수1가2동",
+        1
+      ],
+      [
+        "성수1가1동",
+        1
+      ],
+      [
+        "성수2가1동",
+        1
+      ],
+      [
+        "성수2가3동",
+        1
+      ],
+      [
+        "서울 지하철 2호선 성수지선: 신설동 → 성수",
+        1
+      ],
+      [
+        "서울 지하철 2호선 성수지선: 성수 → 신설동",
+        1
+      ],
+      [
+        "서울 지하철 2호선: 내선순환",
+        1
+      ],
+      [
+        "압구정동",
+        1
+      ],
+      [
+        "수도권 전철 경의·중앙선: 용문 → 문산",
+        1
+      ],
+      [
+        "수도권 전철 경의·중앙선: 문산 → 용문",
+        1
+      ],
+      [
+        "수도권 전철 수인·분당선: 왕십리 → 고색",
+        1
+      ],
+      [
+        "수도권 전철 수인·분당선 급행: 왕십리 → 고색",
+        1
+      ],
+      [
+        "수도권 전철 수인·분당선 급행: 고색 → 왕십리",
+        1
+      ],
+      [
+        "서울 버스 N62 → 면목동차고지",
+        1
+      ],
+      [
+        "서울 버스 N62 → 양천공영차고지",
+        1
+      ],
+      [
+        "서울 버스 N62",
+        1
+      ],
+      [
+        "서울 지하철 2호선",
+        1
+      ],
+      [
+        "응봉",
+        1
+      ],
+      [
+        "한강 종주 자전거길 (서울 구간)",
+        1
+      ],
+      [
+        "한강 자전거길",
+        1
+      ]
+    ],
+    "name:en": [
+      [
+        "Seongsu 1(il)-ga 1(il)-dong",
+        2
+      ],
+      [
+        "Seoul Metropolitan Subway Suin–Bundang Line",
+        2
+      ],
+      [
+        "Han River",
+        1
+      ],
+      [
+        "South Korea",
+        1
+      ],
+      [
+        "Seoul",
+        1
+      ],
+      [
+        "Seoul Subway Line 2: Outer Circle Line",
+        1
+      ],
+      [
+        "Gangnam-gu",
+        1
+      ],
+      [
+        "Seongdong-gu",
+        1
+      ],
+      [
+        "Seoul Metropolitan Subway Suin-Bundang Line: Gosaek → Wangsimni",
+        1
+      ],
+      [
+        "Cheongdam-dong",
+        1
+      ],
+      [
+        "Songjeong-dong",
+        1
+      ],
+      [
+        "Eungbong-dong",
+        1
+      ],
+      [
+        "Seongsu 2(i)-ga 1(il)-dong",
+        1
+      ],
+      [
+        "Seongsu 2(i)-ga 3(sam)-dong",
+        1
+      ],
+      [
+        "Seoul Subway Line 2 Seongsu Branch: Shinseol-dong → Seongsu",
+        1
+      ],
+      [
+        "Seoul Subway Line 2 Seongsu Branch: Seongsu → Shinseol-dong",
+        1
+      ],
+      [
+        "Seoul Subway Line 2: Inner Circle Line",
+        1
+      ],
+      [
+        "Apgujeong-dong",
+        1
+      ],
+      [
+        "Seoul Metropolitan Subway Gyeongeui-Jungang Line: Yongmun → Munsan",
+        1
+      ],
+      [
+        "Seoul Metropolitan Subway Gyeongeui-Jungang Line: Munsan → Yongmun",
+        1
+      ],
+      [
+        "Seoul Metropolitan Subway Suin-Bundang Line: Wangsimni → Gosaek",
+        1
+      ],
+      [
+        "Seoul Metropolitan Subway Suin-Bundang Line Rapid: Wagsimni → Gosaek",
+        1
+      ],
+      [
+        "Seoul Metropolitan Subway Suin-Bundang Line Rapid: Gosaek → Wangsimni",
+        1
+      ],
+      [
+        "Seoul Buses route N62",
+        1
+      ],
+      [
+        "Seoul Metropolitan Subway Line 2",
+        1
+      ],
+      [
+        "Eungbong Station",
+        1
+      ],
+      [
+        "Hangang (riv.) Bicycle Path (Seoul Selection)",
+        1
+      ],
+      [
+        "Hangang (riv.) Bicycle Path",
+        1
+      ],
+      [
+        "Local Road 23 (South Korea)",
+        1
+      ],
+      [
+        "National Road of South Korea",
+        1
+      ],
+      [
+        "Jungnangcheon Bicycle Road",
+        1
+      ],
+      [
+        "Seongsu",
+        1
+      ],
+      [
+        "Seoul Metropolitan Subway System Gyeongui–Jungang Line",
+        1
+      ],
+      [
+        "Seoul-forest",
+        1
+      ],
+      [
+        "Gyeongwon Line",
+        1
+      ],
+      [
+        "Bundang Line",
+        1
+      ],
+      [
+        "National Route 46 (South Korea)",
+        1
+      ],
+      [
+        "Dongbu Expressway",
+        1
+      ],
+      [
+        "Naebu Expressway",
+        1
+      ],
+      [
+        "Local Roads of South Korea",
+        1
+      ]
+    ],
+    "name:es": [
+      [
+        "Río Han",
+        1
+      ],
+      [
+        "Corea del Sur",
+        1
+      ],
+      [
+        "Seúl",
+        1
+      ],
+      [
+        "Línea 2 del metro de Seúl: Círculo externo",
+        1
+      ],
+      [
+        "Línea 2 del metro de Seúl: Círculo interno",
+        1
+      ],
+      [
+        "Línea Gyeongeui-Jungang: Jipyeong → Munsan",
+        1
+      ],
+      [
+        "Línea Gyeongeui-Jungang: Munsan → Jipyeong",
+        1
+      ],
+      [
+        "Línea 2 del metro de Seúl",
+        1
+      ],
+      [
+        "Línea Gyeongeui-Jungang",
+        1
+      ],
+      [
+        "Línea Gyeongwon",
+        1
+      ]
+    ],
+    "name:ja": [
+      [
+        "漢江",
+        1
+      ],
+      [
+        "大韓民国",
+        1
+      ],
+      [
+        "ソウル特別市",
+        1
+      ],
+      [
+        "ソウル地下鉄2号線 外回り",
+        1
+      ],
+      [
+        "江南区",
+        1
+      ],
+      [
+        "城東区",
+        1
+      ],
+      [
+        "清潭洞",
+        1
+      ],
+      [
+        "ソウル地下鉄2号線 内回り",
+        1
+      ],
+      [
+        "中浪川自転車道路",
+        1
+      ],
+      [
+        "ソウルスプ(ソウルの森)",
+        1
+      ],
+      [
+        "京元本線",
+        1
+      ],
+      [
+        "盆唐線",
+        1
+      ],
+      [
+        "韓国高速鉄道",
+        1
+      ],
+      [
+        "大韓民国の鉄道路線",
+        1
+      ],
+      [
+        "水仁·盆唐線",
+        1
+      ],
+      [
+        "韓国/朝鮮",
+        1
+      ],
+      [
+        "ソウル 江北",
+        1
+      ],
+      [
+        "中浪川",
+        1
+      ],
+      [
+        "ソウルの森",
+        1
+      ]
+    ],
+    "name:ko": [
+      [
+        "서울숲",
+        2
+      ],
+      [
+        "분당선",
+        2
+      ],
+      [
+        "수도권 전철 수인·분당선",
+        2
+      ],
+      [
+        "한강",
+        1
+      ],
+      [
+        "대한민국",
+        1
+      ],
+      [
+        "서울특별시",
+        1
+      ],
+      [
+        "서울 지하철 2호선: 외선순환",
+        1
+      ],
+      [
+        "강남구",
+        1
+      ],
+      [
+        "성동구",
+        1
+      ],
+      [
+        "수도권 전철 수인·분당선: 고색 → 왕십리",
+        1
+      ],
+      [
+        "서울 시내버스 141",
+        1
+      ],
+      [
+        "청담동",
+        1
+      ],
+      [
+        "송정동",
+        1
+      ],
+      [
+        "응봉동",
+        1
+      ],
+      [
+        "성수1가2동",
+        1
+      ],
+      [
+        "성수1가1동",
+        1
+      ],
+      [
+        "성수2가1동",
+        1
+      ],
+      [
+        "성수2가3동",
+        1
+      ],
+      [
+        "서울 지하철 2호선 성수지선: 신설동 → 성수",
+        1
+      ],
+      [
+        "서울 지하철 2호선 성수지선: 성수 → 신설동",
+        1
+      ],
+      [
+        "서울 지하철 2호선: 내선순환",
+        1
+      ],
+      [
+        "압구정동",
+        1
+      ],
+      [
+        "수도권 전철 경의·중앙선: 용문 → 문산",
+        1
+      ],
+      [
+        "수도권 전철 경의·중앙선: 문산 → 용문",
+        1
+      ],
+      [
+        "수도권 전철 수인·분당선: 왕십리 → 고색",
+        1
+      ],
+      [
+        "수도권 전철 수인·분당선 급행: 왕십리 → 고색",
+        1
+      ],
+      [
+        "수도권 전철 수인·분당선 급행: 고색 → 왕십리",
+        1
+      ],
+      [
+        "서울 버스 N62 → 면목동차고지",
+        1
+      ],
+      [
+        "서울 버스 N62 → 양천공영차고지",
+        1
+      ],
+      [
+        "서울 버스 N62",
+        1
+      ],
+      [
+        "서울 지하철 2호선",
+        1
+      ],
+      [
+        "응봉",
+        1
+      ],
+      [
+        "한강 종주 자전거길 (서울 구간)",
+        1
+      ],
+      [
+        "한강 자전거길",
+        1
+      ],
+      [
+        "대한민국 국가지원지방도 제23호선",
+        1
+      ],
+      [
+        "대한민국 국도",
+        1
+      ],
+      [
+        "중랑천 자전거길",
+        1
+      ],
+      [
+        "성수",
+        1
+      ],
+      [
+        "수도권 전철 경의·중앙선",
+        1
+      ],
+      [
+        "경원본선",
+        1
+      ]
+    ],
+    "name:ko-Latn": [
+      [
+        "Hangang",
+        1
+      ],
+      [
+        "Daehan-minguk",
+        1
+      ],
+      [
+        "Seoul",
+        1
+      ],
+      [
+        "Dongbuganseondoro",
+        1
+      ],
+      [
+        "suinbundangseon",
+        1
+      ]
+    ],
+    "name:zh": [
+      [
+        "汉江",
+        1
+      ],
+      [
+        "韩国 / 南韓",
+        1
+      ],
+      [
+        "首尔地铁2号线 外圈",
+        1
+      ],
+      [
+        "江南區",
+        1
+      ],
+      [
+        "城東區",
+        1
+      ],
+      [
+        "淸潭洞",
+        1
+      ],
+      [
+        "松亭洞",
+        1
+      ],
+      [
+        "鷹峰洞",
+        1
+      ],
+      [
+        "聖水1街2洞",
+        1
+      ],
+      [
+        "聖水1街1洞",
+        1
+      ],
+      [
+        "聖水2街1洞",
+        1
+      ],
+      [
+        "聖水2街3洞",
+        1
+      ],
+      [
+        "首尔地铁2号线 内圈",
+        1
+      ],
+      [
+        "狎鷗亭洞",
+        1
+      ],
+      [
+        "首尔地铁2号线",
+        1
+      ],
+      [
+        "大韓民國國道",
+        1
+      ],
+      [
+        "中浪川自転車道路",
+        1
+      ],
+      [
+        "大韓民國地方道",
+        1
+      ],
+      [
+        "大韓民國國家支援地方道",
+        1
+      ],
+      [
+        "朝鲜",
+        1
+      ],
+      [
+        "首尔江南边境",
+        1
+      ],
+      [
+        "首尔 江南",
+        1
+      ],
+      [
+        "首尔 江北",
+        1
+      ],
+      [
+        "首都圈电铁",
+        1
+      ]
+    ],
+    "natural": [
+      [
+        "water",
+        2
+      ]
+    ],
+    "water": [
+      [
+        "river",
+        2
+      ]
+    ],
+    "wikipedia:en": [
+      [
+        "Han River (Korea)",
+        1
+      ]
+    ],
+    "wikipedia:ko": [
+      [
+        "한강",
+        1
+      ]
+    ],
+    "ISO3166-1": [
+      [
+        "KR",
+        1
+      ]
+    ],
+    "ISO3166-1:alpha2": [
+      [
+        "KR",
+        1
+      ]
+    ],
+    "ISO3166-1:alpha3": [
+      [
+        "KOR",
+        1
+      ]
+    ],
+    "ISO3166-1:numeric": [
+      [
+        "410",
+        1
+      ]
+    ],
+    "admin_level": [
+      [
+        "8",
+        8
+      ],
+      [
+        "6",
+        2
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "4",
+        1
+      ]
+    ],
+    "alt_name": [
+      [
+        "한국",
+        1
+      ],
+      [
+        "서울특별시도 제61호선",
+        1
+      ],
+      [
+        "서울특별시도 제30호선",
+        1
+      ],
+      [
+        "서울특별시도 제70호선",
+        1
+      ],
+      [
+        "강릉선 KTX",
+        1
+      ],
+      [
+        "한강 이남 서울",
+        1
+      ],
+      [
+        "한강 이북 서울",
+        1
+      ],
+      [
+        "수도권 광역전철;수도권 광역철도",
+        1
+      ]
+    ],
+    "alt_name:eo": [
+      [
+        "Sud-Koreujo;Sud-Koreo",
+        1
+      ]
+    ],
+    "alt_name:ko-KP": [
+      [
+        "남조선",
+        1
+      ]
+    ],
+    "alt_name:ko-KR": [
+      [
+        "한국",
+        1
+      ]
+    ],
+    "alt_name:nan": [
+      [
+        "Hân-kok",
+        1
+      ]
+    ],
+    "alt_name:ru": [
+      [
+        "Южная Корея",
+        1
+      ]
+    ],
+    "alt_name:vi": [
+      [
+        "Nam Hàn;Nam Triều Tiên;Đại Hàn",
+        1
+      ],
+      [
+        "Xơ-un",
+        1
+      ]
+    ],
+    "alt_name:zh-Hant": [
+      [
+        "韓國",
+        1
+      ]
+    ],
+    "boundary": [
+      [
+        "administrative",
+        12
+      ],
+      [
+        "region",
+        3
+      ],
+      [
+        "historic",
+        1
+      ]
+    ],
+    "capital_city": [
+      [
+        "서울",
+        1
+      ]
+    ],
+    "country_code_fips": [
+      [
+        "KR",
+        1
+      ]
+    ],
+    "default_language": [
+      [
+        "ko",
+        2
+      ]
+    ],
+    "driving_side": [
+      [
+        "right",
+        1
+      ]
+    ],
+    "flag": [
+      [
+        "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+        1
+      ]
+    ],
+    "geonames:id": [
+      [
+        "1835841",
+        1
+      ]
+    ],
+    "int_name": [
+      [
+        "대한민국",
+        1
+      ],
+      [
+        "Jungnangcheon Bicycle Path",
+        1
+      ],
+      [
+        "Korea",
+        1
+      ]
+    ],
+    "is_capital": [
+      [
+        "country",
+        1
+      ]
+    ],
+    "name:ab": [
+      [
+        "Аладатәи Кореиа",
+        1
+      ]
+    ],
+    "name:ace": [
+      [
+        "Korèa Seulatan",
+        1
+      ]
+    ],
+    "name:af": [
+      [
+        "Suid-Korea",
+        1
+      ],
+      [
+        "Seoel",
+        1
+      ]
+    ],
+    "name:ak": [
+      [
+        "Anaafo Koria",
+        1
+      ]
+    ],
+    "name:als": [
+      [
+        "Südkorea",
+        1
+      ]
+    ],
+    "name:am": [
+      [
+        "ደቡብ ኮርያ",
+        1
+      ],
+      [
+        "ሶል",
+        1
+      ]
+    ],
+    "name:an": [
+      [
+        "Corea d'o Sur",
+        1
+      ],
+      [
+        "Seúl",
+        1
+      ]
+    ],
+    "name:ang": [
+      [
+        "Sūþcorēa",
+        1
+      ]
+    ],
+    "name:ar": [
+      [
+        "كوريا الجنوبية",
+        1
+      ],
+      [
+        "سول",
+        1
+      ]
+    ],
+    "name:arz": [
+      [
+        "كوريا الجنوبيه",
+        1
+      ],
+      [
+        "سول",
+        1
+      ]
+    ],
+    "name:as": [
+      [
+        "দক্ষিণ কোৰিয়া",
+        1
+      ]
+    ],
+    "name:ast": [
+      [
+        "Corea del Sur",
+        1
+      ],
+      [
+        "Seúl",
+        1
+      ]
+    ],
+    "name:az": [
+      [
+        "Cənubi Koreya",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:ba": [
+      [
+        "Көньяҡ Корея",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:bar": [
+      [
+        "Südkorea",
+        1
+      ]
+    ],
+    "name:bat": [
+      [
+        "Pėitū Kuoriejė",
+        1
+      ]
+    ],
+    "name:bcl": [
+      [
+        "Sur nin Korea",
+        1
+      ]
+    ],
+    "name:be": [
+      [
+        "Паўднёвая Карэя",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:be-tarask": [
+      [
+        "Рэспубліка Карэя",
+        1
+      ],
+      [
+        "Сэул",
+        1
+      ]
+    ],
+    "name:bg": [
+      [
+        "Южна Корея",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:bi": [
+      [
+        "Saot Koria",
+        1
+      ]
+    ],
+    "name:bn": [
+      [
+        "দক্ষিণ কোরিয়া",
+        1
+      ],
+      [
+        "সিওল",
+        1
+      ]
+    ],
+    "name:bo": [
+      [
+        "ལྷོ་ཀོ་རི་ཡ།",
+        1
+      ],
+      [
+        "སེ་ཨུལ།",
+        1
+      ]
+    ],
+    "name:bpy": [
+      [
+        "খা কোরিয়া",
+        1
+      ]
+    ],
+    "name:br": [
+      [
+        "Korea ar Su",
+        1
+      ]
+    ],
+    "name:bs": [
+      [
+        "Južna Koreja",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:bug": [
+      [
+        "Korea Selatan",
+        1
+      ]
+    ],
+    "name:bxr": [
+      [
+        "Урда Солонгос",
+        1
+      ]
+    ],
+    "name:ca": [
+      [
+        "Corea del Sud",
+        1
+      ],
+      [
+        "Seül",
+        1
+      ],
+      [
+        "Corea",
+        1
+      ]
+    ],
+    "name:cdo": [
+      [
+        "Hàng-guók",
+        1
+      ],
+      [
+        "Siū-ék",
+        1
+      ]
+    ],
+    "name:ce": [
+      [
+        "Къилба Корей",
+        1
+      ]
+    ],
+    "name:ceb": [
+      [
+        "Habagatang Korea",
+        1
+      ]
+    ],
+    "name:chr": [
+      [
+        "ᎤᎦᎾᏭ ᎢᏗᎵ ᎪᎴᎠ",
+        1
+      ]
+    ],
+    "name:ckb": [
+      [
+        "کۆریای باشوور",
+        1
+      ],
+      [
+        "سۆل",
+        1
+      ]
+    ],
+    "name:crh": [
+      [
+        "Cenübiy Koreya",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:cs": [
+      [
+        "Jižní Korea",
+        1
+      ],
+      [
+        "Soul",
+        1
+      ]
+    ],
+    "name:csb": [
+      [
+        "Repùblika Kòreji",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:cy": [
+      [
+        "De Korea",
+        1
+      ],
+      [
+        "Seoul",
+        1
+      ],
+      [
+        "Korea",
+        1
+      ]
+    ],
+    "name:da": [
+      [
+        "Sydkorea",
+        1
+      ]
+    ],
+    "name:de": [
+      [
+        "Südkorea",
+        1
+      ],
+      [
+        "Seoul",
+        1
+      ],
+      [
+        "Korea",
+        1
+      ]
+    ],
+    "name:diq": [
+      [
+        "Korya Veroci",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:dsb": [
+      [
+        "Pódpołdnjowa Koreja",
+        1
+      ],
+      [
+        "Soul",
+        1
+      ]
+    ],
+    "name:dv": [
+      [
+        "ދެކުނު ކޮރެއާ",
+        1
+      ]
+    ],
+    "name:dz": [
+      [
+        "ལྷོ་ཀོ་རི་ཡ་",
+        1
+      ]
+    ],
+    "name:ee": [
+      [
+        "South Korea",
+        1
+      ]
+    ],
+    "name:el": [
+      [
+        "Νότια Κορέα",
+        1
+      ],
+      [
+        "Σεούλ",
+        1
+      ]
+    ],
+    "name:eo": [
+      [
+        "Sud-Koreio",
+        1
+      ],
+      [
+        "Seulo",
+        1
+      ],
+      [
+        "Koreio",
+        1
+      ]
+    ],
+    "name:et": [
+      [
+        "Lõuna-Korea",
+        1
+      ],
+      [
+        "Soul",
+        1
+      ]
+    ],
+    "name:eu": [
+      [
+        "Hego Korea",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:ext": [
+      [
+        "Corea del Sul",
+        1
+      ],
+      [
+        "Seúl",
+        1
+      ]
+    ],
+    "name:fa": [
+      [
+        "کره جنوبی",
+        1
+      ],
+      [
+        "سئول",
+        1
+      ]
+    ],
+    "name:fi": [
+      [
+        "Etelä-Korea",
+        1
+      ],
+      [
+        "Soul",
+        1
+      ]
+    ],
+    "name:fo": [
+      [
+        "Suðurkorea",
+        1
+      ]
+    ],
+    "name:fr": [
+      [
+        "Corée du Sud",
+        1
+      ],
+      [
+        "Séoul",
+        1
+      ]
+    ],
+    "name:frp": [
+      [
+        "Corê du Sud",
+        1
+      ]
+    ],
+    "name:fy": [
+      [
+        "Súd-Korea",
+        1
+      ]
+    ],
+    "name:ga": [
+      [
+        "An Chóiré Theas",
+        1
+      ]
+    ],
+    "name:gag": [
+      [
+        "Üülen Koreya",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:gan": [
+      [
+        "South Korea",
+        1
+      ],
+      [
+        "首爾",
+        1
+      ]
+    ],
+    "name:gd": [
+      [
+        "Coirea a Deas",
+        1
+      ]
+    ],
+    "name:gl": [
+      [
+        "Corea do Sur",
+        1
+      ],
+      [
+        "Seúl",
+        1
+      ]
+    ],
+    "name:gn": [
+      [
+        "Yvykorea",
+        1
+      ]
+    ],
+    "name:gu": [
+      [
+        "દક્ષિણ કોરિયા",
+        1
+      ]
+    ],
+    "name:gv": [
+      [
+        "Yn Chorea Yiass",
+        1
+      ]
+    ],
+    "name:hak": [
+      [
+        "Thai-hòn mìn-koet",
+        1
+      ]
+    ],
+    "name:haw": [
+      [
+        "Kōlea Hema",
+        1
+      ]
+    ],
+    "name:he": [
+      [
+        "קוריאה הדרומית",
+        1
+      ],
+      [
+        "סיאול",
+        1
+      ]
+    ],
+    "name:hi": [
+      [
+        "दक्षिण कोरिया",
+        1
+      ],
+      [
+        "सियोल",
+        1
+      ]
+    ],
+    "name:hif": [
+      [
+        "South Korea",
+        1
+      ]
+    ],
+    "name:hr": [
+      [
+        "Južna Koreja",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:hsb": [
+      [
+        "Južna Koreja",
+        1
+      ]
+    ],
+    "name:ht": [
+      [
+        "Kore disid",
+        1
+      ]
+    ],
+    "name:hu": [
+      [
+        "Dél-Korea",
+        1
+      ],
+      [
+        "Szöul",
+        1
+      ]
+    ],
+    "name:hy": [
+      [
+        "Հարավային Կորեա",
+        1
+      ],
+      [
+        "Սեուլ",
+        1
+      ]
+    ],
+    "name:ia": [
+      [
+        "Corea del Sud",
+        1
+      ]
+    ],
+    "name:id": [
+      [
+        "Korea Selatan",
+        1
+      ]
+    ],
+    "name:ie": [
+      [
+        "Sud-Korea",
+        1
+      ]
+    ],
+    "name:ilo": [
+      [
+        "Abagatan a Korea",
+        1
+      ]
+    ],
+    "name:io": [
+      [
+        "Sud-Korea",
+        1
+      ]
+    ],
+    "name:is": [
+      [
+        "Suður-Kórea",
+        1
+      ],
+      [
+        "Seúl",
+        1
+      ]
+    ],
+    "name:it": [
+      [
+        "Corea del Sud",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:jbo": [
+      [
+        "snanu zei .xanguk",
+        1
+      ],
+      [
+        ".sol.",
+        1
+      ]
+    ],
+    "name:jv": [
+      [
+        "Koréa Kidul",
+        1
+      ]
+    ],
+    "name:ka": [
+      [
+        "სამხრეთი კორეა",
+        1
+      ],
+      [
+        "სეული",
+        1
+      ]
+    ],
+    "name:kab": [
+      [
+        "Kurya n Wenẓul",
+        1
+      ]
+    ],
+    "name:kbd": [
+      [
+        "КӀэрей Республикэ",
+        1
+      ]
+    ],
+    "name:ki": [
+      [
+        "South Korea",
+        1
+      ]
+    ],
+    "name:kk": [
+      [
+        "Оңтүстік Корея",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:kl": [
+      [
+        "Korea Kujalleq",
+        1
+      ]
+    ],
+    "name:km": [
+      [
+        "កូរ៉េខាងត្បូង",
+        1
+      ],
+      [
+        "សេអ៊ូល",
+        1
+      ]
+    ],
+    "name:kn": [
+      [
+        "ದಕ್ಷಿಣ ಕೊರಿಯಾ",
+        1
+      ],
+      [
+        "ಸೌಲ್",
+        1
+      ]
+    ],
+    "name:ko-Hani": [
+      [
+        "大韓民國",
+        1
+      ],
+      [
+        "서울 地下鐵 2號線: 外線循環",
+        1
+      ],
+      [
+        "江南區",
+        1
+      ],
+      [
+        "城東區",
+        1
+      ],
+      [
+        "淸潭洞",
+        1
+      ],
+      [
+        "松亭洞",
+        1
+      ],
+      [
+        "鷹峰洞",
+        1
+      ],
+      [
+        "聖水1街2洞",
+        1
+      ],
+      [
+        "聖水1街1洞",
+        1
+      ],
+      [
+        "聖水2街1洞",
+        1
+      ],
+      [
+        "聖水2街3洞",
+        1
+      ],
+      [
+        "서울 地下鐵 2號線: 內線循環",
+        1
+      ],
+      [
+        "狎鷗亭洞",
+        1
+      ],
+      [
+        "서울 地下鐵 2號線",
+        1
+      ],
+      [
+        "大韓民國 國道",
+        1
+      ],
+      [
+        "京元本線",
+        1
+      ],
+      [
+        "盆唐線",
+        1
+      ],
+      [
+        "大韓民國 地方道",
+        1
+      ],
+      [
+        "서울 地下鐵 2號線 聖水支線",
+        1
+      ],
+      [
+        "大韓民國 國家支援地方道",
+        1
+      ],
+      [
+        "韓國/朝鮮",
+        1
+      ]
+    ],
+    "name:krc": [
+      [
+        "Корея Республика",
+        1
+      ]
+    ],
+    "name:ks": [
+      [
+        "दक्षिण कोरिया",
+        1
+      ]
+    ],
+    "name:ku": [
+      [
+        "Korêya Başûr",
+        1
+      ],
+      [
+        "Sêûl",
+        1
+      ]
+    ],
+    "name:kv": [
+      [
+        "Корея Республика",
+        1
+      ]
+    ],
+    "name:kw": [
+      [
+        "Korea Dhyhow",
+        1
+      ]
+    ],
+    "name:ky": [
+      [
+        "Корея Республикасы",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:la": [
+      [
+        "Corea Meridionalis",
+        1
+      ],
+      [
+        "Seulum",
+        1
+      ]
+    ],
+    "name:lad": [
+      [
+        "Korea del Sud",
+        1
+      ]
+    ],
+    "name:lb": [
+      [
+        "Südkorea",
+        1
+      ]
+    ],
+    "name:lez": [
+      [
+        "Республика Корея",
+        1
+      ]
+    ],
+    "name:li": [
+      [
+        "Zuud-Korea",
+        1
+      ]
+    ],
+    "name:lij": [
+      [
+        "Corea do Sud",
+        1
+      ]
+    ],
+    "name:lmo": [
+      [
+        "Curea del Süd",
+        1
+      ]
+    ],
+    "name:ln": [
+      [
+        "Kore ya Sidi",
+        1
+      ]
+    ],
+    "name:lo": [
+      [
+        "ປະເທດເກົາຫຼີໃຕ້",
+        1
+      ]
+    ],
+    "name:lt": [
+      [
+        "Pietų Korėja",
+        1
+      ],
+      [
+        "Seulas",
+        1
+      ]
+    ],
+    "name:lv": [
+      [
+        "Dienvidkoreja",
+        1
+      ],
+      [
+        "Seula",
+        1
+      ]
+    ],
+    "name:lzh": [
+      [
+        "大韓民國",
+        1
+      ],
+      [
+        "首爾",
+        1
+      ]
+    ],
+    "name:mg": [
+      [
+        "Korea Atsimo",
+        1
+      ]
+    ],
+    "name:mhr": [
+      [
+        "Кечывалвел Корей",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:mi": [
+      [
+        "Kōrea-ki-te-tonga",
+        1
+      ]
+    ],
+    "name:min": [
+      [
+        "Korea Salatan",
+        1
+      ]
+    ],
+    "name:mk": [
+      [
+        "Република Кореја",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:ml": [
+      [
+        "ദക്ഷിണ കൊറിയ",
+        1
+      ],
+      [
+        "സോൾ",
+        1
+      ]
+    ],
+    "name:mn": [
+      [
+        "Өмнөд Солонгос",
+        1
+      ],
+      [
+        "Сөүл",
+        1
+      ]
+    ],
+    "name:mr": [
+      [
+        "दक्षिण कोरिया",
+        1
+      ],
+      [
+        "सोल",
+        1
+      ]
+    ],
+    "name:ms": [
+      [
+        "Korea Selatan",
+        1
+      ]
+    ],
+    "name:mt": [
+      [
+        "Korea t'Isfel",
+        1
+      ]
+    ],
+    "name:my": [
+      [
+        "တောင်ကိုရီးယားနိုင်ငံ",
+        1
+      ],
+      [
+        "ဆိုးလ်မြို့",
+        1
+      ]
+    ],
+    "name:na": [
+      [
+        "Ripubrikin Korea",
+        1
+      ]
+    ],
+    "name:nah": [
+      [
+        "Corea Huitztlāmpa",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:nan": [
+      [
+        "Lâm-hân",
+        1
+      ],
+      [
+        "Seoul Te̍k-pia̍t-chhī",
+        1
+      ]
+    ],
+    "name:nap": [
+      [
+        "Corea d''o Sud",
+        1
+      ]
+    ],
+    "name:nds": [
+      [
+        "Süüdkorea",
+        1
+      ]
+    ],
+    "name:nds-nl": [
+      [
+        "Zuud-Korea",
+        1
+      ]
+    ],
+    "name:ne": [
+      [
+        "दक्षिण कोरिया",
+        1
+      ]
+    ],
+    "name:new": [
+      [
+        "दक्षिण कोरिया",
+        1
+      ]
+    ],
+    "name:nl": [
+      [
+        "Zuid-Korea",
+        1
+      ],
+      [
+        "Seoel",
+        1
+      ]
+    ],
+    "name:nn": [
+      [
+        "Sør-Korea",
+        1
+      ]
+    ],
+    "name:no": [
+      [
+        "Sør-Korea",
+        1
+      ]
+    ],
+    "name:nov": [
+      [
+        "Sud Korea",
+        1
+      ]
+    ],
+    "name:nrm": [
+      [
+        "Corée du Sud",
+        1
+      ]
+    ],
+    "name:nv": [
+      [
+        "Kolíya Bikéyah Shádiʼááhjí Siʼánígíí",
+        1
+      ]
+    ],
+    "name:oc": [
+      [
+        "Corèa del Sud",
+        1
+      ],
+      [
+        "Seol",
+        1
+      ]
+    ],
+    "name:or": [
+      [
+        "ଦକ୍ଷିଣ କୋରିଆ",
+        1
+      ]
+    ],
+    "name:os": [
+      [
+        "Хуссар Корей",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:pam": [
+      [
+        "Mauling Korea",
+        1
+      ]
+    ],
+    "name:pap": [
+      [
+        "Sur Korea",
+        1
+      ]
+    ],
+    "name:pih": [
+      [
+        "Sowth Koriya",
+        1
+      ]
+    ],
+    "name:pl": [
+      [
+        "Korea Południowa",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:pms": [
+      [
+        "Coréa dël Sud",
+        1
+      ]
+    ],
+    "name:pnb": [
+      [
+        "دکھنی کوریا",
+        1
+      ],
+      [
+        "سیول",
+        1
+      ]
+    ],
+    "name:ps": [
+      [
+        "سوېلي کوريا",
+        1
+      ]
+    ],
+    "name:pt": [
+      [
+        "Coreia do Sul",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:qu": [
+      [
+        "Urin Kuriya",
+        1
+      ],
+      [
+        "Siul",
+        1
+      ]
+    ],
+    "name:rm": [
+      [
+        "Corea dal sid",
+        1
+      ]
+    ],
+    "name:ro": [
+      [
+        "Coreea de Sud",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:roa-tara": [
+      [
+        "Coree d'u Sud",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:ru": [
+      [
+        "Республика Корея",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:rue": [
+      [
+        "Южна Корея",
+        1
+      ],
+      [
+        "Соул",
+        1
+      ]
+    ],
+    "name:rw": [
+      [
+        "Koreya y’Amajyepfo",
+        1
+      ]
+    ],
+    "name:sa": [
+      [
+        "दक्षिण कोरिया",
+        1
+      ]
+    ],
+    "name:sah": [
+      [
+        "Соҕуруу Кэриэйэ",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:sc": [
+      [
+        "Corea de su Sud",
+        1
+      ]
+    ],
+    "name:scn": [
+      [
+        "Corea dû Sud",
+        1
+      ]
+    ],
+    "name:sco": [
+      [
+        "Sooth Korea",
+        1
+      ]
+    ],
+    "name:se": [
+      [
+        "Lulli-Korea",
+        1
+      ]
+    ],
+    "name:sg": [
+      [
+        "Korëe tî Mbongo",
+        1
+      ]
+    ],
+    "name:sh": [
+      [
+        "Južna Koreja",
+        1
+      ]
+    ],
+    "name:si": [
+      [
+        "දකුණු කොරියාව",
+        1
+      ]
+    ],
+    "name:sk": [
+      [
+        "Južná Kórea",
+        1
+      ],
+      [
+        "Soul",
+        1
+      ]
+    ],
+    "name:sl": [
+      [
+        "Južna Koreja",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:sm": [
+      [
+        "Kolea i Saute",
+        1
+      ]
+    ],
+    "name:smn": [
+      [
+        "Maadâ-Korea",
+        1
+      ]
+    ],
+    "name:sms": [
+      [
+        "Saujj-Korea",
+        1
+      ]
+    ],
+    "name:sn": [
+      [
+        "Korea, South",
+        1
+      ]
+    ],
+    "name:so": [
+      [
+        "Koonfur Kuuriya",
+        1
+      ]
+    ],
+    "name:sq": [
+      [
+        "Koreja e Jugut",
+        1
+      ]
+    ],
+    "name:sr": [
+      [
+        "Јужна Кореја",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:ss": [
+      [
+        "IKhoriya leseNingizimu",
+        1
+      ]
+    ],
+    "name:su": [
+      [
+        "Koréa Kidul",
+        1
+      ]
+    ],
+    "name:sv": [
+      [
+        "Sydkorea",
+        1
+      ],
+      [
+        "Seoul",
+        1
+      ]
+    ],
+    "name:sw": [
+      [
+        "Korea Kusini",
+        1
+      ]
+    ],
+    "name:szl": [
+      [
+        "Połedniowŏ Koryjŏ",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:ta": [
+      [
+        "தென்கொரியா",
+        1
+      ],
+      [
+        "சியோல்",
+        1
+      ]
+    ],
+    "name:te": [
+      [
+        "దక్షిణ కొరియా",
+        1
+      ]
+    ],
+    "name:tet": [
+      [
+        "Koreia Súl",
+        1
+      ]
+    ],
+    "name:th": [
+      [
+        "ประเทศเกาหลีใต้",
+        1
+      ],
+      [
+        "โซล",
+        1
+      ]
+    ],
+    "name:tk": [
+      [
+        "Günorta Koreýa",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:tl": [
+      [
+        "Timog Korea",
+        1
+      ]
+    ],
+    "name:tpi": [
+      [
+        "Saut Koria",
+        1
+      ],
+      [
+        "Sol",
+        1
+      ]
+    ],
+    "name:tr": [
+      [
+        "Güney Kore",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:tt": [
+      [
+        "Көньяк Корея",
+        1
+      ]
+    ],
+    "name:udm": [
+      [
+        "Республика Корея",
+        1
+      ]
+    ],
+    "name:ug": [
+      [
+        "جەنۇبىي چاۋشيەن",
+        1
+      ]
+    ],
+    "name:uk": [
+      [
+        "Південна Корея",
+        1
+      ],
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:ur": [
+      [
+        "جنوبی کوریا",
+        1
+      ],
+      [
+        "سؤل",
+        1
+      ]
+    ],
+    "name:uz": [
+      [
+        "Janubiy Koreya",
+        1
+      ],
+      [
+        "Seul",
+        1
+      ]
+    ],
+    "name:vec": [
+      [
+        "Corea del Sud",
+        1
+      ]
+    ],
+    "name:vi": [
+      [
+        "Hàn Quốc",
+        1
+      ],
+      [
+        "Seoul",
+        1
+      ],
+      [
+        "Triều Tiên",
+        1
+      ]
+    ],
+    "name:vo": [
+      [
+        "Sulüda-Koreyän",
+        1
+      ],
+      [
+        "Söul",
+        1
+      ]
+    ],
+    "name:vro": [
+      [
+        "Lõunõ-Korea",
+        1
+      ],
+      [
+        "Sŏul",
+        1
+      ]
+    ],
+    "name:war": [
+      [
+        "Salatan nga Korea",
+        1
+      ]
+    ],
+    "name:wo": [
+      [
+        "Kore gu Bëj-saalum",
+        1
+      ]
+    ],
+    "name:wuu": [
+      [
+        "大韩民国",
+        1
+      ],
+      [
+        "首尔",
+        1
+      ]
+    ],
+    "name:xmf": [
+      [
+        "ობჟათე კორეა",
+        1
+      ]
+    ],
+    "name:yi": [
+      [
+        "דרום קארעע",
+        1
+      ],
+      [
+        "סעאל",
+        1
+      ]
+    ],
+    "name:yo": [
+      [
+        "Kòréà Gúúsù",
+        1
+      ]
+    ],
+    "name:yue": [
+      [
+        "南韓",
+        1
+      ],
+      [
+        "首爾",
+        1
+      ]
+    ],
+    "name:za": [
+      [
+        "Hanzgoz",
+        1
+      ]
+    ],
+    "name:zh-Hans": [
+      [
+        "韩国",
+        1
+      ],
+      [
+        "首尔特别市",
+        1
+      ],
+      [
+        "首尔地铁2号线 外圈",
+        1
+      ],
+      [
+        "江南区",
+        1
+      ],
+      [
+        "城东区",
+        1
+      ],
+      [
+        "鹰峰洞",
+        1
+      ],
+      [
+        "圣水1街2洞",
+        1
+      ],
+      [
+        "圣水1街1洞",
+        1
+      ],
+      [
+        "圣水2街1洞",
+        1
+      ],
+      [
+        "圣水2街3洞",
+        1
+      ],
+      [
+        "首尔地铁2号线 内圈",
+        1
+      ],
+      [
+        "狎鸥亭洞",
+        1
+      ],
+      [
+        "首尔地铁2号线",
+        1
+      ],
+      [
+        "大韩民国国道",
+        1
+      ],
+      [
+        "大韩民国地方道",
+        1
+      ],
+      [
+        "大韩民国国家支援地方道",
+        1
+      ],
+      [
+        "韩国/朝鲜",
+        1
+      ]
+    ],
+    "name:zh-Hant": [
+      [
+        "南韓",
+        1
+      ],
+      [
+        "首爾特別市",
+        1
+      ],
+      [
+        "首爾地鐵2號綫 外圈",
+        1
+      ],
+      [
+        "江南區",
+        1
+      ],
+      [
+        "城東區",
+        1
+      ],
+      [
+        "淸潭洞",
+        1
+      ],
+      [
+        "松亭洞",
+        1
+      ],
+      [
+        "鷹峰洞",
+        1
+      ],
+      [
+        "聖水1街2洞",
+        1
+      ],
+      [
+        "聖水1街1洞",
+        1
+      ],
+      [
+        "聖水2街1洞",
+        1
+      ],
+      [
+        "聖水2街3洞",
+        1
+      ],
+      [
+        "首爾地鐵2號綫 内圈",
+        1
+      ],
+      [
+        "狎鷗亭洞",
+        1
+      ],
+      [
+        "首爾地鐵2號綫",
+        1
+      ],
+      [
+        "大韓民國國道",
+        1
+      ],
+      [
+        "大韓民國地方道",
+        1
+      ],
+      [
+        "大韓民國國家支援地方道",
+        1
+      ],
+      [
+        "韓國/朝鮮",
+        1
+      ]
+    ],
+    "name:zh-Hant-CN": [
+      [
+        "韓國",
+        1
+      ]
+    ],
+    "name:zh-Latn-pinyin": [
+      [
+        "Hánguó",
+        1
+      ]
+    ],
+    "official_name": [
+      [
+        "대한민국",
+        1
+      ],
+      [
+        "서울특별시",
+        1
+      ]
+    ],
+    "official_name:ab": [
+      [
+        "Кореиа Ареспублика",
+        1
+      ]
+    ],
+    "official_name:af": [
+      [
+        "Republiek van Korea",
+        1
+      ]
+    ],
+    "official_name:ar": [
+      [
+        "جمهورية كوريا",
+        1
+      ],
+      [
+        "مدينة سول الخاصة",
+        1
+      ]
+    ],
+    "official_name:bat-smg": [
+      [
+        "Kuorėjės Respoblėka",
+        1
+      ]
+    ],
+    "official_name:be": [
+      [
+        "Рэспубліка Карэя",
+        1
+      ]
+    ],
+    "official_name:bg": [
+      [
+        "Република Корея",
+        1
+      ]
+    ],
+    "official_name:br": [
+      [
+        "Republik Korea",
+        1
+      ]
+    ],
+    "official_name:ca": [
+      [
+        "República de Corea",
+        1
+      ]
+    ],
+    "official_name:cdo": [
+      [
+        "Dâi-hàng Mìng-guók",
+        1
+      ]
+    ],
+    "official_name:cy": [
+      [
+        "Gweriniaeth Korea",
+        1
+      ]
+    ],
+    "official_name:el": [
+      [
+        "Δημοκρατία της Κορέας",
+        1
+      ]
+    ],
+    "official_name:en": [
+      [
+        "Republic of Korea",
+        1
+      ],
+      [
+        "Seoul Special City",
+        1
+      ]
+    ],
+    "official_name:eo": [
+      [
+        "Korea Respubliko",
+        1
+      ]
+    ],
+    "official_name:et": [
+      [
+        "Korea Vabariik",
+        1
+      ]
+    ],
+    "official_name:fa": [
+      [
+        "جمهوری کره",
+        1
+      ]
+    ],
+    "official_name:fi": [
+      [
+        "Korean tasavalta",
+        1
+      ]
+    ],
+    "official_name:fr": [
+      [
+        "République de Corée",
+        1
+      ]
+    ],
+    "official_name:hu": [
+      [
+        "Koreai Köztársaság",
+        1
+      ]
+    ],
+    "official_name:id": [
+      [
+        "Republik Korea",
+        1
+      ]
+    ],
+    "official_name:it": [
+      [
+        "Repubblica di Corea",
+        1
+      ]
+    ],
+    "official_name:ku": [
+      [
+        "Komara Korêyê",
+        1
+      ]
+    ],
+    "official_name:la": [
+      [
+        "Respublica Coreana",
+        1
+      ]
+    ],
+    "official_name:lb": [
+      [
+        "Republik Korea",
+        1
+      ]
+    ],
+    "official_name:lt": [
+      [
+        "Korėjos Respublika",
+        1
+      ]
+    ],
+    "official_name:lv": [
+      [
+        "Korejas Republika",
+        1
+      ]
+    ],
+    "official_name:mi": [
+      [
+        "Repupirita o Kōrea",
+        1
+      ]
+    ],
+    "official_name:mn": [
+      [
+        "Бүгд Найрамдах Солонгос Улс",
+        1
+      ]
+    ],
+    "official_name:nan": [
+      [
+        "Tāi-hân Bîn-kok",
+        1
+      ]
+    ],
+    "official_name:os": [
+      [
+        "Республикæ Корей",
+        1
+      ]
+    ],
+    "official_name:pl": [
+      [
+        "Republika Korei",
+        1
+      ]
+    ],
+    "official_name:pt": [
+      [
+        "República da Coreia",
+        1
+      ]
+    ],
+    "official_name:ru": [
+      [
+        "Республика Корея",
+        1
+      ]
+    ],
+    "official_name:sk": [
+      [
+        "Kórejská republika",
+        1
+      ]
+    ],
+    "official_name:sv": [
+      [
+        "Republiken Korea",
+        1
+      ]
+    ],
+    "official_name:ur": [
+      [
+        "جمہوریہ کوریا",
+        1
+      ]
+    ],
+    "official_name:uz": [
+      [
+        "Koreya Respublikasi",
+        1
+      ]
+    ],
+    "official_name:vi": [
+      [
+        "Đại Hàn Dân Quốc",
+        1
+      ]
+    ],
+    "official_name:yue": [
+      [
+        "大韓民國",
+        1
+      ]
+    ],
+    "official_name:zh": [
+      [
+        "大韩民国 / 大韓民國",
+        1
+      ],
+      [
+        "首尔特别市",
+        1
+      ]
+    ],
+    "official_name:zh-Hans": [
+      [
+        "大韩民国",
+        1
+      ]
+    ],
+    "official_name:zh-Hant": [
+      [
+        "大韓民國",
+        1
+      ],
+      [
+        "首爾特別市",
+        1
+      ]
+    ],
+    "timezone": [
+      [
+        "Asia/Seoul",
+        1
+      ]
+    ],
+    "wikidata": [
+      [
+        "Q84389881",
+        16
+      ],
+      [
+        "Q17501",
+        5
+      ],
+      [
+        "Q18233162",
+        3
+      ],
+      [
+        "Q492626",
+        2
+      ],
+      [
+        "Q884",
+        1
+      ],
+      [
+        "Q8684",
+        1
+      ],
+      [
+        "Q20398",
+        1
+      ],
+      [
+        "Q50411",
+        1
+      ],
+      [
+        "Q27336657",
+        1
+      ],
+      [
+        "Q27336663",
+        1
+      ],
+      [
+        "Q12585618",
+        1
+      ],
+      [
+        "Q483052",
+        1
+      ],
+      [
+        "Q12593392",
+        1
+      ],
+      [
+        "Q10856106",
+        1
+      ],
+      [
+        "Q27146695",
+        1
+      ],
+      [
+        "Q10855121",
+        1
+      ],
+      [
+        "Q167674",
+        1
+      ],
+      [
+        "Q18097",
+        1
+      ],
+      [
+        "Q16950",
+        1
+      ],
+      [
+        "Q6312978",
+        1
+      ],
+      [
+        "Q483014",
+        1
+      ],
+      [
+        "Q3724007",
+        1
+      ]
+    ],
+    "wikipedia": [
+      [
+        "en:Suin-Bundang Line",
+        12
+      ],
+      [
+        "en:Suin–Bundang Line",
+        4
+      ],
+      [
+        "en:ITX-Cheongchun",
+        2
+      ],
+      [
+        "ko:대한민국",
+        1
+      ],
+      [
+        "en:Seoul",
+        1
+      ],
+      [
+        "ko:강남구",
+        1
+      ],
+      [
+        "ko:성동구",
+        1
+      ],
+      [
+        "ko:청담동",
+        1
+      ],
+      [
+        "ko:송정동 (서울)",
+        1
+      ],
+      [
+        "ko:응봉동",
+        1
+      ],
+      [
+        "ko:압구정동",
+        1
+      ],
+      [
+        "en:Seoul Subway Line 2",
+        1
+      ],
+      [
+        "ko:국가지원지방도 제23호선",
+        1
+      ],
+      [
+        "ko:중랑천자전거길",
+        1
+      ],
+      [
+        "en:Gyeongui–Jungang Line",
+        1
+      ],
+      [
+        "en:Gyeongwon Line",
+        1
+      ],
+      [
+        "ko:국도 제46호선",
+        1
+      ],
+      [
+        "ko:동부간선도로",
+        1
+      ],
+      [
+        "ko:내부순환로",
+        1
+      ],
+      [
+        "ko:서울특별시도",
+        1
+      ],
+      [
+        "ko:강변북로",
+        1
+      ],
+      [
+        "ko:한국고속철도",
+        1
+      ],
+      [
+        "en:Korea",
+        1
+      ],
+      [
+        "ko:수도권 전철",
+        1
+      ],
+      [
+        "ko:중랑천",
+        1
+      ],
+      [
+        "en:Seoul Forest",
+        1
+      ],
+      [
+        "ko:서울특별시의 시내버스",
+        1
+      ]
+    ],
+    "ISO3166-2": [
+      [
+        "KR-11",
+        1
+      ]
+    ],
+    "alt_name:ar": [
+      [
+        "سيول;سيئول",
+        1
+      ]
+    ],
+    "alt_name:ur": [
+      [
+        "سیول",
+        1
+      ]
+    ],
+    "from": [
+      [
+        "왕십리",
+        4
+      ],
+      [
+        "청량리",
+        3
+      ],
+      [
+        "수원",
+        2
+      ],
+      [
+        "죽전",
+        2
+      ],
+      [
+        "인천",
+        2
+      ],
+      [
+        "SEOUL",
+        1
+      ],
+      [
+        "고색",
+        1
+      ],
+      [
+        "신설동",
+        1
+      ],
+      [
+        "성수",
+        1
+      ],
+      [
+        "용문",
+        1
+      ],
+      [
+        "문산",
+        1
+      ],
+      [
+        "양천공영차고지",
+        1
+      ],
+      [
+        "중화중학교.면목고등학교",
+        1
+      ],
+      [
+        "아라한강갑문",
+        1
+      ],
+      [
+        "왕십리역",
+        1
+      ],
+      [
+        "복정교차로",
+        1
+      ],
+      [
+        "성산대교 북단",
+        1
+      ],
+      [
+        "서울특별시 마포구 상암동 가양대교",
+        1
+      ],
+      [
+        "서울역",
+        1
+      ],
+      [
+        "용산",
+        1
+      ],
+      [
+        "춘천",
+        1
+      ]
+    ],
+    "name:bat-smg": [
+      [
+        "Seuls",
+        1
+      ]
+    ],
+    "name:bh": [
+      [
+        "सियोल",
+        1
+      ]
+    ],
+    "name:bjn": [
+      [
+        "Soul",
+        1
+      ]
+    ],
+    "name:cv": [
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "name:ko-Kana": [
+      [
+        "ソウルトゥクビョルシ",
+        1
+      ]
+    ],
+    "name:tg": [
+      [
+        "Сеул",
+        1
+      ]
+    ],
+    "network:wikidata": [
+      [
+        "Q16950",
+        24
+      ],
+      [
+        "Q167674",
+        3
+      ],
+      [
+        "Q18169",
+        2
+      ],
+      [
+        "Q3724007",
+        1
+      ]
+    ],
+    "official_name:ko": [
+      [
+        "서울특별시",
+        1
+      ]
+    ],
+    "official_name:ko-Kore": [
+      [
+        "서울特別市",
+        1
+      ]
+    ],
+    "official_name:ko-Latn": [
+      [
+        "Seoul-teukbyeolsi",
+        1
+      ]
+    ],
+    "old_name:vi": [
+      [
+        "Thủ Nhĩ",
+        1
+      ]
+    ],
+    "old_name:zh": [
+      [
+        "汉城 / 漢城",
+        1
+      ]
+    ],
+    "old_name:zh-Hans": [
+      [
+        "汉城",
+        1
+      ]
+    ],
+    "old_name:zh-Hant": [
+      [
+        "漢城",
+        1
+      ]
+    ],
+    "place": [
+      [
+        "city",
+        1
+      ]
+    ],
+    "population": [
+      [
+        "9509458",
+        1
+      ]
+    ],
+    "ref": [
+      [
+        "318",
+        7
+      ],
+      [
+        "2",
+        6
+      ],
+      [
+        "272",
+        6
+      ],
+      [
+        "G·J",
+        3
+      ],
+      [
+        "성동10",
+        3
+      ],
+      [
+        "성동13",
+        3
+      ],
+      [
+        "N62",
+        3
+      ],
+      [
+        "23",
+        2
+      ],
+      [
+        "성동02",
+        2
+      ],
+      [
+        "01",
+        1
+      ],
+      [
+        "04",
+        1
+      ],
+      [
+        "141",
+        1
+      ],
+      [
+        "145",
+        1
+      ],
+      [
+        "148",
+        1
+      ],
+      [
+        "463",
+        1
+      ],
+      [
+        "302",
+        1
+      ],
+      [
+        "121",
+        1
+      ],
+      [
+        "305",
+        1
+      ],
+      [
+        "46",
+        1
+      ],
+      [
+        "61",
+        1
+      ],
+      [
+        "30",
+        1
+      ],
+      [
+        "70",
+        1
+      ],
+      [
+        "51",
+        1
+      ]
+    ],
+    "short_name": [
+      [
+        "서울",
+        1
+      ],
+      [
+        "KTX",
+        1
+      ]
+    ],
+    "short_name:ko": [
+      [
+        "서울",
+        1
+      ]
+    ],
+    "short_name:zh": [
+      [
+        "首尔",
+        1
+      ]
+    ],
+    "colour": [
+      [
+        "#F5A200",
+        15
+      ],
+      [
+        "#33A23D",
+        5
+      ],
+      [
+        "#73C7A6",
+        3
+      ],
+      [
+        "#3d5bab",
+        3
+      ],
+      [
+        "#37b366",
+        3
+      ]
+    ],
+    "network": [
+      [
+        "수도권 전철",
+        23
+      ],
+      [
+        "KR:11",
+        5
+      ],
+      [
+        "서울특별시 시내버스",
+        4
+      ],
+      [
+        "rcn",
+        2
+      ],
+      [
+        "KTX",
+        2
+      ],
+      [
+        "코레일",
+        2
+      ],
+      [
+        "ncn",
+        1
+      ],
+      [
+        "KR:local",
+        1
+      ],
+      [
+        "KR:national",
+        1
+      ],
+      [
+        "서울 지하철",
+        1
+      ],
+      [
+        "수도권 광역전철",
+        1
+      ]
+    ],
+    "network:en": [
+      [
+        "Seoul Metropolitan Subway",
+        23
+      ],
+      [
+        "Korail",
+        2
+      ]
+    ],
+    "network:ko": [
+      [
+        "수도권 전철",
+        23
+      ],
+      [
+        "코레일",
+        2
+      ]
+    ],
+    "network:metro": [
+      [
+        "Seoul Metropolitan Subway",
+        6
+      ]
+    ],
+    "network:wikipedia": [
+      [
+        "ko:수도권 전철",
+        24
+      ],
+      [
+        "ko:서울특별시의 시내버스",
+        1
+      ]
+    ],
+    "network:zh": [
+      [
+        "韓國首都圈電鐵",
+        10
+      ]
+    ],
+    "operator": [
+      [
+        "한국철도공사",
+        27
+      ],
+      [
+        "서울교통공사",
+        6
+      ],
+      [
+        "화송옥수운수",
+        3
+      ],
+      [
+        "(주)성수여객",
+        3
+      ],
+      [
+        "응봉운수",
+        2
+      ],
+      [
+        "서울시설공단",
+        2
+      ],
+      [
+        "도원교통",
+        1
+      ],
+      [
+        "경성여객",
+        1
+      ],
+      [
+        "도원교통;경성여객",
+        1
+      ],
+      [
+        "한국철도공사;주식회사 SR",
+        1
+      ],
+      [
+        "한국철도공사;주식회사SR;서울교통공사",
+        1
+      ],
+      [
+        "한국철도공사;서울교통공사;인천교통공사",
+        1
+      ],
+      [
+        "서울특별시",
+        1
+      ]
+    ],
+    "operator:en": [
+      [
+        "Korea Railroad Corporation",
+        14
+      ],
+      [
+        "Seoul Metro",
+        5
+      ],
+      [
+        "Korail",
+        4
+      ],
+      [
+        "Korea Railroad",
+        3
+      ],
+      [
+        "한국철도공사",
+        1
+      ]
+    ],
+    "public_transport:version": [
+      [
+        "2",
+        28
+      ]
+    ],
+    "roundtrip": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "from:en": [
+      [
+        "Wangsimni",
+        2
+      ],
+      [
+        "Gosaek",
+        1
+      ],
+      [
+        "Suwon",
+        1
+      ]
+    ],
+    "ref:en": [
+      [
+        "Suin-Bundang",
+        3
+      ],
+      [
+        "Gyeongui–Jungang",
+        3
+      ],
+      [
+        "Bundang",
+        1
+      ]
+    ],
+    "to": [
+      [
+        "왕십리",
+        4
+      ],
+      [
+        "고색",
+        3
+      ],
+      [
+        "청량리",
+        3
+      ],
+      [
+        "죽전",
+        2
+      ],
+      [
+        "인천",
+        2
+      ],
+      [
+        "성수",
+        1
+      ],
+      [
+        "신설동",
+        1
+      ],
+      [
+        "문산",
+        1
+      ],
+      [
+        "용문",
+        1
+      ],
+      [
+        "중화중학교.면목고등학교",
+        1
+      ],
+      [
+        "양천공영차고지",
+        1
+      ],
+      [
+        "팔당대교",
+        1
+      ],
+      [
+        "수원역",
+        1
+      ],
+      [
+        "장암동",
+        1
+      ],
+      [
+        "성동JC",
+        1
+      ],
+      [
+        "구리시계",
+        1
+      ],
+      [
+        "강릉역",
+        1
+      ],
+      [
+        "춘천",
+        1
+      ],
+      [
+        "용산",
+        1
+      ]
+    ],
+    "to:en": [
+      [
+        "Wangsimni",
+        2
+      ],
+      [
+        "Gosaek",
+        2
+      ]
+    ],
+    "note": [
+      [
+        "행정동",
+        6
+      ],
+      [
+        "법정동",
+        1
+      ]
+    ],
+    "official_ref": [
+      [
+        "2호선",
+        3
+      ],
+      [
+        "경의중앙선",
+        3
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "C3",
+        1
+      ],
+      [
+        "4",
+        1
+      ]
+    ],
+    "ref:ko": [
+      [
+        "경의중앙선",
+        3
+      ]
+    ],
+    "route_master": [
+      [
+        "bus",
+        4
+      ],
+      [
+        "subway",
+        3
+      ],
+      [
+        "railway",
+        3
+      ],
+      [
+        "road",
+        2
+      ],
+      [
+        "tram",
+        1
+      ],
+      [
+        "net",
+        1
+      ]
+    ],
+    "public_transport": [
+      [
+        "stop_area",
+        4
+      ]
+    ],
+    "network:type": [
+      [
+        "Local",
+        1
+      ]
+    ],
+    "description": [
+      [
+        "인프라로서 철도 노선을 의미하는 루트입니다. 서비스 노선인 수도권 전철을 의미하는 것이 아닙니다. This route is for railway infra information, not service line of seoul metropolitan subway system.",
+        1
+      ],
+      [
+        "전철 노선이 아님 철도 인프라 루트임",
+        1
+      ],
+      [
+        "전철 서비스 노선 루트가 아니라, 철도 인프라 루트입니다.",
+        1
+      ],
+      [
+        "대한민국의 모든 철도 노선 모음",
+        1
+      ],
+      [
+        "운행계통 모음",
+        1
+      ],
+      [
+        "전철 노선",
+        1
+      ]
+    ],
+    "not:operator:wikidata": [
+      [
+        "Q624022",
+        4
+      ]
+    ],
+    "operator:ko": [
+      [
+        "한국철도공사",
+        7
+      ]
+    ],
+    "operator:wikidata": [
+      [
+        "Q18169",
+        4
+      ]
+    ],
+    "operator:wikipedia": [
+      [
+        "ko:한국철도공사",
+        1
+      ]
+    ],
+    "owner": [
+      [
+        "대한민국정부",
+        2
+      ],
+      [
+        "대한민국 정부",
+        1
+      ]
+    ],
+    "usage": [
+      [
+        "main",
+        2
+      ]
+    ],
+    "restriction": [
+      [
+        "no_left_turn",
+        6
+      ],
+      [
+        "no_right_turn",
+        4
+      ],
+      [
+        "only_left_turn",
+        1
+      ],
+      [
+        "no_straight_on",
+        1
+      ]
+    ],
+    "alt_name:ko": [
+      [
+        "서울특별시도 제61호선",
+        1
+      ]
+    ],
+    "distance": [
+      [
+        "32.53",
+        1
+      ],
+      [
+        "40.1",
+        1
+      ],
+      [
+        "5.4km",
+        1
+      ],
+      [
+        "108.1 km",
+        1
+      ],
+      [
+        "108.1km",
+        1
+      ]
+    ],
+    "start_date": [
+      [
+        "2003",
+        2
+      ],
+      [
+        "1992/1994",
+        1
+      ],
+      [
+        "1980-10-31",
+        1
+      ],
+      [
+        "2004-04-01",
+        1
+      ],
+      [
+        "1994-09-01",
+        1
+      ],
+      [
+        "1990",
+        1
+      ]
+    ],
+    "service": [
+      [
+        "high_speed",
+        1
+      ]
+    ],
+    "highspeed": [
+      [
+        "yes",
+        2
+      ]
+    ],
+    "not:network:wikidata": [
+      [
+        "Q167674",
+        2
+      ]
+    ],
+    "leisure": [
+      [
+        "track",
+        1
+      ],
+      [
+        "park",
+        1
+      ]
+    ],
+    "sport": [
+      [
+        "running",
+        1
+      ]
+    ],
+    "intermittent": [
+      [
+        "no",
+        1
+      ]
+    ],
+    "salt": [
+      [
+        "no",
+        1
+      ]
+    ],
+    "tidal": [
+      [
+        "no",
+        1
+      ]
+    ],
+    "building": [
+      [
+        "apartments",
+        3
+      ]
+    ],
+    "building:flats": [
+      [
+        "96",
+        1
+      ]
+    ],
+    "building:levels": [
+      [
+        "25",
+        2
+      ],
+      [
+        "12",
+        1
+      ]
+    ]
+  }
+}

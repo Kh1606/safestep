@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>MASIL MVP - 4km² Routing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <style>
+    html, body, #map { height: 100%; margin: 0; }
+    .panel {
+      position: absolute; top: 10px; left: 10px; z-index: 9999;
+      background: rgba(10,10,10,0.85); color: white; padding: 12px;
+      border-radius: 14px; font-family: system-ui, Arial; font-size: 14px;
+      width: 320px;
+    }
+    .row { display:flex; gap:8px; align-items:center; margin-top:8px; }
+    button {
+      padding: 8px 10px; border-radius: 10px; border: 0;
+      background: #2a2a2a; color: white; cursor: pointer;
+    }
+    button:hover { background:#3a3a3a; }
+    .small { opacity:0.9; font-size:12px; }
+    .routes { max-height: 160px; overflow:auto; margin-top:8px; border-top:1px solid rgba(255,255,255,0.15); padding-top:8px;}
+    .route-item { display:flex; justify-content:space-between; gap:8px; padding:6px 0; border-bottom:1px solid rgba(255,255,255,0.08);}
+    .pill { font-size:12px; opacity:0.9; }
+    code { color:#ffd; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <div class="panel">
+    <div><b>MASIL MVP</b> (4km² locked)</div>
+    <div class="small">Click map: set <b>Start</b>, then <b>End</b>. After route draws, you can keep clicking new End points.</div>
+
+    <div class="row">
+      <button id="modeStart">Set Start</button>
+      <button id="modeEnd">Set End</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div class="row small">
+      <label><input type="checkbox" id="chain" checked> Auto-chain (next Start = previous End)</label>
+    </div>
+
+    <div class="small" style="margin-top:8px;">
+      Start: <code id="s">-</code><br/>
+      End: <code id="e">-</code>
+    </div>
+
+    <div class="routes">
+      <div class="small"><b>Routes history</b></div>
+      <div id="routeList"></div>
+      <div class="row">
+        <button id="clearRoutes">Clear routes</button>
+      </div>
+    </div>
+
+    <div class="small">API: <code id="api">http://localhost:9000</code></div>
+  </div>
+
+  <script>
+    // bbox
+    const minLat = 37.5337808883, minLon = 127.0338335438;
+    const maxLat = 37.5517471117, maxLon = 127.0564924562;
+    const bbox = L.latLngBounds([[minLat, minLon],[maxLat, maxLon]]);
+    const center = [(minLat + maxLat)/2, (minLon + maxLon)/2];
+
+    const map = L.map('map', { maxBounds: bbox, maxBoundsViscosity: 1.0 }).setView(center, 15);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+    map.fitBounds(bbox);
+
+    // API
+    const API_BASE = "http://localhost:9000";
+    document.getElementById("api").textContent = API_BASE;
+
+    // UI state
+    let clickMode = "start"; // "start" or "end"
+    let startMarker = null, endMarker = null;
+    const routesGroup = L.layerGroup().addTo(map);
+    let routeItems = []; // {layer, geojson, label}
+
+    function setText(id, v){ document.getElementById(id).textContent = v; }
+    function fmtLL(ll){ return `${ll.lat.toFixed(6)}, ${ll.lng.toFixed(6)}`; }
+
+    document.getElementById("modeStart").onclick = () => clickMode = "start";
+    document.getElementById("modeEnd").onclick = () => clickMode = "end";
+
+    // Load overlays (served from same frontend folder)
+    let roadsLayer = null;
+    let cornersLayer = null;
+
+    async function loadOverlay(url, kind){
+      const res = await fetch(url);
+      const data = await res.json();
+      if (kind === "roads") {
+        roadsLayer = L.geoJSON(data, { weight: 2, opacity: 0.75 });
+      } else {
+        cornersLayer = L.geoJSON(data, {
+          pointToLayer: (f, latlng) => L.circleMarker(latlng, { radius: 3 })
+        });
+      }
+    }
+
+    Promise.all([
+      loadOverlay("./roads.geojson", "roads"),
+      loadOverlay("./corners.geojson", "corners")
+    ]).then(() => {
+      const overlays = {
+        "OSM Roads (local PBF)": roadsLayer,
+        "Corners / Intersections": cornersLayer,
+        "Routes": routesGroup
+      };
+      // show roads by default
+      roadsLayer.addTo(map);
+      L.control.layers(null, overlays).addTo(map);
+    }).catch(err => {
+      console.log("Overlay load failed:", err);
+      alert("Could not load roads.geojson / corners.geojson (put them in frontend/ folder).");
+    });
+
+    async function requestRoute(startLL, endLL) {
+      const url = `${API_BASE}/route?start_lat=${startLL.lat}&start_lon=${startLL.lng}&end_lat=${endLL.lat}&end_lon=${endLL.lng}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      if (!res.ok) { alert(data.detail || "Route error"); return null; }
+      return data;
+    }
+
+    function addRouteToHistory(geo) {
+      const km = geo.properties.distance_km.toFixed(3);
+      const min = (geo.properties.time_sec / 60).toFixed(1);
+      const label = `${km} km • ${min} min`;
+
+      const layer = L.geoJSON(geo, { weight: 6 }).addTo(routesGroup);
+      routeItems.push({layer, geojson: geo, label});
+      renderRouteList();
+      map.fitBounds(layer.getBounds(), {padding:[30,30]});
+    }
+
+    function renderRouteList(){
+      const el = document.getElementById("routeList");
+      el.innerHTML = "";
+      routeItems.slice().reverse().forEach((r, idxFromEnd) => {
+        const idx = routeItems.length - 1 - idxFromEnd;
+        const div = document.createElement("div");
+        div.className = "route-item";
+        div.innerHTML = `
+          <div>
+            <div><b>Route #${idx+1}</b></div>
+            <div class="pill">${r.label}</div>
+          </div>
+          <div class="row" style="margin:0;">
+            <button data-zoom="${idx}">Zoom</button>
+            <button data-del="${idx}">Del</button>
+          </div>
+        `;
+        el.appendChild(div);
+      });
+
+      el.querySelectorAll("button[data-zoom]").forEach(b => {
+        b.onclick = () => {
+          const i = parseInt(b.getAttribute("data-zoom"));
+          map.fitBounds(routeItems[i].layer.getBounds(), {padding:[30,30]});
+        };
+      });
+
+      el.querySelectorAll("button[data-del]").forEach(b => {
+        b.onclick = () => {
+          const i = parseInt(b.getAttribute("data-del"));
+          routesGroup.removeLayer(routeItems[i].layer);
+          routeItems.splice(i,1);
+          renderRouteList();
+        };
+      });
+    }
+
+    map.on('click', async (ev) => {
+      if (!bbox.contains(ev.latlng)) { alert("Outside 4km² area"); return; }
+
+      if (clickMode === "start") {
+        if (startMarker) map.removeLayer(startMarker);
+        startMarker = L.marker(ev.latlng).addTo(map).bindPopup("Start").openPopup();
+        setText("s", fmtLL(ev.latlng));
+        clickMode = "end";
+        return;
+      }
+
+      // end mode
+      if (!startMarker) {
+        alert("Set Start first");
+        return;
+      }
+      if (endMarker) map.removeLayer(endMarker);
+      endMarker = L.marker(ev.latlng).addTo(map).bindPopup("End").openPopup();
+      setText("e", fmtLL(ev.latlng));
+
+      const geo = await requestRoute(startMarker.getLatLng(), endMarker.getLatLng());
+      if (!geo) return;
+
+      addRouteToHistory(geo);
+
+      // auto-chain: next start becomes previous end
+      const chain = document.getElementById("chain").checked;
+      if (chain) {
+        map.removeLayer(startMarker);
+        startMarker = L.marker(endMarker.getLatLng()).addTo(map).bindPopup("Start").openPopup();
+        setText("s", fmtLL(startMarker.getLatLng()));
+        map.removeLayer(endMarker);
+        endMarker = null;
+        setText("e", "-");
+        clickMode = "end";
+      }
+    });
+
+    document.getElementById("clearRoutes").onclick = () => {
+      routesGroup.clearLayers();
+      routeItems = [];
+      renderRouteList();
+    };
+
+    document.getElementById("reset").onclick = () => {
+      if (startMarker) map.removeLayer(startMarker);
+      if (endMarker) map.removeLayer(endMarker);
+      startMarker = endMarker = null;
+      setText("s","-"); setText("e","-");
+      clickMode = "start";
+    };
+  </script>
+</body>
+</html>

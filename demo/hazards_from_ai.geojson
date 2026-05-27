@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "20251203_064649_892568.jpg",
+        "hazard_type": "grab_bar",
+        "confidence": 0.2906186580657959,
+        "image_width": 1424,
+        "image_height": 881,
+        "timestamp_utc": "20251203_064649_892568",
+        "accuracy_m": 14.467,
+        "route_id": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0451483,
+          37.5427859
+        ]
+      }
+    }
+  ]
+}

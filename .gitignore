@@ -1,29 +1,31 @@
-# OSM extracts & large geo data
+# Secrets
+.env
+api/key.txt
+**/key.txt
+*.pem
+*.key
+
+# Large geo extracts & model weights (bring your own — see README)
 *.pbf
 *.osm
-*.osm.xz
-*.xz
+*.osm.bak
 *.zip
-
-# Generated maps (large HTML)
-*_map.html
-seoul_map.html
-map.html
-
-# Datasets, training images/labels, model runs
-datasets/
-train_*/images/
-train_*/labels/
-train_*/test_images*/
-wm_yolo11/
-runs/
+*.bak
 *.pt
 *.pth
 
-# Depth model sample images / outputs
-masil_depth/*.png
-masil_depth/*.jpg
-masil_depth/*.jpeg
+# Heavy data / build dirs (not part of the repo)
+webapp/data/
+webapp/_backup_old_layers/
+webapp/new_raw/
+valhalla/tiles/
+recon3d/frames/
+recon3d/nerf_data/
+recon3d/colmap_work/
+recon3d/depth/
+recon3d/outputs/
+*.mp4
+web/uploads/
 
 # Python
 __pycache__/

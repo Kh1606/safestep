@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MASIL – Seongdong-gu Base GIS</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <style>
+    html, body { height: 100%; margin: 0; }
+    #map { width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <script>
+    // Center roughly on Seongdong-gu
+    const map = L.map("map").setView([37.5478, 127.0246], 14);
+
+    // Base tiles
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "&copy; OpenStreetMap contributors",
+    }).addTo(map);
+
+    // Overlay container + control
+    const overlays = {};
+    const layerControl = L.control.layers({}, overlays, { collapsed: false }).addTo(map);
+
+    // --- Walkways layer ---
+        // --- Walkways layer (all pedestrian-accessible ways) ---
+    // --- Walkways: split into multiple layers by type ---
+    fetch("seongdong_walkways.geojson")
+      .then((res) => res.json())
+      .then((data) => {
+        // Helper to create + register a layer from the same GeoJSON
+        function makeLayer(filterFn, styleFn, name, addByDefault = true) {
+          const layer = L.geoJSON(data, {
+            filter: filterFn,
+            style: styleFn,
+            onEachFeature: function (feature, layer) {
+              const p = feature.properties || {};
+              const nameProp = p.name || "";
+              const hw   = p.highway || "";
+              const foot = p.footway || "";
+              const sw   = p.sidewalk || "";
+              const surf = p.surface || "";
+              const cat  = p.walk_cat || "";
+            
+              let txt = `highway=${hw}`;
+              if (cat)  txt += `<br>walk_cat=${cat}`;
+              if (foot) txt += `<br>footway=${foot}`;
+              if (sw)   txt += `<br>sidewalk=${sw}`;
+              if (surf) txt += `<br>surface=${surf}`;
+              if (nameProp) txt += `<br>name=${nameProp}`;
+            
+              layer.bindPopup(txt);
+            },
+          });
+        
+          if (addByDefault) {
+            layer.addTo(map);
+          }
+          layerControl.addOverlay(layer, name);
+          return layer;
+        }
+      
+        // Small helpers
+        const isHw = (f, list) =>
+          list.includes((f.properties && f.properties.highway) || "");
+      
+        // 1) Stairs
+        const stairsLayer = makeLayer(
+          (f) => isHw(f, ["steps"]),
+          () => ({ color: "#ff0000", weight: 4 }),
+          "Steps (stairs)",
+          true
+        );
+      
+        // 2) Dedicated pedestrian infra (footways, paths, pedestrian, living_street)
+        const footLayer = makeLayer(
+          (f) => {
+            const hw = (f.properties && f.properties.highway) || "";
+            return ["footway", "path", "pedestrian", "living_street", "track", "corridor"].includes(hw);
+          },
+          (f) => {
+            const hw = (f.properties && f.properties.highway) || "";
+            if (hw === "footway" || hw === "path") {
+              return { color: "#00b050", weight: 3 }; // vivid green
+            }
+            if (hw === "pedestrian") {
+              return { color: "#00c0ff", weight: 3 }; // cyan
+            }
+            if (hw === "living_street") {
+              return { color: "#ffa500", weight: 3 }; // orange
+            }
+            return { color: "#00b050", weight: 3 };
+          },
+          "Pedestrian ways (footway/path/pedestrian/living_street)",
+          true
+        );
+        
+        // 3) Residential & local roads
+        const resLayer = makeLayer(
+          (f) => isHw(f, ["residential", "unclassified", "service"]),
+          () => ({ color: "#999999", weight: 2 }),
+          "Residential / local roads",
+          false
+        );
+        
+        // 4) Bigger roads where walking is allowed (primary / secondary / tertiary)
+        const bigRoadLayer = makeLayer(
+          (f) =>
+            isHw(f, [
+              "primary",
+              "primary_link",
+              "secondary",
+              "secondary_link",
+              "tertiary",
+              "tertiary_link",
+            ]),
+          (f) => {
+            const hw = (f.properties && f.properties.highway) || "";
+            if (["primary", "primary_link"].includes(hw)) {
+              return { color: "#4444aa", weight: 3 };
+            }
+            if (["secondary", "secondary_link"].includes(hw)) {
+              return { color: "#6666cc", weight: 2.5 };
+            }
+            return { color: "#8888dd", weight: 2 };
+          },
+          "Primary / secondary / tertiary roads",
+          false
+        );
+        
+        // 5) Fallback for any remaining walkable but uncategorized ways
+        const otherWalkLayer = makeLayer(
+          (f) => {
+            const hw = (f.properties && f.properties.highway) || "";
+            const cat = (f.properties && f.properties.walk_cat) || "";
+            // show anything that is walk_cat but not caught above
+            const known = [
+              "steps", "footway", "path", "pedestrian", "living_street", "track", "corridor",
+              "residential", "unclassified", "service",
+              "primary", "primary_link", "secondary", "secondary_link",
+              "tertiary", "tertiary_link"
+            ];
+            return cat && !known.includes(hw);
+          },
+          () => ({ color: "#9999ff", weight: 2, dashArray: "4,4" }),
+          "Other walkable ways",
+          false
+        );
+        
+        // Fit map to everything
+        const group = L.featureGroup([
+          stairsLayer,
+          footLayer,
+          resLayer,
+          bigRoadLayer,
+          otherWalkLayer,
+        ]);
+        map.fitBounds(group.getBounds());
+      });
+    
+
+        
+    fetch("seongdong_poi.geojson")
+      .then((res) => res.json())
+      .then((data) => {
+        const poiLayer = L.geoJSON(data, {
+          pointToLayer: function (feature, latlng) {
+            const layerName = feature.properties.layer;
+            let color = "blue";
+            if (layerName === "crossings") color = "green";
+            if (layerName === "benches")  color = "orange";
+            if (layerName === "toilets")  color = "purple";
+            if (layerName === "elevators") color = "blue";
+
+            return L.circleMarker(latlng, {
+              radius: 4,
+              color,
+              fillColor: color,
+              fillOpacity: 0.9,
+            });
+          },
+          onEachFeature: function (feature, layer) {
+            const p = feature.properties;
+            const txt = `
+              layer=${p.layer}<br>
+              amenity=${p.amenity || ""}<br>
+              highway=${p.highway || ""}<br>
+              name=${p.name || ""}
+            `;
+            layer.bindPopup(txt);
+          },
+        });
+
+        const poiGroup = L.layerGroup([poiLayer]).addTo(map);
+        layerControl.addOverlay(
+          poiGroup,
+          "POIs (elevators / crossings / benches / toilets)"
+        );
+      });
+
+    // --- MASIL routes layer ---
+    fetch("masil_routes.geojson")
+      .then((res) => res.json())
+      .then((data) => {
+        const routeLayer = L.geoJSON(data, {
+          style: {
+            color: "blue",
+            weight: 6
+          },
+          onEachFeature: function (feature, layer) {
+            const p = feature.properties;
+            const txt = `MASIL Route<br>route_id=${p.route_id}<br>name=${p.name}`;
+            layer.bindPopup(txt);
+          }
+        }).addTo(map);
+
+        layerControl.addOverlay(routeLayer, "MASIL Routes");
+      });
+
+    // --- Hazards layer (demo, from hazards_demo.geojson) ---
+    fetch("hazards_demo.geojson")
+      .then((res) => res.json())
+      .then((data) => {
+        const hazardsLayer = L.geoJSON(data, {
+          pointToLayer: function (feature, latlng) {
+            const t = feature.properties.hazard_type;
+            const sev = feature.properties.severity;
+            let color = "red";
+            if (t === "ramp") color = "orange";
+            if (t === "obstacle") color = "brown";
+
+            const radius = sev === "high" ? 8 : sev === "medium" ? 6 : 4;
+
+            return L.circleMarker(latlng, {
+              radius,
+              color,
+              fillColor: color,
+              fillOpacity: 0.9,
+            });
+          },
+          onEachFeature: function (feature, layer) {
+            const p = feature.properties;
+            const txt = `
+              hazard_type=${p.hazard_type}<br>
+              severity=${p.severity}<br>
+              route_id=${p.route_id}<br>
+              video_id=${p.video_id}<br>
+              pos=${p.position_along_route}
+            `;
+            layer.bindPopup(txt);
+          },
+        }).addTo(map);
+
+        layerControl.addOverlay(hazardsLayer, "Hazards (demo)");
+      });
+
+        // --- Hazards layer from AI (hazards_from_ai.geojson) ---
+    fetch("hazards_from_ai.geojson")
+      .then((res) => res.json())
+      .then((data) => {
+        const hazardsLayer = L.geoJSON(data, {
+          pointToLayer: function (feature, latlng) {
+            const t = feature.properties.hazard_type;
+            const conf = feature.properties.confidence || 0;
+
+            let color = "red";
+            if (t === "ramp") color = "orange";
+            if (t === "grab_bar") color = "blue";
+
+            const radius = conf >= 0.6 ? 8 : conf >= 0.4 ? 6 : 4;
+
+            return L.circleMarker(latlng, {
+              radius,
+              color,
+              fillColor: color,
+              fillOpacity: 0.9,
+            });
+          },
+          onEachFeature: function (feature, layer) {
+            const p = feature.properties;
+            const txt = `
+              hazard_type=${p.hazard_type}<br>
+              confidence=${p.confidence?.toFixed(3)}<br>
+              filename=${p.filename}<br>
+              lat=${layer.getLatLng().lat.toFixed(6)}<br>
+              lon=${layer.getLatLng().lng.toFixed(6)}
+            `;
+            layer.bindPopup(txt);
+          },
+        }).addTo(map);
+
+        layerControl.addOverlay(hazardsLayer, "Hazards from AI");
+      });
+
+
+
+  </script>
+</body>
+</html>

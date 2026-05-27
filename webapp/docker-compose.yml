@@ -1,0 +1,14 @@
+services:
+  masil-web:
+    build: .
+    container_name: masil-web
+    ports:
+      - "8088:8080"
+    environment:
+      # Configure these in a .env file (see .env.example) — never commit real keys
+      - VALHALLA_URL=${VALHALLA_URL:-http://valhalla:8002}
+      - KAKAO_REST_API_KEY=${KAKAO_REST_API_KEY:-}
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+

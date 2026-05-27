@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hazard_type": "stairs",
+        "severity": "high",
+        "route_id": "seongdong_route_1",
+        "video_id": "demo_video_1",
+        "position_along_route": 0.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.037562,
+          37.5412926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hazard_type": "ramp",
+        "severity": "low",
+        "route_id": "seongdong_route_1",
+        "video_id": "demo_video_1",
+        "position_along_route": 0.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0346065,
+          37.5432615
+        ]
+      }
+    }
+  ]
+}
