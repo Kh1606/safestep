@@ -27,6 +27,6 @@ jobs:
         with:
           # The self-contained Leaflet hazard-map demo (Seongdong-gu walkways,
           # accessibility POIs, routes and AI hazards). index.html + geojson.
-          path: demo
+          path: webdemo
       - id: deployment
         uses: actions/deploy-pages@v4

@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>SafeStep – Seongdong-gu (static demo)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="panel">
+    <div><b>SafeStep – Seongdong-gu</b></div>
+    <small style="display:block; margin:6px 0; opacity:0.8;">
+      Static demo of the live web app — map, region highlight, modes &amp; accessibility
+      layers work here. Routing &amp; address search run on the backend (see GitHub).
+    </small>
+    <small>
+      Click 2 points:
+      <br/>• 1st click = Start
+      <br/>• 2nd click = End
+    </small>
+
+    <div class="row">
+      <button class="btn2" id="clearPts">Clear points</button>
+      <button class="btn2" id="clearRoute">Clear route</button>
+    </div>
+
+    <div class="sep"></div>
+
+    <div><b>Mode</b></div>
+    <select id="modeSel">
+      <option>Default</option>
+      <option>Wheelchair</option>
+      <option>Elder</option>
+      <option>Bicycle</option>
+    </select>
+
+    <div class="addrBox">
+      <div class="addrRow">
+        <div class="addrLabel">Start</div>
+        <div class="addrInputRow">
+          <input id="startAddr" placeholder="Type start address..." />
+          <button id="btnStartSearch">Search</button>
+        </div>
+        <div id="startResults" class="addrResults"></div>
+      </div>
+    
+      <div class="addrRow">
+        <div class="addrLabel">End</div>
+        <div class="addrInputRow">
+          <input id="endAddr" placeholder="Type destination..." />
+          <button id="btnEndSearch">Search</button>
+        </div>
+        <div id="endResults" class="addrResults"></div>
+      </div>
+    </div>
+    
+
+    <div style="margin-top:10px;"><b>Layers</b></div>
+    <div id="layerBox"></div>
+
+    <div id="msg"></div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module">
+    import { init } from "./js/app.js";
+    init();
+  </script>
+</body>
+</html>
