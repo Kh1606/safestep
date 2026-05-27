@@ -1,7 +1,8 @@
-# masil — Seoul pedestrian-hazard mapping
+# SafeStep — Seoul pedestrian-hazard mapping
 
-**masil (마실)** explores walkability and pedestrian hazards in Seoul by combining
-three sources of signal:
+**SafeStep** explores walkability and pedestrian hazards in Seoul (originally
+prototyped as *masil*, 마실 — Korean for a neighborhood stroll). It combines three
+sources of signal:
 
 1. **OpenStreetMap feature extraction** — pull pedestrian-relevant features (stairs,
    elevators, crossings) out of a Seoul `.osm.pbf` extract into tidy CSVs.
