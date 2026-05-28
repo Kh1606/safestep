@@ -10,6 +10,10 @@ FastAPI web app with an interactive map.
 
 **🌐 Live demo (hazard map):** https://kh1606.github.io/safestep/
 
+![How it works](docs/howitworks.png)
+
+*Rendered from [`docs/howitworks.py`](docs/howitworks.py) (Python `diagrams` library).*
+
 **Stack:** Python · FastAPI · Valhalla · Leaflet · YOLO (Ultralytics) · OpenStreetMap · Kakao / Seoul open-data APIs · Docker
 
 ## How it fits together
