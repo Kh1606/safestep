@@ -1,20 +1,23 @@
 """Render the SafeStep 'how it works' flowchart.
 
 Run from this directory:  python howitworks.py
-Deps:  pip install diagrams   (and Graphviz on PATH)
+Deps:  pip install diagrams cairosvg   (and Graphviz on PATH)
+Icons: brand-colored PNGs under app/assets/_diagram_icons/ (run scripts/gen_diagram_icons.py once).
 """
+import os
 from diagrams import Diagram, Cluster, Edge
 from diagrams.generic.storage import Storage
 from diagrams.generic.compute import Rack
-from diagrams.programming.language import Python
-from diagrams.programming.framework import FastAPI, React
+from diagrams.custom import Custom
 
-graph_attr = {
-    "fontsize": "18",
-    "bgcolor": "white",
-    "pad": "0.4",
-    "splines": "spline",
-}
+ICONS = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "..", "_diagram_icons"))
+
+
+def icon(name: str) -> str:
+    return os.path.join(ICONS, f"{name}.png")
+
+
+graph_attr = {"fontsize": "18", "bgcolor": "white", "pad": "0.4", "splines": "spline"}
 node_attr = {"fontsize": "13"}
 edge_attr = {"fontsize": "11"}
 
@@ -33,15 +36,15 @@ with Diagram(
         imgs = Storage("Street imagery")
 
     with Cluster("Processing"):
-        osmium = Python("osmium\nwalkways extract")
-        poi = Python("POI scripts\nelevators · lifts ·\ntoilets · escalators")
-        yolo = Python("YOLOv11\nhazard detection")
+        osmium = Custom("osmium\nwalkways extract", icon("openstreetmap"))
+        poi = Custom("POI scripts\nelevators · lifts ·\ntoilets · escalators", icon("python"))
+        yolo = Custom("YOLOv11\nhazard detection", icon("ultralytics"))
 
     with Cluster("Backend"):
         valhalla = Rack("Valhalla\ncustom pedestrian\nprofile")
-        api = FastAPI("FastAPI\n/api/route · /layers ·\n/api/geocode (Kakao)")
+        api = Custom("FastAPI\n/api/route · /layers ·\n/api/geocode (Kakao)", icon("fastapi"))
 
-    ui = React("Leaflet UI\nSeongdong-gu highlight\nmodes + layers")
+    ui = Custom("Leaflet UI\nSeongdong-gu highlight\nmodes + layers", icon("leaflet"))
 
     osm >> Edge(color="#0ea5e9") >> osmium
     osmium >> Edge(color="#0ea5e9", label="walkways") >> valhalla
